@@ -59,8 +59,8 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets',
     sourcemap: false,
-    // Copy public directory to dist
-    copyPublicDir: true,
+    // Solo copiar archivos esenciales, excluir archivos pesados
+    copyPublicDir: false,
     // Minify output
     minify: 'esbuild',
     // Enable brotli compression

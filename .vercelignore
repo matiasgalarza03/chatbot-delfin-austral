@@ -12,3 +12,12 @@ prisma/
 *.bat
 *.sh
 *.md
+dist/models/
+dist/audios/
+dist/Inventario/
+dist/__pycache__/
+**/*.glb
+**/*.gltf
+**/*.mp3
+**/*.wav
+**/*.ogg
