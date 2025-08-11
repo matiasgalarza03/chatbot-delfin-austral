@@ -1,0 +1,82 @@
+{
+  "_metadata": {
+    "version": "1.0.0",
+    "descripcion": "Ajustes manuales de sincronización preservados permanentemente",
+    "fecha_actualizacion": "2025-02-03T20:30:00.000Z",
+    "estado": "ACTIVADO - Sistema de preservación automática",
+    "instrucciones": "Los ajustes manuales realizados con G y H se preservarán automáticamente",
+    "secciones_protegidas": [
+      "Delfín Austral",
+      "Escuela Secundaria N° 3 Malvinas Argentinas", 
+      "Museo Escolar",
+      "Contexto Geográfico e Histórico de las Islas Malvinas",
+      "Impacto Social y Cultural de la Guerra en Argentina",
+      "Legado y Realidad Actual de las Islas Malvinas"
+    ]
+  },
+  "ajustes_preservados": {
+    "delfin_austral": {
+      "comentario": "Ajustes manuales para todas las respuestas del Delfín Austral",
+      "estado": "PROTEGIDO - Los ajustes se preservan automáticamente",
+      "ajustes": {
+        "_ejemplo": {
+          "0": 500,
+          "1": -250,
+          "_nota": "Los ajustes reales aparecerán aquí automáticamente"
+        }
+      }
+    },
+    "escuela_secundaria": {
+      "comentario": "Ajustes manuales para Escuela Secundaria N° 3 Malvinas Argentinas",
+      "estado": "PROTEGIDO - Los ajustes se preservan automáticamente",
+      "ajustes": {
+        "_ejemplo": {
+          "0": 750,
+          "_nota": "Los ajustes reales aparecerán aquí automáticamente"
+        }
+      }
+    },
+    "museo_escolar": {
+      "comentario": "Ajustes manuales para el Museo Escolar",
+      "estado": "PROTEGIDO - Los ajustes se preservan automáticamente",
+      "ajustes": {
+        "_ejemplo": {
+          "1": 1000,
+          "2": -500,
+          "_nota": "Los ajustes reales aparecerán aquí automáticamente"
+        }
+      }
+    },
+    "malvinas_contexto_geografico": {
+      "comentario": "Ajustes manuales para Contexto Geográfico e Histórico",
+      "estado": "PROTEGIDO - Los ajustes se preservan automáticamente",
+      "ajustes": {
+        "_ejemplo": {
+          "0": 250,
+          "_nota": "Los ajustes reales aparecerán aquí automáticamente"
+        }
+      }
+    },
+    "malvinas_impacto_social": {
+      "comentario": "Ajustes manuales para Impacto Social y Cultural",
+      "estado": "PROTEGIDO - Los ajustes se preservan automáticamente",
+      "ajustes": {
+        "_ejemplo": {
+          "1": -750,
+          "_nota": "Los ajustes reales aparecerán aquí automáticamente"
+        }
+      }
+    },
+    "malvinas_legado_actual": {
+      "comentario": "Ajustes manuales para Legado y Realidad Actual",
+      "estado": "PROTEGIDO - Los ajustes se preservan automáticamente",
+      "ajustes": {
+        "_ejemplo": {
+          "0": 1250,
+          "2": -1000,
+          "_nota": "Los ajustes reales aparecerán aquí automáticamente"
+        }
+      }
+    }
+  }
+}

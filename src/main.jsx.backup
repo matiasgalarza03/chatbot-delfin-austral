@@ -1,0 +1,111 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import { ChatProvider } from "./hooks/useChat";
+import { AnimationProvider } from "./contexts/AnimationContext";
+import "./index.css";
+
+// Componente con manejo de errores mejorado
+const AppWithErrorHandling = () => {
+  const [error, setError] = React.useState(null);
+  const [loading, setLoading] = React.useState(true);
+
+  React.useEffect(() => {
+    // Simular tiempo de carga inicial
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (error) {
+    return (
+      <div style={{
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        width: '100vw',
+        height: '100vh',
+        background: 'rgba(255, 255, 255, 0.95)',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        zIndex: 1000,
+        color: '#333',
+        fontSize: '18px',
+        fontFamily: 'Arial, sans-serif'
+      }}>
+        <div style={{ textAlign: 'center', maxWidth: '500px', padding: '20px' }}>
+          <h1 style={{ color: '#d32f2f' }}>❌ Error en la aplicación</h1>
+          <p style={{ marginBottom: '20px' }}>
+            Hubo un problema al cargar el chatbot. Esto puede deberse a:
+          </p>
+          <ul style={{ textAlign: 'left', marginBottom: '20px' }}>
+            <li>Problemas de compatibilidad WebGL</li>
+            <li>Archivos del modelo 3D no encontrados</li>
+            <li>Conflictos de dependencias</li>
+          </ul>
+          <button 
+            onClick={() => window.location.reload()}
+            style={{
+              padding: '12px 24px',
+              background: '#1976d2',
+              color: 'white',
+              border: 'none',
+              borderRadius: '5px',
+              cursor: 'pointer',
+              fontSize: '16px'
+            }}
+          >
+            Recargar página
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  if (loading) {
+    return (
+      <div style={{
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        width: '100vw',
+        height: '100vh',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+        color: 'white',
+        fontSize: '18px',
+        fontFamily: 'Arial, sans-serif'
+      }}>
+        <div style={{ textAlign: 'center' }}>
+          <div style={{ fontSize: '48px', marginBottom: '20px' }}>🐬</div>
+          <h2>Cargando Chatbot Delfín</h2>
+          <p>Preparando la experiencia 3D...</p>
+        </div>
+      </div>
+    );
+  }
+
+  try {
+    return (
+      <ChatProvider>
+        <AnimationProvider>
+          <App />
+        </AnimationProvider>
+      </ChatProvider>
+    );
+  } catch (err) {
+    console.error('Error loading main app:', err);
+    setError(err);
+    return null;
+  }
+};
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <AppWithErrorHandling />
+  </React.StrictMode>,
+);

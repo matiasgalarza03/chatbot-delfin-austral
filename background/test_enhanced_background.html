@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba - Fondo Animado Mejorado</title>
+    <link rel="stylesheet" href="ocean-background.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        
+        .test-content {
+            position: relative;
+            z-index: 10;
+            padding: 20px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            margin: 20px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .test-content h1 {
+            color: #1e3a8a;
+            margin-bottom: 20px;
+        }
+        
+        .test-content p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 24px;
+            font-weight: bold;
+            color: #1e3a8a;
+        }
+        
+        .stat-label {
+            font-size: 12px;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+    <!-- Fondo animado del océano -->
+    <div id="ocean-background" class="ocean-background">
+        <div class="ocean-container">
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="cursor-glow"></div>
+        </div>
+    </div>
+
+    <!-- Contenido de prueba -->
+    <div class="test-content">
+        <h1>🌊 Fondo Animado Mejorado</h1>
+        <p>Este es un test del fondo animado con movimiento incrementado. Deberías ver:</p>
+        <ul style="text-align: left; margin: 20px 0;">
+            <li>✨ Más partículas flotantes (cada 400ms)</li>
+            <li>🫧 Más burbujas (cada 800ms)</li>
+            <li>💫 Nuevas partículas flotantes con rotación</li>
+            <li>⭐ Efectos de brillo (sparkles)</li>
+            <li>🌀 Patrones abstractos adicionales</li>
+            <li>🖱️ Interactividad mejorada con el mouse</li>
+        </ul>
+        
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number" id="particleCount">0</div>
+                <div class="stat-label">Partículas</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" id="bubbleCount">0</div>
+                <div class="stat-label">Burbujas</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" id="sparkleCount">0</div>
+                <div class="stat-label">Brillos</div>
+            </div>
+        </div>
+        
+        <p style="margin-top: 20px; font-size: 14px; color: #64748b;">
+            Mueve el mouse por la pantalla y haz clic para ver los efectos interactivos
+        </p>
+    </div>
+
+    <!-- JavaScript del fondo del océano -->
+    <script src="ocean-background.js"></script>
+    
+    <!-- Script para mostrar estadísticas -->
+    <script>
+        // Actualizar contadores cada segundo
+        setInterval(() => {
+            const particles = document.querySelectorAll('.particle, .floating-particle');
+            const bubbles = document.querySelectorAll('.bubble');
+            const sparkles = document.querySelectorAll('.sparkle');
+            
+            document.getElementById('particleCount').textContent = particles.length;
+            document.getElementById('bubbleCount').textContent = bubbles.length;
+            document.getElementById('sparkleCount').textContent = sparkles.length;
+        }, 1000);
+        
+        // Mostrar información de rendimiento
+        console.log('🌊 Fondo animado mejorado cargado');
+        console.log('✨ Características activadas:');
+        console.log('   - Partículas cada 400ms');
+        console.log('   - Burbujas cada 800ms');
+        console.log('   - Partículas flotantes cada 600ms');
+        console.log('   - Sparkles cada 1200ms');
+        console.log('   - Patrones abstractos');
+        console.log('   - Interactividad con mouse');
+    </script>
+</body>
+</html> 

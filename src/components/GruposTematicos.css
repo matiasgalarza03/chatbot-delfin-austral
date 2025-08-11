@@ -1,14 +1,12 @@
 /* Contenedor principal */
 .grupos-tematicos-container {
-  position: relative;
-  width: 100vw;
-  height: 80vh;
-  min-height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  perspective: 1000px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  user-select: none;
 }
 
 /* Estilo del delfín central */
@@ -27,31 +25,43 @@
 
 /* Estilo base de los botones circulares */
 .icono-circular-grupo {
-  width: 110px;
-  height: 110px;
+  position: absolute;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
-  border: 3px solid;
-  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.9);
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
-  z-index: 3;
   text-align: center;
-  padding: 0 10px;
-  word-break: break-word;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  pointer-events: auto;
+  user-select: none;
+  border: none;
+  font-size: 1.1rem;
+  color: #1a365d;
+  touch-action: none;
+}
+
+/* Efecto hover para los botones circulares */
+.icono-circular-grupo:hover {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilo para el texto dentro de los botones circulares */
+.icono-circular-grupo span {
+  pointer-events: none;
+  max-width: 100%;
   overflow-wrap: break-word;
   hyphens: auto;
-  line-height: 1.15;
-  font-size: 1.02rem;
-  white-space: pre-line;
-  overflow: hidden;
-  will-change: transform, box-shadow, background-color;
-  transition: all 0.3s cubic-bezier(0.4, 2, 0.6, 1);
-  transform-origin: center;
-  backface-visibility: hidden;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Efecto hover para el texto */
+.icono-circular-grupo:hover span {
+  /* La escala ahora se maneja en el contenedor principal */
+  color: #2c5282;
 }
 
 /* Estilo del texto dentro de los botones */
@@ -94,7 +104,7 @@
   right: 0;
   bottom: 0;
   border-radius: 50%;
-  background: radial-gradient(circle at center, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 70%);
+  background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.1) 60%);
   opacity: 0;
   transition: opacity 0.3s ease;
   pointer-events: none;
@@ -129,4 +139,38 @@
     width: 150px;
     height: 150px;
   }
-} 
+}
+
+/* Estilo del botón de reseteo */
+.reset-button {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid #0284c7; /* Borde azul cielo */
+  color: #0284c7;
+  font-size: 26px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 100;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.25s cubic-bezier(0.4, 2, 0.6, 1);
+}
+
+.reset-button:hover {
+  background-color: white;
+  transform: scale(1.1) rotate(90deg);
+  box-shadow: 0 6px 18px rgba(2, 132, 199, 0.2);
+  color: #0369a1;
+}
+
+.reset-button:active {
+  transform: scale(0.95) rotate(0deg);
+  transition-duration: 0.1s;
+}

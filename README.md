@@ -1,24 +1,25 @@
+# 🤖 Marvín AI - Asistente Virtual Inteligente
 
-# 🛠️ 3D Avatar-Based Custom Chatbot for NTUC LearningHub
-
-Welcome to the 3D avatar-based custom chatbot project for NTUC LearningHub! This chatbot offers an engaging and interactive experience with speech-to-speech and text-to-speech communication.
-
----
-
-## 🌟 Key Features
-
-- 🗣️ **Speech-to-Speech Interaction:** Communicate with the chatbot using voice.
-- 🗨️➡️🗣️ **Text-to-Speech Conversion:** Enter text and receive spoken responses.
+Bienvenido a Marvín AI, un asistente virtual interactivo con una interfaz 3D que ofrece una experiencia de comunicación natural y dinámica.
 
 ---
 
-## 🛠️ Technologies Used
+## 🌟 Características Principales
 
-This project utilizes the following technologies:
+- 🗣️ **Interacción por Voz:** Comunícate con Marvín usando tu voz
+- 🗨️➡️🗣️ **Conversión Texto a Voz:** Escribe mensajes y recibe respuestas habladas
+- 🎭 **Avatar 3D Interactivo:** Interfaz visual atractiva y expresiva
 
-- **React:** For building the user interface.
-- **React Three Fiber:** For integrating 3D elements into the application.
-- **Ready Player Me:** For creating and customizing the 3D avatar.
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+Este proyecto utiliza las siguientes tecnologías:
+
+- **React:** Para la interfaz de usuario
+- **React Three Fiber:** Para la integración de elementos 3D
+- **Three.js:** Para el renderizado 3D
+- **Web Speech API:** Para el reconocimiento y síntesis de voz
 
 ---
 
@@ -36,15 +37,30 @@ Watch the demo video to see the 3D avatar-based chatbot in action:
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Inicio Rápido
 
-### Prerequisites
+### Prerequisitos
 
 - [Node.js](https://nodejs.org/)
 - [yarn](https://yarnpkg.com/)
 
-### Installation
+### Instalación
 
-1. Clone the repository:
+1. Clona el repositorio:
    ```sh
-   git clone https://github.com/ahmadafzal007/ntucLearningHub.git
+   git clone [URL_DEL_REPOSITORIO]
+   ```
+2. Instala las dependencias:
+   ```sh
+   yarn install
+   ```
+3. Inicia el servidor de desarrollo:
+   ```sh
+   yarn dev
+   ```
+
+---
+
+## 🤝 Contribuciones
+
+Las contribuciones son bienvenidas. Por favor, abre un issue para discutir los cambios que te gustaría hacer.

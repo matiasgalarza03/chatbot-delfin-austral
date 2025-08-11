@@ -7,9 +7,10 @@ import {
 import { Suspense, useEffect, useRef } from "react";
 import { Avatar } from "./Avatar";
 
-export const Experience = () => {
+const Experience = () => {
   const cameraControls = useRef();
-  const initialPosition = { position: [0, 0.5, 2.1], target: [0, 0.1, 0] };
+  // Ajustar la cámara para enmarcar mejor el delfín más grande
+  const initialPosition = { position: [0, 0.3, 2.5], target: [0, 0, 0] };
 
   useEffect(() => {
     if (cameraControls.current) {
@@ -28,45 +29,48 @@ export const Experience = () => {
   }, []);
 
   return (
-    <>
-      <color attach="background" args={["#EFE9E9"]} />
-      
+    <group>
       <CameraControls 
         ref={cameraControls}
-        maxPolarAngle={Math.PI}
+        maxPolarAngle={Math.PI * 0.5}
         minPolarAngle={0}
-        maxAzimuthAngle={Math.PI}
-        minAzimuthAngle={-Math.PI}
-        minDistance={2.1}
-        maxDistance={2.1}
+        maxAzimuthAngle={Math.PI * 0.5}
+        minAzimuthAngle={-Math.PI * 0.5}
+        minDistance={2}
+        maxDistance={4}
         enablePan={false}
         enableZoom={false}
-        smoothTime={0.5}
+        enableRotate={true}
+        rotateSpeed={0.5}
+        target={[0, 0, 0]}
       />
       
-      <Environment preset="sunset" />
+      <Environment preset="sunset" background={false} />
       
-      <ambientLight intensity={0.6} />
+      {/* Luces suavizadas */}
+      <ambientLight intensity={0.5} color="#ffffff" />
       <directionalLight 
-        position={[10, 10, 5]} 
+        position={[2, 3, 4]} 
         intensity={0.8} 
+        color="#ffffff"
         castShadow
-        shadow-mapSize={[1024, 1024]}
+        shadow-mapSize-width={2048}
+        shadow-mapSize-height={2048}
       />
       <directionalLight 
-        position={[-10, 10, 5]} 
-        intensity={0.4}
+        position={[-2, 2, -3]} 
+        intensity={0.3} 
+        color="#ffffff"
       />
       
-      <Suspense fallback={
-        <Text color="black" position={[0, 0, 0]} fontSize={0.5} anchorX="center" anchorY="middle">
-          Cargando modelo...
-        </Text>
-      }>
-        <Avatar position={[0, -0.7, 0]} scale={1.25} />
+      <Suspense fallback={null}>
+        <group position={[0, -0.7, 0]} rotation={[0, Math.PI * 0.25, 0]} scale={1.5}>
+          <Avatar />
+        </group>
       </Suspense>
-      
-      {/* <ContactShadows ... /> */}
-    </>
-  );
+    </group>
+   );
 };
+
+export { Experience };
+export default Experience;

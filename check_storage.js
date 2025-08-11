@@ -1,0 +1,1 @@
+console.log('Verificando localStorage:', Object.keys(localStorage).filter(k => k.includes('posicion') || k.includes('position') || k.includes('tema') || k.includes('malvinas')).map(k => ({key: k, value: localStorage.getItem(k)})));

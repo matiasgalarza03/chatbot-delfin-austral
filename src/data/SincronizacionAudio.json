@@ -1,0 +1,533 @@
+{
+  "delfin_austral": {
+    "presentacion": {
+      "duracionTotal": 18500,
+      "bloques": [
+        { "inicio": 0, "duracion": 6200, "texto": "¡Hola! Soy Delfín Austral, tu asistente virtual educativo." },
+        { "inicio": 6200, "duracion": 6100, "texto": "Estoy aquí para ayudarte a explorar y aprender sobre diversos temas." },
+        { "inicio": 12300, "duracion": 6200, "texto": "Puedes hacerme preguntas sobre la escuela, el museo escolar, las Islas Malvinas y muchos otros temas educativos." }
+      ]
+    },
+    "naturaleza": {
+      "duracionTotal": 16800,
+      "bloques": [
+        { "inicio": 0, "duracion": 5600, "texto": "Soy una inteligencia artificial diseñada específicamente para la educación." },
+        { "inicio": 5600, "duracion": 5600, "texto": "Mi propósito es ser tu compañero de aprendizaje interactivo." },
+        { "inicio": 11200, "duracion": 5600, "texto": "Combino tecnología avanzada con contenido educativo de calidad." }
+      ]
+    },
+    "proposito": {
+      "duracionTotal": 19200,
+      "bloques": [
+        { "inicio": 0, "duracion": 6400, "texto": "Fui creado para revolucionar la forma en que los estudiantes aprenden." },
+        { "inicio": 6400, "duracion": 6400, "texto": "Mi objetivo es hacer el aprendizaje más interactivo, accesible y divertido." },
+        { "inicio": 12800, "duracion": 6400, "texto": "Busco inspirar curiosidad y facilitar el acceso al conocimiento." }
+      ]
+    },
+    "funcionalidades": {
+      "duracionTotal": 20800,
+      "bloques": [
+        { "inicio": 0, "duracion": 5200, "texto": "Puedo responder preguntas sobre múltiples temas educativos." },
+        { "inicio": 5200, "duracion": 5200, "texto": "Ofrezco explicaciones detalladas con audio y texto sincronizado." },
+        { "inicio": 10400, "duracion": 5200, "texto": "También puedo mostrar contenido multimedia interactivo." },
+        { "inicio": 15600, "duracion": 5200, "texto": "Mi objetivo es adaptarme a tu ritmo de aprendizaje personal." }
+      ]
+    }
+  },
+  "escuela_secundaria": {
+    "historia_ubicacion": {
+      "duracionTotal": 19500,
+      "bloques": [
+        { "inicio": 0, "duracion": 6500, "texto": "La Escuela de Educación Secundaria N° 3 \"Malvinas Argentinas\" fue fundada en 1987." },
+        { "inicio": 6500, "duracion": 6500, "texto": "Se encuentra ubicada en la ciudad de Trenque Lauquen, provincia de Buenos Aires." },
+        { "inicio": 13000, "duracion": 6500, "texto": "Desde su creación, ha sido un pilar fundamental en la educación de la comunidad local." }
+      ]
+    },
+    "nombre_proyectos": {
+      "duracionTotal": 45000,
+      "bloques": [
+        { "inicio": 0, "duracion": 5000, "texto": "La escuela lleva el nombre \"Malvinas Argentinas\" en honor a la causa nacional argentina por la soberanía de las Islas Malvinas." },
+        { "inicio": 5000, "duracion": 5000, "texto": "Entre sus proyectos destacados se encuentran: Malvinas nos une, Malvinas nos cuida, proyecto medioambiental." },
+        { "inicio": 10000, "duracion": 5000, "texto": "La huerta escolar y el aula Verde, espacio creado luego del COVID-19, a fin de compartir un espacio de estudio al aire libre." },
+        { "inicio": 15000, "duracion": 5000, "texto": "Proyecto ropero solidario, te llevas lo que necesites, dejas lo que ya no uses." },
+        { "inicio": 20000, "duracion": 5000, "texto": "Proyecto centro de estudiantes elecciones democráticas que se llevan a cabo todos los años." },
+        { "inicio": 25000, "duracion": 5000, "texto": "A fin de garantizar y incentivar la participación de los estudiantes en sus trayectorias educativas." },
+        { "inicio": 30000, "duracion": 5000, "texto": "Proyecto museo escolar, recopilación de objetos antiguos, entre otros." },
+        { "inicio": 35000, "duracion": 5000, "texto": "Feria de micro emprendimientos, donde los estudiantes exponen diferentes desarrollos económicos de su creación." },
+        { "inicio": 40000, "duracion": 5000, "texto": "Poniendo en práctica los conocimientos adquiridos en el aula, entre otros." }
+      ]
+    },
+    "espacios_historia_trabajos": {
+      "duracionTotal": 25000,
+      "bloques": [
+        { "inicio": 0, "duracion": 5000, "texto": "Sí, la escuela incluye espacios como: Feria del Libro y Muestras de Trabajos Estudiantiles." },
+        { "inicio": 5000, "duracion": 5000, "texto": "Exhiben proyectos realizados por los alumnos en diversas materias." },
+        { "inicio": 10000, "duracion": 5000, "texto": "Disponibles en las galerías de la institución." },
+        { "inicio": 15000, "duracion": 5000, "texto": "Actos Cívicos y Artísticos: Eventos como la suelta de globos en memoria de exalumnos y docentes." },
+        { "inicio": 20000, "duracion": 5000, "texto": "Y presentaciones culturales, forman parte de su patrimonio inmaterial." }
+      ]
+    },
+    "logo_bandera": {
+      "duracionTotal": 18900,
+      "bloques": [
+        { "inicio": 0, "duracion": 6300, "texto": "El logo y la bandera de la escuela fueron diseñados por estudiantes y docentes." },
+        { "inicio": 6300, "duracion": 6300, "texto": "Representan los valores institucionales y la identidad de la comunidad educativa." },
+        { "inicio": 12600, "duracion": 6300, "texto": "Los colores y símbolos reflejan el compromiso con la excelencia académica." }
+      ]
+    },
+    "equipo_directivo": {
+      "duracionTotal": 17400,
+      "bloques": [
+        { "inicio": 0, "duracion": 5800, "texto": "El equipo directivo está formado por profesionales comprometidos con la educación." },
+        { "inicio": 5800, "duracion": 5800, "texto": "Incluye director, vicedirector y coordinadores de diferentes áreas académicas." },
+        { "inicio": 11600, "duracion": 5800, "texto": "Trabajan en conjunto para garantizar la calidad educativa institucional." }
+      ]
+    },
+    "espacios_educativos": {
+      "duracionTotal": 19800,
+      "bloques": [
+        { "inicio": 0, "duracion": 6600, "texto": "La escuela cuenta con espacios especializados para la educación técnica y científica." },
+        { "inicio": 6600, "duracion": 6600, "texto": "Incluye laboratorios, talleres, biblioteca y aulas equipadas con tecnología moderna." },
+        { "inicio": 13200, "duracion": 6600, "texto": "Estos espacios facilitan el aprendizaje práctico y la experimentación educativa." }
+      ]
+    }
+  },
+  "museo_escolar": {
+    "definicion": {
+      "duracionTotal": 17800,
+      "bloques": [
+        { "inicio": 0, "duracion": 5900, "texto": "El museo escolar es un espacio educativo que preserva la historia local y regional." },
+        { "inicio": 5900, "duracion": 6000, "texto": "Funciona como centro de investigación y difusión del patrimonio cultural." },
+        { "inicio": 11900, "duracion": 5900, "texto": "Integra la comunidad educativa con la historia y tradiciones del territorio." }
+      ]
+    },
+    "objetivos": {
+      "duracionTotal": 21500,
+      "bloques": [
+        { "inicio": 0, "duracion": 7200, "texto": "Los objetivos del museo incluyen preservar, investigar y difundir el patrimonio histórico." },
+        { "inicio": 7200, "duracion": 7100, "texto": "Busca promover la identidad local y el sentido de pertenencia comunitaria." },
+        { "inicio": 14300, "duracion": 7200, "texto": "También fomenta la investigación histórica y el aprendizaje interdisciplinario." }
+      ]
+    },
+    "actividades": {
+      "duracionTotal": 19200,
+      "bloques": [
+        { "inicio": 0, "duracion": 6400, "texto": "Se realizan exposiciones permanentes y temporales sobre historia local." },
+        { "inicio": 6400, "duracion": 6400, "texto": "Incluye talleres educativos, conferencias y actividades de investigación." },
+        { "inicio": 12800, "duracion": 6400, "texto": "También organiza visitas guiadas y programas de extensión comunitaria." }
+      ]
+    },
+    "recursos": {
+      "duracionTotal": 18600,
+      "bloques": [
+        { "inicio": 0, "duracion": 6200, "texto": "El museo cuenta con archivos documentales, fotografías históricas y objetos patrimoniales." },
+        { "inicio": 6200, "duracion": 6200, "texto": "Dispone de biblioteca especializada y recursos digitales interactivos." },
+        { "inicio": 12400, "duracion": 6200, "texto": "También tiene espacios para investigación y actividades educativas grupales." }
+      ]
+    }
+  },
+  "malvinas_contexto_geografico": {
+    "descubrimiento": {
+      "duracionTotal": 16800,
+      "bloques": [
+        { "inicio": 0, "duracion": 5600, "texto": "Las islas Malvinas fueron avistadas por primera vez por exploradores europeos en el siglo XVI." },
+        { "inicio": 5600, "duracion": 5600, "texto": "Aunque se atribuyen diferentes navegantes a su descubrimiento, no hay consenso histórico definitivo." },
+        { "inicio": 11200, "duracion": 5600, "texto": "La ocupación europea comenzó formalmente en el siglo XVIII." }
+      ]
+    },
+    "historia": {
+      "duracionTotal": 19200,
+      "bloques": [
+        { "inicio": 0, "duracion": 6400, "texto": "Las islas Malvinas fueron colonizadas por Gran Bretaña en 1833, tras expulsar a las autoridades argentinas." },
+        { "inicio": 6400, "duracion": 6400, "texto": "Argentina reclama soberanía desde su independencia en 1816, argumentando derechos históricos y geográficos." },
+        { "inicio": 12800, "duracion": 6400, "texto": "El conflicto culminó en la guerra de 1982, pero la disputa territorial persiste hasta hoy." }
+      ]
+    },
+    "bandera": {
+      "duracionTotal": 18000,
+      "bloques": [
+        { "inicio": 0, "duracion": 6000, "texto": "La bandera de las Islas Malvinas en su forma actual fue aprobada el 25 de enero de 1999." },
+        { "inicio": 6000, "duracion": 6000, "texto": "Es un Pabellón Azul con la bandera del Reino Unido en el cantón y el escudo del territorio." },
+        { "inicio": 12000, "duracion": 6000, "texto": "Argentina rechaza esta simbología, considerando las islas parte de su territorio." }
+      ]
+    },
+    "fundador": {
+      "duracionTotal": 17400,
+      "bloques": [
+        { "inicio": 0, "duracion": 5800, "texto": "Luis Vernet es considerado el fundador de la presencia argentina en las Malvinas." },
+        { "inicio": 5800, "duracion": 5800, "texto": "Estableció en 1829 la primera colonia civil bajo autoridad argentina." },
+        { "inicio": 11600, "duracion": 5800, "texto": "Su gestión sentó las bases del reclamo soberano argentino sobre las islas." }
+      ]
+    },
+    "primer_gobernador": {
+      "duracionTotal": 16200,
+      "bloques": [
+        { "inicio": 0, "duracion": 5400, "texto": "Después de la ocupación británica en 1833, el capitán James Onslow fue designado gobernador militar." },
+        { "inicio": 5400, "duracion": 5400, "texto": "Su mandato marcó el inicio del control colonial británico." },
+        { "inicio": 10800, "duracion": 5400, "texto": "Este control continúa vigente según la administración local actual." }
+      ]
+    },
+    "flora": {
+      "duracionTotal": 15600,
+      "bloques": [
+        { "inicio": 0, "duracion": 5200, "texto": "Las islas Malvinas tienen una flora característica adaptada al clima subantártico." },
+        { "inicio": 5200, "duracion": 5200, "texto": "Predominan las gramíneas, musgos y plantas herbáceas resistentes al viento." },
+        { "inicio": 10400, "duracion": 5200, "texto": "No existen árboles nativos debido a las condiciones climáticas extremas." }
+      ]
+    },
+    "fauna": {
+      "duracionTotal": 18600,
+      "bloques": [
+        { "inicio": 0, "duracion": 6200, "texto": "Las Malvinas albergan una rica fauna marina y terrestre." },
+        { "inicio": 6200, "duracion": 6200, "texto": "Destacan los pingüinos, albatros, lobos marinos y elefantes marinos." },
+        { "inicio": 12400, "duracion": 6200, "texto": "Las islas son un importante santuario de vida silvestre del Atlántico Sur." }
+      ]
+    },
+    "actividades_economicas": {
+      "duracionTotal": 17100,
+      "bloques": [
+        { "inicio": 0, "duracion": 5700, "texto": "Las principales actividades económicas de las Malvinas incluyen la pesca y la ganadería ovina." },
+        { "inicio": 5700, "duracion": 5700, "texto": "El turismo ecológico y la exploración petrolera son sectores en crecimiento." },
+        { "inicio": 11400, "duracion": 5700, "texto": "La economía depende significativamente de las licencias de pesca." }
+      ]
+    }
+  },
+  "malvinas_conflicto_armado": {
+    "inicio_conflicto": {
+      "duracionTotal": 19800,
+      "bloques": [
+        { "inicio": 0, "duracion": 6600, "texto": "La guerra de Malvinas comenzó el 2 de abril de 1982 con el desembarco argentino." },
+        { "inicio": 6600, "duracion": 6600, "texto": "Las fuerzas argentinas ocuparon las islas en la Operación Rosario." },
+        { "inicio": 13200, "duracion": 6600, "texto": "Reino Unido respondió enviando una fuerza de tareas para recuperar las islas." }
+      ]
+    },
+    "conflictos_destacados": {
+      "duracionTotal": 21000,
+      "bloques": [
+        { "inicio": 0, "duracion": 7000, "texto": "Entre los conflictos destacados se encuentran el hundimiento del ARA General Belgrano." },
+        { "inicio": 7000, "duracion": 7000, "texto": "También la batalla de San Carlos y los combates en Monte Longdon." },
+        { "inicio": 14000, "duracion": 7000, "texto": "Cada enfrentamiento marcó momentos decisivos en el desarrollo de la guerra." }
+      ]
+    },
+    "conclusion_guerra": {
+      "duracionTotal": 18300,
+      "bloques": [
+        { "inicio": 0, "duracion": 6100, "texto": "La guerra concluyó el 14 de junio de 1982 con la rendición argentina." },
+        { "inicio": 6100, "duracion": 6100, "texto": "La batalla final fue el asalto británico a Puerto Argentino." },
+        { "inicio": 12200, "duracion": 6100, "texto": "Las fuerzas argentinas se rindieron tras 74 días de conflicto." }
+      ]
+    },
+    "impacto_belgrano": {
+      "duracionTotal": 20400,
+      "bloques": [
+        { "inicio": 0, "duracion": 6800, "texto": "El hundimiento del ARA General Belgrano fue el evento más trágico de la guerra." },
+        { "inicio": 6800, "duracion": 6800, "texto": "Ocurrió el 2 de mayo de 1982, causando la muerte de 323 tripulantes." },
+        { "inicio": 13600, "duracion": 6800, "texto": "Este hecho marcó una escalada significativa en el conflicto armado." }
+      ]
+    },
+    "armamento": {
+      "duracionTotal": 19500,
+      "bloques": [
+        { "inicio": 0, "duracion": 6500, "texto": "Argentina utilizó aviones Mirage, Skyhawk y misiles Exocet durante la guerra." },
+        { "inicio": 6500, "duracion": 6500, "texto": "Reino Unido desplegó portaaviones, destructores y submarinos nucleares." },
+        { "inicio": 13000, "duracion": 6500, "texto": "La superioridad tecnológica británica fue determinante en el resultado." }
+      ]
+    },
+    "arma_mas_efectiva": {
+      "duracionTotal": 16800,
+      "bloques": [
+        { "inicio": 0, "duracion": 5600, "texto": "El arma más efectiva de Argentina fueron los misiles aire-superficie Exocet." },
+        { "inicio": 5600, "duracion": 5600, "texto": "Estos misiles hundieron varios buques británicos durante el conflicto." },
+        { "inicio": 11200, "duracion": 5600, "texto": "Su efectividad demostró la importancia de la tecnología moderna en la guerra." }
+      ]
+    },
+    "heroes": {
+      "duracionTotal": 22200,
+      "bloques": [
+        { "inicio": 0, "duracion": 7400, "texto": "Entre los héroes argentinos se destacan el Capitán de Corbeta Alfredo Astiz." },
+        { "inicio": 7400, "duracion": 7400, "texto": "También el Teniente de Navío Alejandro Villamil y muchos soldados conscriptos." },
+        { "inicio": 14800, "duracion": 7400, "texto": "Todos demostraron valor y compromiso con la patria en condiciones extremas." }
+      ]
+    },
+    "rol_pilotos": {
+      "duracionTotal": 18900,
+      "bloques": [
+        { "inicio": 0, "duracion": 6300, "texto": "Los pilotos argentinos jugaron un rol fundamental en el conflicto." },
+        { "inicio": 6300, "duracion": 6300, "texto": "Realizaron misiones de alto riesgo contra la flota británica." },
+        { "inicio": 12600, "duracion": 6300, "texto": "Su coraje y habilidad fueron reconocidos incluso por el enemigo." }
+      ]
+    },
+    "desafios_pilotos": {
+      "duracionTotal": 20700,
+      "bloques": [
+        { "inicio": 0, "duracion": 6900, "texto": "Los pilotos enfrentaron desafíos extremos como la distancia desde el continente." },
+        { "inicio": 6900, "duracion": 6900, "texto": "También las condiciones climáticas adversas y la superioridad aérea enemiga." },
+        { "inicio": 13800, "duracion": 6900, "texto": "A pesar de esto, lograron infligir daños significativos a la flota británica." }
+      ]
+    },
+    "bajas_heridos": {
+      "duracionTotal": 17700,
+      "bloques": [
+        { "inicio": 0, "duracion": 5900, "texto": "Argentina tuvo 649 muertos y más de 1,000 heridos durante la guerra." },
+        { "inicio": 5900, "duracion": 5900, "texto": "Reino Unido registró 255 muertos y 777 heridos en el conflicto." },
+        { "inicio": 11800, "duracion": 5900, "texto": "Estas cifras reflejan la intensidad y el costo humano de la guerra." }
+      ]
+    },
+    "suministros_economicos": {
+      "duracionTotal": 19200,
+      "bloques": [
+        { "inicio": 0, "duracion": 6400, "texto": "Argentina financió la guerra con recursos del presupuesto nacional y reservas." },
+        { "inicio": 6400, "duracion": 6400, "texto": "Reino Unido movilizó recursos significativos para la Fuerza de Tareas." },
+        { "inicio": 12800, "duracion": 6400, "texto": "El costo económico fue considerable para ambos países." }
+      ]
+    },
+    "sanciones_economicas": {
+      "duracionTotal": 18600,
+      "bloques": [
+        { "inicio": 0, "duracion": 6200, "texto": "Durante la guerra, la Comunidad Europea impuso sanciones económicas a Argentina." },
+        { "inicio": 6200, "duracion": 6200, "texto": "Estados Unidos inicialmente mantuvo neutralidad pero luego apoyó a Reino Unido." },
+        { "inicio": 12400, "duracion": 6200, "texto": "Estas sanciones afectaron significativamente la economía argentina." }
+      ]
+    },
+    "principales_sectores": {
+      "duracionTotal": 20100,
+      "bloques": [
+        { "inicio": 0, "duracion": 6700, "texto": "Los principales sectores geográficos incluyen Puerto Argentino como capital." },
+        { "inicio": 6700, "duracion": 6700, "texto": "También Darwin, Goose Green y las zonas montañosas del interior." },
+        { "inicio": 13400, "duracion": 6700, "texto": "Cada sector tuvo importancia estratégica durante el conflicto armado." }
+      ]
+    },
+    "participacion_perros": {
+      "duracionTotal": 16500,
+      "bloques": [
+        { "inicio": 0, "duracion": 5500, "texto": "Sí, participaron perros en la guerra de Malvinas como parte del apoyo logístico." },
+        { "inicio": 5500, "duracion": 5500, "texto": "Fueron utilizados para detección de minas y tareas de rescate." },
+        { "inicio": 11000, "duracion": 5500, "texto": "Su contribución fue valiosa aunque poco documentada oficialmente." }
+      ]
+    },
+    "memoria_historica_perros": {
+      "duracionTotal": 19800,
+      "bloques": [
+        { "inicio": 0, "duracion": 6600, "texto": "Su participación no se menciona en muchos relatos por el enfoque en el combate humano." },
+        { "inicio": 6600, "duracion": 6600, "texto": "Los registros oficiales priorizaron las acciones militares principales." },
+        { "inicio": 13200, "duracion": 6600, "texto": "Sin embargo, testimonios de veteranos confirman su importante papel." }
+      ]
+    }
+  },
+  "malvinas_impacto_social": {
+    "relato_durante_conflicto": {
+      "duracionTotal": 20400,
+      "bloques": [
+        { "inicio": 0, "duracion": 6800, "texto": "Durante la guerra, la información en Argentina estaba fuertemente censurada por la dictadura militar." },
+        { "inicio": 6800, "duracion": 6800, "texto": "Los medios oficiales presentaban una versión optimista del desarrollo del conflicto." },
+        { "inicio": 13600, "duracion": 6800, "texto": "La población recibía información limitada sobre la realidad de la guerra." }
+      ]
+    },
+    "medios_locales": {
+      "duracionTotal": 18900,
+      "bloques": [
+        { "inicio": 0, "duracion": 6300, "texto": "Los medios locales intentaban mantener cierta independencia informativa." },
+        { "inicio": 6300, "duracion": 6300, "texto": "Sin embargo, estaban sujetos a las mismas restricciones de censura nacional." },
+        { "inicio": 12600, "duracion": 6300, "texto": "Algunos lograron transmitir información más equilibrada dentro de los límites permitidos." }
+      ]
+    },
+    "periodicos_argentinos": {
+      "duracionTotal": 19800,
+      "bloques": [
+        { "inicio": 0, "duracion": 6600, "texto": "Los periódicos argentinos retrataron la guerra con un enfoque patriótico y optimista." },
+        { "inicio": 6600, "duracion": 6600, "texto": "Destacaban los éxitos militares y minimizaban las dificultades." },
+        { "inicio": 13200, "duracion": 6600, "texto": "Esta cobertura contribuyó a crear expectativas irreales en la población." }
+      ]
+    },
+    "diferencias_regionales": {
+      "duracionTotal": 17700,
+      "bloques": [
+        { "inicio": 0, "duracion": 5900, "texto": "Existían diferencias significativas entre medios nacionales y regionales." },
+        { "inicio": 5900, "duracion": 5900, "texto": "Los medios regionales tenían mayor conexión con las comunidades locales." },
+        { "inicio": 11800, "duracion": 5900, "texto": "Esto les permitía reflejar mejor las preocupaciones y sentimientos populares." }
+      ]
+    },
+    "respuesta_social": {
+      "duracionTotal": 21000,
+      "bloques": [
+        { "inicio": 0, "duracion": 7000, "texto": "La sociedad argentina respondió masivamente con donaciones para los soldados." },
+        { "inicio": 7000, "duracion": 7000, "texto": "Se organizaron colectas de ropa, alimentos y elementos de abrigo." },
+        { "inicio": 14000, "duracion": 7000, "texto": "Esta respuesta demostró el apoyo popular al reclamo soberano sobre las islas." }
+      ]
+    },
+    "simbolismo": {
+      "duracionTotal": 18300,
+      "bloques": [
+        { "inicio": 0, "duracion": 6100, "texto": "Las donaciones simbolizaban la unidad nacional en torno a la causa Malvinas." },
+        { "inicio": 6100, "duracion": 6100, "texto": "Representaban el compromiso ciudadano con los soldados en el frente." },
+        { "inicio": 12200, "duracion": 6100, "texto": "También expresaban la esperanza de una victoria que reivindicara los derechos argentinos." }
+      ]
+    },
+    "participacion_estudiantil": {
+      "duracionTotal": 19500,
+      "bloques": [
+        { "inicio": 0, "duracion": 6500, "texto": "Los estudiantes argentinos participaron activamente escribiendo cartas a los soldados." },
+        { "inicio": 6500, "duracion": 6500, "texto": "Estas cartas expresaban apoyo, aliento y solidaridad con quienes combatían." },
+        { "inicio": 13000, "duracion": 6500, "texto": "La iniciativa surgió espontáneamente en escuelas de todo el país." }
+      ]
+    },
+    "simbolismo_soldados": {
+      "duracionTotal": 17400,
+      "bloques": [
+        { "inicio": 0, "duracion": 5800, "texto": "Para los soldados, estas cartas simbolizaban el apoyo de la patria." },
+        { "inicio": 5800, "duracion": 5800, "texto": "Representaban la conexión emocional con el hogar y la familia." },
+        { "inicio": 11600, "duracion": 5800, "texto": "Muchos veteranos recuerdan estas cartas como un gran consuelo moral." }
+      ]
+    },
+    "relatos_veteranos": {
+      "duracionTotal": 20700,
+      "bloques": [
+        { "inicio": 0, "duracion": 6900, "texto": "Las cartas de veteranos contienen relatos conmovedores sobre la experiencia de guerra." },
+        { "inicio": 6900, "duracion": 6900, "texto": "Describen las condiciones extremas, el frío y la nostalgia por el hogar." },
+        { "inicio": 13800, "duracion": 6900, "texto": "También expresan el orgullo por haber defendido la soberanía nacional." }
+      ]
+    },
+    "impacto_familias": {
+      "duracionTotal": 18600,
+      "bloques": [
+        { "inicio": 0, "duracion": 6200, "texto": "Estas cartas tuvieron un profundo impacto emocional en las familias." },
+        { "inicio": 6200, "duracion": 6200, "texto": "Permitían mantener la conexión afectiva durante la separación." },
+        { "inicio": 12400, "duracion": 6200, "texto": "Para muchas familias, fueron el último contacto con sus seres queridos." }
+      ]
+    },
+    "ultimas_cartas": {
+      "duracionTotal": 19200,
+      "bloques": [
+        { "inicio": 0, "duracion": 6400, "texto": "Algunos soldados que murieron en combate dejaron cartas de despedida." },
+        { "inicio": 6400, "duracion": 6400, "texto": "Estas cartas expresan amor por la familia y compromiso con la patria." },
+        { "inicio": 12800, "duracion": 6400, "texto": "Constituyen testimonios invaluables del sacrificio realizado por la soberanía." }
+      ]
+    },
+    "preservacion": {
+      "duracionTotal": 17100,
+      "bloques": [
+        { "inicio": 0, "duracion": 5700, "texto": "Hoy estas cartas se preservan en archivos familiares y museos." },
+        { "inicio": 5700, "duracion": 5700, "texto": "Forman parte del patrimonio histórico y emocional de la guerra." },
+        { "inicio": 11400, "duracion": 5700, "texto": "Su conservación permite transmitir la memoria a las nuevas generaciones." }
+      ]
+    },
+    "comunicacion_apoyo": {
+      "duracionTotal": 18900,
+      "bloques": [
+        { "inicio": 0, "duracion": 6300, "texto": "Las familias comunicaban su apoyo a través de cartas, telegramas y mensajes radiales." },
+        { "inicio": 6300, "duracion": 6300, "texto": "Utilizaban todos los medios disponibles para hacer llegar su amor y aliento." },
+        { "inicio": 12600, "duracion": 6300, "texto": "Estos mensajes fueron fundamentales para mantener la moral de los combatientes." }
+      ]
+    },
+    "dificultades_contacto": {
+      "duracionTotal": 20100,
+      "bloques": [
+        { "inicio": 0, "duracion": 6700, "texto": "Las familias enfrentaron enormes dificultades para mantener contacto." },
+        { "inicio": 6700, "duracion": 6700, "texto": "Las comunicaciones estaban limitadas por la distancia y las condiciones de guerra." },
+        { "inicio": 13400, "duracion": 6700, "texto": "Muchas veces pasaban semanas sin noticias de sus seres queridos." }
+      ]
+    }
+  },
+  "malvinas_legado_actual": {
+    "situacion_actual": {
+      "duracionTotal": 19800,
+      "bloques": [
+        { "inicio": 0, "duracion": 6600, "texto": "Actualmente, las islas Malvinas permanecen bajo administración británica." },
+        { "inicio": 6600, "duracion": 6600, "texto": "Argentina mantiene su reclamo soberano a través de la diplomacia." },
+        { "inicio": 13200, "duracion": 6600, "texto": "La disputa territorial continúa siendo un tema central en la política exterior argentina." }
+      ]
+    },
+    "creacion": {
+      "duracionTotal": 18300,
+      "bloques": [
+        { "inicio": 0, "duracion": 6100, "texto": "El cementerio de Darwin fue creado después de la guerra para honrar a los caídos." },
+        { "inicio": 6100, "duracion": 6100, "texto": "Se estableció como un lugar de memoria y respeto por los soldados argentinos." },
+        { "inicio": 12200, "duracion": 6100, "texto": "Su creación fue resultado de negociaciones humanitarias entre ambos países." }
+      ]
+    },
+    "identificacion_restos": {
+      "duracionTotal": 21000,
+      "bloques": [
+        { "inicio": 0, "duracion": 7000, "texto": "La identificación de restos se realizó mediante análisis de ADN y registros dentales." },
+        { "inicio": 7000, "duracion": 7000, "texto": "El proceso permitió dar identidad a soldados que habían permanecido como NN." },
+        { "inicio": 14000, "duracion": 7000, "texto": "Esto brindó paz y cierre a las familias que buscaban a sus seres queridos." }
+      ]
+    },
+    "importancia_economica": {
+      "duracionTotal": 17700,
+      "bloques": [
+        { "inicio": 0, "duracion": 5900, "texto": "La pesca en las aguas de Malvinas tiene gran importancia económica." },
+        { "inicio": 5900, "duracion": 5900, "texto": "Genera ingresos significativos a través de licencias y exportaciones." },
+        { "inicio": 11800, "duracion": 5900, "texto": "Los recursos pesqueros son una fuente de disputa adicional entre Argentina y Reino Unido." }
+      ]
+    },
+    "relaciones_argentino_britanicas": {
+      "duracionTotal": 20400,
+      "bloques": [
+        { "inicio": 0, "duracion": 6800, "texto": "La pesca afecta las relaciones argentino-británicas al generar tensiones comerciales." },
+        { "inicio": 6800, "duracion": 6800, "texto": "Argentina reclama derechos sobre los recursos naturales del área." },
+        { "inicio": 13600, "duracion": 6800, "texto": "Esta disputa económica se suma al conflicto territorial de fondo." }
+      ]
+    }
+  },
+  "malvinas_desarrollo_conflicto": {
+    "inicio_conflicto": {
+      "duracionTotal": 18000,
+      "bloques": [
+        { "inicio": 0, "duracion": 4500, "texto": "El conflicto de las Malvinas comenzó el 2 de abril de 1982 cuando fuerzas argentinas desembarcaron en las islas." },
+        { "inicio": 4500, "duracion": 4500, "texto": "La operación militar argentina buscaba recuperar la soberanía sobre el territorio que consideraba propio." },
+        { "inicio": 9000, "duracion": 4500, "texto": "Reino Unido respondió enviando una fuerza de tarea naval para retomar las islas, escalando el conflicto." },
+        { "inicio": 13500, "duracion": 4500, "texto": "Este evento marcó el inicio de 74 días de conflicto armado en el Atlántico Sur." }
+      ]
+    },
+    "desarrollo_conflicto": {
+      "duracionTotal": 112000,
+      "bloques": [
+        { "inicio": 0, "duracion": 22400, "texto": "El desarrollo del conflicto se caracterizó por combates navales, aéreos y terrestres de gran intensidad." },
+        { "inicio": 22400, "duracion": 22400, "texto": "Las fuerzas argentinas establecieron defensas en Puerto Argentino mientras Reino Unido desplegó su flota." },
+        { "inicio": 44800, "duracion": 22400, "texto": "Los enfrentamientos más significativos incluyeron batallas aéreas, el hundimiento de buques y combates terrestres." },
+        { "inicio": 67200, "duracion": 22400, "texto": "La superioridad tecnológica británica se hizo evidente conforme avanzaba el conflicto." },
+        { "inicio": 89600, "duracion": 22400, "texto": "Las condiciones climáticas extremas del Atlántico Sur afectaron las operaciones de ambos bandos." }
+      ]
+    },
+    "batallas_destacadas": {
+      "duracionTotal": 134400,
+      "bloques": [
+        { "inicio": 0, "duracion": 22400, "texto": "Entre las batallas más destacadas se encuentran la Batalla de Goose Green, los combates en Monte Longdon y Monte Tumbledown." },
+        { "inicio": 22400, "duracion": 22400, "texto": "La Batalla de Goose Green fue crucial para el avance británico hacia Puerto Argentino." },
+        { "inicio": 44800, "duracion": 22400, "texto": "Monte Longdon representó una feroz resistencia argentina con combates cuerpo a cuerpo." },
+        { "inicio": 67200, "duracion": 22400, "texto": "El hundimiento del ARA General Belgrano causó la pérdida de 323 vidas argentinas." },
+        { "inicio": 89600, "duracion": 22400, "texto": "La batalla de Monte Tumbledown fue uno de los últimos enfrentamientos terrestres." },
+        { "inicio": 112000, "duracion": 22400, "texto": "Estos enfrentamientos demostraron el valor y la determinación de ambos bandos en condiciones extremas." }
+      ]
+    },
+    "consecuencias_conflicto": {
+      "duracionTotal": 89600,
+      "bloques": [
+        { "inicio": 0, "duracion": 22400, "texto": "Las consecuencias del conflicto fueron profundas tanto para Argentina como para Reino Unido." },
+        { "inicio": 22400, "duracion": 22400, "texto": "Argentina sufrió la pérdida de 649 vidas humanas y más de 1,000 heridos." },
+        { "inicio": 44800, "duracion": 22400, "texto": "Reino Unido registró 255 muertos y 777 heridos durante los 74 días de conflicto." },
+        { "inicio": 67200, "duracion": 22400, "texto": "El impacto económico y político fue considerable para ambas naciones." }
+      ]
+    },
+    "armamento_utilizado": {
+      "duracionTotal": 112000,
+      "bloques": [
+        { "inicio": 0, "duracion": 22400, "texto": "El armamento utilizado durante el conflicto incluyó tecnología militar avanzada de ambos bandos." },
+        { "inicio": 22400, "duracion": 22400, "texto": "Argentina empleó aviones Mirage III, Super Étendard con misiles Exocet, y Skyhawk A-4." },
+        { "inicio": 44800, "duracion": 22400, "texto": "Los misiles Exocet fueron particularmente efectivos contra buques británicos." },
+        { "inicio": 67200, "duracion": 22400, "texto": "Reino Unido utilizó aviones Harrier, buques de guerra modernos y submarinos nucleares." },
+        { "inicio": 89600, "duracion": 22400, "texto": "La superioridad tecnológica británica en sistemas de defensa antiaérea fue determinante." }
+      ]
+    },
+    "principales_sectores": {
+      "duracionTotal": 89600,
+      "bloques": [
+        { "inicio": 0, "duracion": 22400, "texto": "Las islas Malvinas están compuestas por dos islas principales: Soledad y Gran Malvina, y más de 700 islas menores." },
+        { "inicio": 22400, "duracion": 22400, "texto": "Los sectores clave durante la guerra fueron Puerto Argentino, capital y centro estratégico." },
+        { "inicio": 44800, "duracion": 22400, "texto": "Goose Green-Darwin fue zona de combates terrestres cruciales durante el conflicto." },
+        { "inicio": 67200, "duracion": 22400, "texto": "Monte Longdon representó una altura dominante de importancia estratégica militar." }
+      ]
+    }
+  }
+}

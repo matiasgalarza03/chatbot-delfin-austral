@@ -1,5 +1,9 @@
 import { useState, useEffect, useRef } from "react";
 import { useChat } from "../hooks/useChat";
+import { InventorySearch } from "./InventorySearch";
+import InventoryModal from "./InventoryModal";
+// 🚫 AUDIO DESHABILITADO - manejado por audioManagerFinal
+// import { playResponseAudio, stopCurrentAudio } from "../utils/audioManager";
 
 // Importar Montserrat desde Google Fonts (solo una vez en el proyecto, idealmente en index.html)
 if (typeof document !== 'undefined' && !document.getElementById('montserrat-font')) {
@@ -18,13 +22,13 @@ const PRESET_QA = [
   },
   {
     question: "¿Qué es el Museo Escolar?",
-    answer: "El Museo Escolar de la Escuela de Educación Secundaria N°3 Malvinas Argentinas es un espacio dedicado a la historia y cultura de las Islas Malvinas y la región.",
+    answer: "El Museo Escolar de la Escuela de Educación Secundaria N°3 Malvinas Argentinas es un espacio dedicado a la historia y cultura de las Islas Malvinas y la región. Puedes encontrar más información sobre el museo y sus colecciones en la sección 'Museo Escolar' del menú principal.",
   },
   {
     question: "¿Por qué eres un delfín?",
     answer: "Soy un delfín austral porque represento la fauna marina de la región y me encanta interactuar con los visitantes del museo.",
   },
-  // Puedes agregar más preguntas y respuestas aquí
+  // Se eliminó la opción de búsqueda de inventario ya que ahora está integrada en el menú del Museo Escolar
 ];
 
 function splitSentences(text) {
@@ -48,6 +52,8 @@ export const UI = ({ hidden, ...props }) => {
   const [showPopup, setShowPopup] = useState(true);
   const [historyOpen, setHistoryOpen] = useState(false);
   const [history, setHistory] = useState([]);
+  const [showInventorySearch, setShowInventorySearch] = useState(false);
+  const [showInventoryModal, setShowInventoryModal] = useState(false);
   const [justSelected, setJustSelected] = useState(false);
   const [donePetitions, setDonePetitions] = useState([]);
   const [displayedWords, setDisplayedWords] = useState("");
@@ -64,6 +70,7 @@ export const UI = ({ hidden, ...props }) => {
 
   // Reset total
   const handleReset = () => {
+    console.log("🔄 Reiniciando aplicación desde UI - Botón esquina superior izquierda");
     setShowPresets(false);
     setIsBotSpeaking(false);
     setCurrentSentence("");
@@ -78,6 +85,12 @@ export const UI = ({ hidden, ...props }) => {
     setShowConfig(false);
     setHistoryOpen(false);
     if (wordIntervalRef.current) clearInterval(wordIntervalRef.current);
+    
+    // 🎯 RESETEAR PREGUNTAS VISITADAS
+    if (onResetPreguntasVisitadas) {
+      onResetPreguntasVisitadas();
+      console.log("🔄 ✅ Preguntas visitadas reseteadas desde botón principal UI");
+    }
   };
 
   // Maneja la síntesis de voz y detecta cuando termina
@@ -117,11 +130,21 @@ export const UI = ({ hidden, ...props }) => {
       setCurrentSentence("");
       setDisplayedWords("");
       setTimeout(() => {
-        // Mostrar de a dos oraciones
-        const nextSentences = sentences.slice(sentenceIdx, sentenceIdx + 2).join(" ");
+        // Mostrar de a dos oraciones, pero asegurar que no se corte la respuesta
+        const remainingSentences = sentences.length - sentenceIdx;
+        const sentencesToShow = Math.min(2, remainingSentences);
+        const nextSentences = sentences.slice(sentenceIdx, sentenceIdx + sentencesToShow).join(" ");
+        
+        // Verificar que tenemos contenido válido
+        if (!nextSentences || nextSentences.trim() === '') {
+          console.error('Oraciones vacías detectadas, saltando al siguiente índice');
+          setSentenceIdx(idx => idx + sentencesToShow);
+          return;
+        }
+        
         setCurrentSentence(nextSentences);
         // Animación palabra por palabra
-        const words = nextSentences.split(" ");
+        const words = nextSentences.split(" ").filter(word => word.trim() !== '');
         let wordIdx = 0;
         setDisplayedWords("");
         if (wordIntervalRef.current) clearInterval(wordIntervalRef.current);
@@ -137,17 +160,20 @@ export const UI = ({ hidden, ...props }) => {
           setTimeout(() => {
             setCurrentSentence("");
             setDisplayedWords("");
-            setSentenceIdx(idx => idx + 2);
+            setSentenceIdx(idx => idx + sentencesToShow);
           }, 400);
         });
       }, 300);
     } else if (sentences.length > 0 && sentenceIdx >= sentences.length) {
-      setIsBotSpeaking(false);
-      // Mostrar las preguntas después de completar la respuesta
+      // Asegurar que la respuesta se completó totalmente antes de continuar
       setTimeout(() => {
-        setShowPresets(true);
-        setDonePetitions((prev) => lastUser ? [...prev, lastUser] : prev);
-      }, 1000);
+        setIsBotSpeaking(false);
+        // Mostrar las preguntas después de completar la respuesta
+        setTimeout(() => {
+          setShowPresets(true);
+          setDonePetitions((prev) => lastUser ? [...prev, lastUser] : prev);
+        }, 500); // Dar más tiempo para que se complete la visualización
+      }, 800); // Tiempo adicional para asegurar que se vea la respuesta completa
     }
     return () => {
       if (wordIntervalRef.current) clearInterval(wordIntervalRef.current);
@@ -156,14 +182,55 @@ export const UI = ({ hidden, ...props }) => {
 
   // Al seleccionar una pregunta preestablecida
   const handlePresetClick = (preset) => {
+    // Si es el buscador de inventario, mostrarlo y no procesar como mensaje normal
+    if (preset.isInventorySearch) {
+      setShowInventorySearch(true);
+      return;
+    }
+    
+    // Asegurar que tenemos una respuesta completa
+    if (!preset.answer || preset.answer.trim() === '') {
+      console.error('Respuesta vacía o indefinida para la pregunta:', preset.question);
+      return;
+    }
+    
+    // 🚫 AUDIO DESHABILITADO - manejado por audioManagerFinal
+    // stopCurrentAudio();
+    
+    // Comportamiento normal para otras preguntas
     setShowPresets(false);
     setIsBotSpeaking(true);
     setLastUser(preset.question);
     setJustSelected(true);
-    const sents = splitSentences(preset.answer);
-    setSentences(sents);
+    
+    // Asegurar que la respuesta se procese completamente
+    const fullAnswer = preset.answer.trim();
+    const sents = splitSentences(fullAnswer);
+    
+    // Verificar que tenemos oraciones válidas
+    if (sents.length === 0) {
+      console.error('No se pudieron procesar las oraciones de la respuesta:', fullAnswer);
+      setSentences([fullAnswer]); // Usar la respuesta completa como fallback
+    } else {
+      setSentences(sents);
+    }
+    
+    // 🚫 AUDIO DESHABILITADO - manejado por RespuestaPredefinida.jsx
+    console.log('🚫 UI.jsx playResponseAudio DESHABILITADO');
+    // playResponseAudio(
+    //   'ui_basicas', 
+    //   preset.question,
+    //   null,
+    //   () => {
+    //     console.log('🎵 Audio de respuesta terminado');
+    //   },
+    //   (error) => {
+    //     console.warn('🎵 No se pudo reproducir audio, continuando solo con texto:', error.message);
+    //   }
+    // );
+    
     setSentenceIdx(0);
-    setHistory((prev) => [...prev, { q: preset.question, a: preset.answer }]);
+    setHistory((prev) => [...prev, { q: preset.question, a: fullAnswer }]);
   };
 
   // Cuando termina la animación de la petición seleccionada
@@ -284,7 +351,7 @@ export const UI = ({ hidden, ...props }) => {
           from { opacity: 0; }
           to { opacity: 1; }
         }
-        .reset-btn, .history-btn, .config-btn {
+        .reset-btn, .history-btn, .config-btn, .inventory-btn {
           position: fixed;
           right: 32px;
           z-index: 60;
@@ -400,6 +467,23 @@ export const UI = ({ hidden, ...props }) => {
         .popup-question {
           border: 2px solid #000 !important;
         }
+        @keyframes float {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-10px); }
+        }
+        @keyframes float-scale {
+          0%, 100% { transform: translateY(0) scale(1); }
+          50% { transform: translateY(-10px) scale(1.08); }
+        }
+        .pregunta-bloque-animado {
+          animation: float-scale 6s ease-in-out infinite;
+          transition: transform 0.3s cubic-bezier(0.4,0,0.2,1);
+          will-change: transform;
+        }
+        .pregunta-bloque-animado:hover {
+          transform: scale(1.12);
+          z-index: 10;
+        }
       `}</style>
       {/* Botón de reset circular */}
       {!showPresets && (
@@ -417,6 +501,41 @@ export const UI = ({ hidden, ...props }) => {
       {!showPresets && (
         <button className="config-btn" title="Configuración" onClick={() => setShowConfig(v => !v)}>
           <ConfigIcon />
+        </button>
+      )}
+      
+      {/* Botón de búsqueda de inventario */}
+      {!showPresets && (
+        <button 
+          className="inventory-btn" 
+          title="Buscar en inventario" 
+          onClick={() => setShowInventorySearch(true)}
+          style={{
+            position: 'fixed',
+            right: '32px',
+            top: 'calc(120px + 56px + 16px)', // Debajo del botón de configuración
+            zIndex: 60,
+            width: '48px',
+            height: '48px',
+            borderRadius: '50%',
+            background: '#cbd5e1',
+            border: '2px solid #0a2233',
+            boxShadow: '0 2px 8px 0 rgba(0,0,0,0.18)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            cursor: 'pointer',
+            transition: 'all 0.2s ease',
+            ':hover': {
+              background: '#94a3b8',
+              transform: 'scale(1.05)'
+            }
+          }}
+        >
+          <svg width="24" height="24" fill="none" stroke="#0ea5e9" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="m21 21-4.35-4.35"/>
+          </svg>
         </button>
       )}
       {/* Panel de configuración */}
@@ -481,15 +600,54 @@ export const UI = ({ hidden, ...props }) => {
         </div>
         {/* Preguntas preestablecidas después de la intro */}
         {showPresets && !isBotSpeaking && (
-          <div className="flex flex-col gap-2 w-full max-w-screen-sm mx-auto mb-4 pointer-events-auto">
+          <div style={{
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '12px',
+            width: '100%',
+            maxWidth: '500px',
+            margin: '0 auto 20px auto',
+            pointerEvents: 'auto',
+            padding: '0 16px',
+            transition: 'all 0.3s ease-in-out'
+          }}>
             {PRESET_QA.map((preset, idx) => (
-              <button
+              <div 
                 key={idx}
-                className={`w-full bg-gray-200 hover:bg-gray-300 text-gray-800 rounded-lg p-4 text-center shadow border border-gray-300 transition-all option-btn`}
-                onClick={() => handlePresetClick(preset)}
+                className="pregunta-bloque-animado"
+                style={{
+                  position: 'relative',
+                  marginBottom: '12px',
+                  animationDelay: `${idx * 0.2}s`,
+                }}
+                onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.12)'}
+                onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}
               >
-                {preset.question}
-              </button>
+                <button
+                  style={{
+                    width: '100%',
+                    background: '#ffffff',
+                    color: '#0f172a',
+                    borderRadius: '12px',
+                    padding: '14px 18px',
+                    textAlign: 'left',
+                    boxShadow: '0 2px 8px rgba(0,0,0,0.07)',
+                    border: '2px solid #e2e8f0',
+                    transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+                    fontSize: '0.95em',
+                    fontWeight: 500,
+                    fontFamily: 'Montserrat, sans-serif',
+                    cursor: 'pointer',
+                    lineHeight: '1.5',
+                    position: 'relative',
+                    overflow: 'hidden',
+                    zIndex: 1,
+                  }}
+                  onClick={() => handlePresetClick(preset)}
+                >
+                  {preset.question}
+                </button>
+              </div>
             ))}
           </div>
         )}
@@ -520,6 +678,85 @@ export const UI = ({ hidden, ...props }) => {
       </div>
       {/* Mostrar los íconos de los grupos si están listos y no hay grupo seleccionado */}
       {gruposListos && !grupoSeleccionado && renderGrupos()}
+      
+      {/* Mostrar el buscador de inventario cuando esté activo */}
+      {showInventorySearch ? (
+        <div style={{
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          width: '100vw',
+          height: '100vh',
+          backgroundColor: 'rgba(0, 0, 0, 0.9)',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          zIndex: 9999,
+          backdropFilter: 'blur(5px)'
+        }}>
+          <div style={{
+            position: 'relative',
+            width: '95%',
+            maxWidth: '1000px',
+            backgroundColor: 'white',
+            borderRadius: '16px',
+            padding: '24px',
+            maxHeight: '95vh',
+            overflowY: 'auto',
+            boxShadow: '0 10px 50px rgba(0,0,0,0.3)'
+          }}>
+            <button 
+              onClick={() => setShowInventorySearch(false)}
+              style={{
+                position: 'absolute',
+                top: '16px',
+                right: '16px',
+                background: '#f1f5f9',
+                border: 'none',
+                width: '36px',
+                height: '36px',
+                borderRadius: '50%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                fontSize: '20px',
+                cursor: 'pointer',
+                color: '#64748b',
+                zIndex: 1001,
+                transition: 'all 0.2s ease',
+                ':hover': {
+                  background: '#e2e8f0',
+                  color: '#475569'
+                }
+              }}
+              aria-label="Cerrar buscador de inventario"
+            >
+              ×
+            </button>
+            <InventorySearch onClose={() => setShowInventorySearch(false)} />
+          </div>
+        </div>
+      ) : (
+        <div className="fixed left-0 right-0 bottom-0 z-10 flex flex-col items-center pointer-events-none" style={{fontFamily: 'Montserrat', fontSize: '1.092em'}}>
+          {/* Conversación: solo mostrar la última pregunta del usuario y la oración actual del bot */}
+          <div className="w-full max-w-screen-sm mx-auto mb-2 min-h-[80px] flex flex-col items-center pointer-events-auto" style={{alignItems: 'center', justifyContent: 'center'}}>
+            {/* Mostrar solo la respuesta del bot cuando está hablando, sin mostrar la petición anterior */}
+            {isBotSpeaking && currentSentence && (
+              <div className="mb-2 flex justify-center w-full">
+                <span className={`bot-response${showPresets ? ' initial' : ''}`}>{displayedWords}</span>
+              </div>
+            )}
+          </div>
+          {/* Preguntas preestablecidas después de la intro */}
+          {/* BLOQUE ELIMINADO: aquí estaba el bloque duplicado sin animación */}
+        </div>
+      )}
+
+      {/* Modal del Inventario del Museo */}
+      <InventoryModal 
+        isOpen={showInventoryModal} 
+        onClose={() => setShowInventoryModal(false)} 
+      />
     </>
   );
 };

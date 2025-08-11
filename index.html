@@ -2,12 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="favicon" href="/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ntuc LearningHub</title>
+    <title>Chatbot - E.E.S.Nº3 Malvinas Argentinas</title>
+    <!-- Fondo animado del océano -->
+    <link rel="stylesheet" href="/background/ocean-background.css">
   </head>
   <body>
+    <!-- Fondo animado del océano -->
+    <div id="ocean-background" class="ocean-background">
+      <div class="ocean-container">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="cursor-glow"></div>
+      </div>
+    </div>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <!-- JS del fondo animado del océano (versión mejorada) -->
+    <script type="module" src="background/ocean-background-fixed.js"></script>
   </body>
 </html>

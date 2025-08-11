@@ -1,0 +1,29 @@
+🤖 MARVÍN AI - CONFIGURACIÓN PARA WINDOWS
+========================================
+
+📅 Preparado el: sábado,  9 de agosto de 2025, 06:38:05 -03
+💻 Desde: macOS
+🎯 Para: Windows
+
+📋 CONTENIDO DEL PROYECTO:
+- ✅ Código fuente completo
+- ✅ 55 archivos de audio (29 MB)
+- ✅ Respuestas en JSON
+- ✅ Modelos 3D
+- ✅ Inventario del museo (19 MB)
+- ✅ Scripts de configuración para Windows
+
+📁 ARCHIVOS IMPORTANTES:
+- setup_windows.bat          → Configuración automática
+- start_frontend_only.bat    → Inicio rápido (solo frontend)
+- start_complete.bat         → Sistema completo
+- start_with_ngrok.bat       → Acceso desde internet
+- INSTRUCCIONES_WINDOWS.md   → Guía completa
+
+🚀 INICIO RÁPIDO EN WINDOWS:
+1. Instalar Node.js y Python
+2. Ejecutar: setup_windows.bat
+3. Ejecutar: start_frontend_only.bat
+
+📞 SOPORTE:
+Si hay problemas, revisar INSTRUCCIONES_WINDOWS.md

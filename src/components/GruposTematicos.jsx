@@ -1,32 +1,8 @@
-import React, { useEffect, useState, useRef } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { Box, useColorModeValue } from '@chakra-ui/react';
-// Importación condicional de useSound para evitar errores
-let useSound;
-let hoverSound, clickSound;
-
-try {
-  useSound = require('use-sound').default;
-  // Intentar cargar los sonidos, pero no fallar si no existen
-  try {
-    hoverSound = require('../sounds/hover.mp3');
-    clickSound = require('../sounds/click.mp3');
-  } catch (e) {
-    console.warn('No se encontraron los archivos de sonido. Los efectos de sonido estarán desactivados.');
-  }
-} catch (e) {
-  console.warn('La biblioteca use-sound no está disponible. Los efectos de sonido estarán desactivados.');
-  useSound = () => [() => {}]; // Función vacía como fallback
-}
-
-const gruposOrden = ['A', 'B', 'C', 'D'];
-
-const nombresIconos = {
-  A: 'Delfín Austral',
-  B: 'E.E.S.N° 13',
-  C: 'Museo Escolar',
-  D: 'Malvinas',
-};
+import React, { useState, useEffect } from 'react';
+import './GruposTematicos.css';
+import useSound from 'use-sound';
+import hoverSound from '../sounds/hover.mp3';
+import clickSound from '../sounds/click.mp3';
 
 const nombresCompletos = {
   A: 'Delfín Austral',
@@ -35,130 +11,137 @@ const nombresCompletos = {
   D: 'Malvinas',
 };
 
+const gruposOrden = ['A', 'B', 'C', 'D'];
+
+const posicionesFijas = {
+  A: { left: '50%', top: '20%' },
+  B: { left: '20%', top: '50%' },
+  C: { left: '50%', top: '80%' },
+  D: { left: '80%', top: '50%' }
+};
+
 export default function GruposTematicos({ onGrupoSeleccionado, respuestas }) {
-  const [grupos, setGrupos] = useState([]);
   const [hoveredGrupo, setHoveredGrupo] = useState(null);
-  // Usar efectos de sonido si están disponibles, de lo contrario usar funciones vacías
-  const [playHover] = useSound && hoverSound ? 
-    useSound(hoverSound, { volume: 0.5 }) : [() => {}];
-  const [playClick] = useSound && clickSound ? 
-    useSound(clickSound, { volume: 0.5 }) : [() => {}];
-  const buttonRefs = useRef({});
+  
+  const [playHover] = useSound(hoverSound, { volume: 0.5 });
+  const [playClick] = useSound(clickSound, { volume: 0.5 });
 
-  useEffect(() => {
-    // Cargar los grupos en el orden deseado
-    const gruposData = gruposOrden.map((key) => ({
-      id: key,
-      nombre: nombresIconos[key],
-    }));
-    setGrupos(gruposData);
-  }, []);
 
-  // Distribución circular proporcional
-  const radio = 260; // distancia desde el centro
-  const centroX = 0;
-  const centroY = 0;
-  const angulos = [270, 180, 0, 90]; // arriba, izquierda, derecha, abajo
-  const posiciones = angulos.map((angulo) => {
-    const rad = (angulo * Math.PI) / 180;
-    return {
-      top: `calc(50% + ${Math.sin(rad) * radio}px)` ,
-      left: `calc(50% + ${Math.cos(rad) * radio}px)` ,
-      transform: 'translate(-50%, -50%)',
-    };
-  });
 
-  const bgColor = useColorModeValue('blue.50', 'blue.900');
-  const borderColor = useColorModeValue('blue.400', 'blue.200');
-  const textColor = useColorModeValue('blue.900', 'white');
-  const hoverBgColor = useColorModeValue('blue.100', 'blue.700');
+  const handleGrupoClick = (e, grupoId) => {
+    e.stopPropagation();
+    if (playClick) playClick();
+    if (onGrupoSeleccionado) {
+      onGrupoSeleccionado(grupoId);
+    }
+  };
+
+  const handleMouseEnter = (e, grupoId) => {
+    e.stopPropagation();
+    setHoveredGrupo(grupoId);
+    if (playHover) playHover();
+  };
+
+  if (!respuestas) {
+    console.log('No hay respuestas disponibles');
+    return <div>Cargando grupos temáticos...</div>;
+  }
 
   return (
-    <Box className="grupos-tematicos-container">
-      <motion.div 
-        className="delfin-central"
-        initial={{ scale: 0.9, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 0.5, type: 'spring', stiffness: 100 }}
-      />
-      <AnimatePresence>
-        {respuestas && grupos.map((grupo, idx) => (
-          <motion.button
-            key={grupo.id}
-            ref={el => buttonRefs.current[grupo.id] = el}
-            className="icono-circular-grupo"
+    <div className="grupos-tematicos-container">
+      {Object.entries(respuestas).map(([id, grupo]) => {
+        const position = posicionesFijas[id] || { left: '50%', top: '50%' };
+        const isHovered = hoveredGrupo === id;
+        
+        return (
+          <div
+            key={id}
+            className={`grupo-tematico ${isHovered ? 'hovered' : ''}`}
             style={{
-              ...posiciones[idx],
-              position: 'absolute',
-              zIndex: hoveredGrupo === grupo.id ? 10 : 3,
-              backgroundColor: bgColor,
-              borderColor: borderColor,
-              color: textColor,
+              left: posicionesFijas[id]?.left || '50%',
+              top: posicionesFijas[id]?.top || '50%',
+              transform: `translate(-50%, -50%) ${isHovered ? 'scale(1.05)' : ''}`,
+              cursor: 'pointer',
+              transition: 'all 0.3s ease'
             }}
-            initial={{ scale: 0, opacity: 0 }}
-            animate={{ 
-              scale: 1, 
-              opacity: 1,
-              scale: hoveredGrupo === grupo.id ? 1.2 : 1,
-              boxShadow: hoveredGrupo === grupo.id 
-                ? '0 0 25px rgba(2, 132, 199, 0.5)' 
-                : '0 4px 16px rgba(0,0,0,0.12)',
-            }}
-            transition={{ 
-              type: 'spring', 
-              stiffness: 300,
-              damping: 20,
-              delay: idx * 0.1
-            }}
-            whileHover={{ 
-              scale: 1.2,
-              boxShadow: '0 0 25px rgba(2, 132, 199, 0.5)',
-              backgroundColor: hoverBgColor,
-            }}
-            whileTap={{ 
-              scale: 0.95,
-              boxShadow: '0 0 15px rgba(2, 132, 199, 0.3)'
-            }}
-            onClick={() => {
-              playClick();
-              onGrupoSeleccionado(grupo.id);
-            }}
-            onMouseEnter={() => {
-              playHover();
-              setHoveredGrupo(grupo.id);
-            }}
-            onMouseLeave={() => setHoveredGrupo(null)}
-            aria-label={`Seleccionar ${grupo.nombre}`}
+            onClick={(e) => handleGrupoClick(e, id)}
+            onMouseEnter={(e) => handleMouseEnter(e, id)}
           >
-            <motion.span
-              initial={{ scale: 0.9 }}
-              animate={{ scale: 1 }}
-              transition={{ type: 'spring', stiffness: 500 }}
-            >
-              {grupo.nombre}
-            </motion.span>
-          </motion.button>
-        ))}
-      </AnimatePresence>
-    </Box>
+            <span style={{ fontSize: '1em', pointerEvents: 'none' }}>
+              {grupo.nombre || nombresCompletos[id] || `Grupo ${id}`}
+            </span>
+          </div>
+        );
+      })}
+    </div>
   );
 }
 
-function TemasMalvinas({ temas, onTemaSeleccionado, onVolver }) {
-  // Distribución circular proporcional igual que los iconos principales
-  const radio = 260;
-  const angulos = [270, 180, 0, 90];
-  const posiciones = angulos.map((angulo) => {
-    const rad = (angulo * Math.PI) / 180;
-    return {
-      top: `calc(50% + ${Math.sin(rad) * radio}px)` ,
-      left: `calc(50% + ${Math.cos(rad) * radio}px)` ,
-      transform: 'translate(-50%, -50%)',
-    };
-  });
+function TemasMalvinas({ temas, onTemaSeleccionado, onVolver, onReiniciar }) {
+  // Posiciones fijas personalizadas para los temas de Malvinas
+  const posiciones = [
+    { top: '30%', left: '30%' },     // Arriba izquierda
+    { top: '30%', right: '30%' },    // Arriba derecha
+    { bottom: '30%', left: '30%' },  // Abajo izquierda
+    { bottom: '30%', right: '30%' }  // Abajo derecha
+  ];
+
+  const buttonStyle = {
+    position: 'absolute',
+    zIndex: 100,
+    width: '54px',
+    height: '54px',
+    borderRadius: '50%',
+    background: '#ffffff',
+    border: '2px solid #0369a1',
+    boxShadow: 'rgba(2, 132, 199, 0.15) 0px 2px 8px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    cursor: 'pointer',
+    padding: 0
+  };
+
+  const iconStyle = {
+    fontSize: '28px',
+    display: 'inline-block',
+    lineHeight: 1,
+    color: '#0369a1'
+  };
+
   return (
-    <div className="grupos-tematicos-container">
-      <button onClick={onVolver} style={{ position: 'absolute', top: 20, left: 20, fontSize: 22, zIndex: 20 }}>⬅️ Volver</button>
+    <div 
+      className="grupos-tematicos-container"
+      onMouseLeave={() => setHoveredGrupo(null)}
+    >
+      {/* Botón de Reiniciar - A la izquierda */}
+      <button 
+        onClick={onReiniciar} 
+        title="Reiniciar"
+        style={{
+          ...buttonStyle,
+          top: '32px',
+          left: '32px',
+          borderColor: '#d32f2f',
+          background: '#ffffff'
+        }}
+      >
+        <span style={{ ...iconStyle, color: '#d32f2f' }}>↻</span>
+      </button>
+
+      {/* Botón de Volver - A la derecha */}
+      <button 
+        onClick={onVolver} 
+        title="Volver al menú principal"
+        style={{
+          ...buttonStyle,
+          top: '32px',
+          left: '106px',  // 32px (left) + 54px (button width) + 20px (margin)
+          borderColor: '#0369a1'
+        }}
+      >
+        <span style={iconStyle}>←</span>
+      </button>
       {temas.map((tema, idx) => (
         <button
           key={tema.nombre}
@@ -171,4 +154,4 @@ function TemasMalvinas({ temas, onTemaSeleccionado, onVolver }) {
       ))}
     </div>
   );
-} 
+}

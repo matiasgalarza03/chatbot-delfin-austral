@@ -1,0 +1,2150 @@
+{
+  "inventario": {
+    "1": {
+      "numero_inventario": "1",
+      "objeto_de_museo": "Reloj. Industria Argentina.",
+      "procedencia": "Donación de la Bibliotecaria Mirta Martínez",
+      "foto": "/public/inventario/fotos/001.jpg"
+    },
+    "2": {
+      "numero_inventario": "2",
+      "objeto_de_museo": "Máquina de escribir Olivetti Lettera 32",
+      "procedencia": "Donación de ex alumna María Fernández",
+      "foto": "/public/inventario/fotos/002.jpg"
+    },
+    "3": {
+      "numero_inventario": "3",
+      "objeto_de_museo": "Radio Philips de válvulas años 40",
+      "procedencia": "Donación de la familia González",
+      "foto": "/public/inventario/fotos/003.jpg"
+    },
+    "4": {
+      "numero_inventario": "4",
+      "objeto_de_museo": "Plancha a carbón marca Aurora",
+      "procedencia": "Donación de vecina del barrio Rosa López",
+      "foto": "/public/inventario/fotos/004.jpg"
+    },
+    "5": {
+      "numero_inventario": "5",
+      "objeto_de_museo": "Libro de actas escolares 1985-1990",
+      "procedencia": "Archivo histórico de la institución",
+      "foto": "/public/inventario/fotos/005.jpg"
+    },
+    "6": {
+      "numero_inventario": "6",
+      "objeto_de_museo": "Mapa de las Islas Malvinas 1982",
+      "procedencia": "Donación de veterano de guerra Juan Carlos López",
+      "foto": "/public/inventario/fotos/006.jpg"
+    },
+    "7": {
+      "numero_inventario": "7",
+      "objeto_de_museo": "Bandera argentina de ceremonia",
+      "procedencia": "Donación de la cooperadora escolar",
+      "foto": "/public/inventario/fotos/007.jpg"
+    },
+    "8": {
+      "numero_inventario": "8",
+      "objeto_de_museo": "Fotografía histórica fundación escuela 1975",
+      "procedencia": "Archivo fotográfico institucional",
+      "foto": "/public/inventario/fotos/008.jpg"
+    },
+    "9": {
+      "numero_inventario": "9",
+      "objeto_de_museo": "Medalla conmemorativa Guerra de Malvinas",
+      "procedencia": "Donación de familia de ex combatiente Roberto Silva",
+      "foto": "/public/inventario/fotos/009.jpg"
+    },
+    "10": {
+      "numero_inventario": "10",
+      "objeto_de_museo": "Manual de geografía argentina 1980",
+      "procedencia": "Donación de profesor jubilado Pedro Martínez",
+      "foto": "/public/inventario/fotos/010.jpg"
+    },
+    "11": {
+      "numero_inventario": "11",
+      "objeto_de_museo": "Regla de cálculo marca Faber Castell",
+      "procedencia": "Donación de ingeniero Carlos Ruiz",
+      "foto": "/public/inventario/fotos/011.jpg"
+    },
+    "12": {
+      "numero_inventario": "12",
+      "objeto_de_museo": "Tintero de vidrio con pluma",
+      "procedencia": "Donación de secretaria jubilada Ana García",
+      "foto": "/public/inventario/fotos/012.jpg"
+    },
+    "13": {
+      "numero_inventario": "13",
+      "objeto_de_museo": "Compás de dibujo técnico",
+      "procedencia": "Donación de profesor de matemáticas Luis Torres",
+      "foto": "/public/inventario/fotos/013.jpg"
+    },
+    "14": {
+      "numero_inventario": "14",
+      "objeto_de_museo": "Escuadra de madera grande",
+      "procedencia": "Donación de carpintero del barrio Miguel Ángel",
+      "foto": "/public/inventario/fotos/014.jpg"
+    },
+    "15": {
+      "numero_inventario": "15",
+      "objeto_de_museo": "Microscopio óptico Zeiss",
+      "procedencia": "Donación de laboratorio médico Dr. Fernández",
+      "foto": "/public/inventario/fotos/015.jpg"
+    },
+    "16": {
+      "numero_inventario": "16",
+      "objeto_de_museo": "Balanza de precisión antigua",
+      "procedencia": "Donación de farmacia del barrio",
+      "foto": "/public/inventario/fotos/016.jpg"
+    },
+    "17": {
+      "numero_inventario": "17",
+      "objeto_de_museo": "Globo terráqueo político 1970",
+      "procedencia": "Donación de profesora de geografía Elena Morales",
+      "foto": "/public/inventario/fotos/017.jpg"
+    },
+    "18": {
+      "numero_inventario": "18",
+      "objeto_de_museo": "Ábaco de madera japonés",
+      "procedencia": "Donación de comerciante japonés Sr. Tanaka",
+      "foto": "/public/inventario/fotos/018.jpg"
+    },
+    "19": {
+      "numero_inventario": "19",
+      "objeto_de_museo": "Máquina calculadora mecánica Olivetti",
+      "procedencia": "Donación de contador público Ricardo Vega",
+      "foto": "/public/inventario/fotos/019.jpg"
+    },
+    "20": {
+      "numero_inventario": "20",
+      "objeto_de_museo": "Proyector de diapositivas Kodak",
+      "procedencia": "Donación de fotógrafo profesional Mario Díaz",
+      "foto": "/public/inventario/fotos/020.jpg"
+    },
+    "21": {
+      "numero_inventario": "21",
+      "objeto_de_museo": "Enciclopedia Británica completa",
+      "procedencia": "Donación de biblioteca municipal",
+      "foto": "/public/inventario/fotos/021.jpg"
+    },
+    "22": {
+      "numero_inventario": "22",
+      "objeto_de_museo": "Máquina de coser Singer antigua",
+      "procedencia": "Donación de modista del barrio Carmen López",
+      "foto": "/public/inventario/fotos/022.jpg"
+    },
+    "23": {
+      "numero_inventario": "23",
+      "objeto_de_museo": "Teléfono de disco negro",
+      "procedencia": "Donación de empresa telefónica local",
+      "foto": "/public/inventario/fotos/023.jpg"
+    },
+    "24": {
+      "numero_inventario": "24",
+      "objeto_de_museo": "Cámara fotográfica Kodak Instamatic",
+      "procedencia": "Donación de fotógrafo aficionado José Pérez",
+      "foto": "/public/inventario/fotos/024.jpg"
+    },
+    "25": {
+      "numero_inventario": "25",
+      "objeto_de_museo": "Disco de vinilo himno nacional",
+      "procedencia": "Donación de profesor de música Alberto Sánchez",
+      "foto": "/public/inventario/fotos/025.jpg"
+    },
+    "26": {
+      "numero_inventario": "26",
+      "objeto_de_museo": "Uniforme escolar años 80",
+      "procedencia": "Donación de ex alumna Patricia Rodríguez",
+      "foto": "/public/inventario/fotos/026.jpg"
+    },
+    "27": {
+      "numero_inventario": "27",
+      "objeto_de_museo": "Cuaderno de caligrafía Palmer",
+      "procedencia": "Donación de maestra jubilada Susana Moreno",
+      "foto": "/public/inventario/fotos/027.jpg"
+    },
+    "28": {
+      "numero_inventario": "28",
+      "objeto_de_museo": "Mapa político de Argentina 1975",
+      "procedencia": "Donación de Instituto Geográfico Nacional",
+      "foto": "/public/inventario/fotos/028.jpg"
+    },
+    "29": {
+      "numero_inventario": "29",
+      "objeto_de_museo": "Calculadora científica Casio fx-82",
+      "procedencia": "Donación de profesor de física Daniel Castro",
+      "foto": "/public/inventario/fotos/029.jpg"
+    },
+    "30": {
+      "numero_inventario": "30",
+      "objeto_de_museo": "Diccionario Larousse español-francés",
+      "procedencia": "Donación de profesora de francés Marie Dubois",
+      "foto": "/public/inventario/fotos/030.jpg"
+    },
+    "31": {
+      "numero_inventario": "31",
+      "objeto_de_museo": "Pizarrón de tiza verde",
+      "procedencia": "Donación de la Bibliotecaria Mirta Martínez",
+      "foto": "/public/inventario/fotos/031.jpg"
+    },
+    "32": {
+      "numero_inventario": "32",
+      "objeto_de_museo": "Campana escolar de bronce",
+      "procedencia": "Donación de ex alumna María Fernández",
+      "foto": "/public/inventario/fotos/032.jpg"
+    },
+    "33": {
+      "numero_inventario": "33",
+      "objeto_de_museo": "Escritorio de madera de director",
+      "procedencia": "Donación de la familia González",
+      "foto": "/public/inventario/fotos/033.jpg"
+    },
+    "34": {
+      "numero_inventario": "34",
+      "objeto_de_museo": "Silla de madera antigua",
+      "procedencia": "Donación de vecina del barrio Rosa López",
+      "foto": "/public/inventario/fotos/034.jpg"
+    },
+    "35": {
+      "numero_inventario": "35",
+      "objeto_de_museo": "Lámpara de querosén",
+      "procedencia": "Archivo histórico de la institución",
+      "foto": "/public/inventario/fotos/035.jpg"
+    },
+    "36": {
+      "numero_inventario": "36",
+      "objeto_de_museo": "Botiquín de primeros auxilios vintage",
+      "procedencia": "Donación de veterano de guerra Juan Carlos López",
+      "foto": "/public/inventario/fotos/036.jpg"
+    },
+    "37": {
+      "numero_inventario": "37",
+      "objeto_de_museo": "Reloj de pared escolar",
+      "procedencia": "Donación de la cooperadora escolar",
+      "foto": "/public/inventario/fotos/037.jpg"
+    },
+    "38": {
+      "numero_inventario": "38",
+      "objeto_de_museo": "Timbre manual de latón",
+      "procedencia": "Archivo fotográfico institucional",
+      "foto": "/public/inventario/fotos/038.jpg"
+    },
+    "39": {
+      "numero_inventario": "39",
+      "objeto_de_museo": "Libros de texto años 70",
+      "procedencia": "Donación de familia de ex combatiente Roberto Silva",
+      "foto": "/public/inventario/fotos/039.jpg"
+    },
+    "40": {
+      "numero_inventario": "40",
+      "objeto_de_museo": "Cuadernos de asistencia antiguos",
+      "procedencia": "Donación de profesor jubilado Pedro Martínez",
+      "foto": "/public/inventario/fotos/040.jpg"
+    },
+    "41": {
+      "numero_inventario": "41",
+      "objeto_de_museo": "Reloj. Industria Argentina. (Ejemplar 2)",
+      "procedencia": "Donación de ingeniero Carlos Ruiz",
+      "foto": "/public/inventario/fotos/041.jpg"
+    },
+    "42": {
+      "numero_inventario": "42",
+      "objeto_de_museo": "Máquina de escribir Olivetti Lettera 32 (Ejemplar 2)",
+      "procedencia": "Donación de secretaria jubilada Ana García",
+      "foto": "/public/inventario/fotos/042.jpg"
+    },
+    "43": {
+      "numero_inventario": "43",
+      "objeto_de_museo": "Radio Philips de válvulas años 40 (Ejemplar 2)",
+      "procedencia": "Donación de profesor de matemáticas Luis Torres",
+      "foto": "/public/inventario/fotos/043.jpg"
+    },
+    "44": {
+      "numero_inventario": "44",
+      "objeto_de_museo": "Plancha a carbón marca Aurora (Ejemplar 2)",
+      "procedencia": "Donación de carpintero del barrio Miguel Ángel",
+      "foto": "/public/inventario/fotos/044.jpg"
+    },
+    "45": {
+      "numero_inventario": "45",
+      "objeto_de_museo": "Libro de actas escolares 1985-1990 (Ejemplar 2)",
+      "procedencia": "Donación de laboratorio médico Dr. Fernández",
+      "foto": "/public/inventario/fotos/045.jpg"
+    },
+    "46": {
+      "numero_inventario": "46",
+      "objeto_de_museo": "Mapa de las Islas Malvinas 1982 (Ejemplar 2)",
+      "procedencia": "Donación de farmacia del barrio",
+      "foto": "/public/inventario/fotos/046.jpg"
+    },
+    "47": {
+      "numero_inventario": "47",
+      "objeto_de_museo": "Bandera argentina de ceremonia (Ejemplar 2)",
+      "procedencia": "Donación de profesora de geografía Elena Morales",
+      "foto": "/public/inventario/fotos/047.jpg"
+    },
+    "48": {
+      "numero_inventario": "48",
+      "objeto_de_museo": "Fotografía histórica fundación escuela 1975 (Ejemplar 2)",
+      "procedencia": "Donación de comerciante japonés Sr. Tanaka",
+      "foto": "/public/inventario/fotos/048.jpg"
+    },
+    "49": {
+      "numero_inventario": "49",
+      "objeto_de_museo": "Medalla conmemorativa Guerra de Malvinas (Ejemplar 2)",
+      "procedencia": "Donación de contador público Ricardo Vega",
+      "foto": "/public/inventario/fotos/049.jpg"
+    },
+    "50": {
+      "numero_inventario": "50",
+      "objeto_de_museo": "Manual de geografía argentina 1980 (Ejemplar 2)",
+      "procedencia": "Donación de fotógrafo profesional Mario Díaz",
+      "foto": "/public/inventario/fotos/050.jpg"
+    },
+    "51": {
+      "numero_inventario": "51",
+      "objeto_de_museo": "Regla de cálculo marca Faber Castell (Ejemplar 2)",
+      "procedencia": "Donación de biblioteca municipal",
+      "foto": "/public/inventario/fotos/051.jpg"
+    },
+    "52": {
+      "numero_inventario": "52",
+      "objeto_de_museo": "Tintero de vidrio con pluma (Ejemplar 2)",
+      "procedencia": "Donación de modista del barrio Carmen López",
+      "foto": "/public/inventario/fotos/052.jpg"
+    },
+    "53": {
+      "numero_inventario": "53",
+      "objeto_de_museo": "Compás de dibujo técnico (Ejemplar 2)",
+      "procedencia": "Donación de empresa telefónica local",
+      "foto": "/public/inventario/fotos/053.jpg"
+    },
+    "54": {
+      "numero_inventario": "54",
+      "objeto_de_museo": "Escuadra de madera grande (Ejemplar 2)",
+      "procedencia": "Donación de fotógrafo aficionado José Pérez",
+      "foto": "/public/inventario/fotos/054.jpg"
+    },
+    "55": {
+      "numero_inventario": "55",
+      "objeto_de_museo": "Microscopio óptico Zeiss (Ejemplar 2)",
+      "procedencia": "Donación de profesor de música Alberto Sánchez",
+      "foto": "/public/inventario/fotos/055.jpg"
+    },
+    "56": {
+      "numero_inventario": "56",
+      "objeto_de_museo": "Balanza de precisión antigua (Ejemplar 2)",
+      "procedencia": "Donación de ex alumna Patricia Rodríguez",
+      "foto": "/public/inventario/fotos/056.jpg"
+    },
+    "57": {
+      "numero_inventario": "57",
+      "objeto_de_museo": "Globo terráqueo político 1970 (Ejemplar 2)",
+      "procedencia": "Donación de maestra jubilada Susana Moreno",
+      "foto": "/public/inventario/fotos/057.jpg"
+    },
+    "58": {
+      "numero_inventario": "58",
+      "objeto_de_museo": "Ábaco de madera japonés (Ejemplar 2)",
+      "procedencia": "Donación de Instituto Geográfico Nacional",
+      "foto": "/public/inventario/fotos/058.jpg"
+    },
+    "59": {
+      "numero_inventario": "59",
+      "objeto_de_museo": "Máquina calculadora mecánica Olivetti (Ejemplar 2)",
+      "procedencia": "Donación de profesor de física Daniel Castro",
+      "foto": "/public/inventario/fotos/059.jpg"
+    },
+    "60": {
+      "numero_inventario": "60",
+      "objeto_de_museo": "Proyector de diapositivas Kodak (Ejemplar 2)",
+      "procedencia": "Donación de profesora de francés Marie Dubois",
+      "foto": "/public/inventario/fotos/060.jpg"
+    },
+    "61": {
+      "numero_inventario": "61",
+      "objeto_de_museo": "Enciclopedia Británica completa (Ejemplar 2)",
+      "procedencia": "Donación de la Bibliotecaria Mirta Martínez",
+      "foto": "/public/inventario/fotos/061.jpg"
+    },
+    "62": {
+      "numero_inventario": "62",
+      "objeto_de_museo": "Máquina de coser Singer antigua (Ejemplar 2)",
+      "procedencia": "Donación de ex alumna María Fernández",
+      "foto": "/public/inventario/fotos/062.jpg"
+    },
+    "63": {
+      "numero_inventario": "63",
+      "objeto_de_museo": "Teléfono de disco negro (Ejemplar 2)",
+      "procedencia": "Donación de la familia González",
+      "foto": "/public/inventario/fotos/063.jpg"
+    },
+    "64": {
+      "numero_inventario": "64",
+      "objeto_de_museo": "Cámara fotográfica Kodak Instamatic (Ejemplar 2)",
+      "procedencia": "Donación de vecina del barrio Rosa López",
+      "foto": "/public/inventario/fotos/064.jpg"
+    },
+    "65": {
+      "numero_inventario": "65",
+      "objeto_de_museo": "Disco de vinilo himno nacional (Ejemplar 2)",
+      "procedencia": "Archivo histórico de la institución",
+      "foto": "/public/inventario/fotos/065.jpg"
+    },
+    "66": {
+      "numero_inventario": "66",
+      "objeto_de_museo": "Uniforme escolar años 80 (Ejemplar 2)",
+      "procedencia": "Donación de veterano de guerra Juan Carlos López",
+      "foto": "/public/inventario/fotos/066.jpg"
+    },
+    "67": {
+      "numero_inventario": "67",
+      "objeto_de_museo": "Cuaderno de caligrafía Palmer (Ejemplar 2)",
+      "procedencia": "Donación de la cooperadora escolar",
+      "foto": "/public/inventario/fotos/067.jpg"
+    },
+    "68": {
+      "numero_inventario": "68",
+      "objeto_de_museo": "Mapa político de Argentina 1975 (Ejemplar 2)",
+      "procedencia": "Archivo fotográfico institucional",
+      "foto": "/public/inventario/fotos/068.jpg"
+    },
+    "69": {
+      "numero_inventario": "69",
+      "objeto_de_museo": "Calculadora científica Casio fx-82 (Ejemplar 2)",
+      "procedencia": "Donación de familia de ex combatiente Roberto Silva",
+      "foto": "/public/inventario/fotos/069.jpg"
+    },
+    "70": {
+      "numero_inventario": "70",
+      "objeto_de_museo": "Diccionario Larousse español-francés (Ejemplar 2)",
+      "procedencia": "Donación de profesor jubilado Pedro Martínez",
+      "foto": "/public/inventario/fotos/070.jpg"
+    },
+    "71": {
+      "numero_inventario": "71",
+      "objeto_de_museo": "Pizarrón de tiza verde (Ejemplar 2)",
+      "procedencia": "Donación de ingeniero Carlos Ruiz",
+      "foto": "/public/inventario/fotos/071.jpg"
+    },
+    "72": {
+      "numero_inventario": "72",
+      "objeto_de_museo": "Campana escolar de bronce (Ejemplar 2)",
+      "procedencia": "Donación de secretaria jubilada Ana García",
+      "foto": "/public/inventario/fotos/072.jpg"
+    },
+    "73": {
+      "numero_inventario": "73",
+      "objeto_de_museo": "Escritorio de madera de director (Ejemplar 2)",
+      "procedencia": "Donación de profesor de matemáticas Luis Torres",
+      "foto": "/public/inventario/fotos/073.jpg"
+    },
+    "74": {
+      "numero_inventario": "74",
+      "objeto_de_museo": "Silla de madera antigua (Ejemplar 2)",
+      "procedencia": "Donación de carpintero del barrio Miguel Ángel",
+      "foto": "/public/inventario/fotos/074.jpg"
+    },
+    "75": {
+      "numero_inventario": "75",
+      "objeto_de_museo": "Lámpara de querosén (Ejemplar 2)",
+      "procedencia": "Donación de laboratorio médico Dr. Fernández",
+      "foto": "/public/inventario/fotos/075.jpg"
+    },
+    "76": {
+      "numero_inventario": "76",
+      "objeto_de_museo": "Botiquín de primeros auxilios vintage (Ejemplar 2)",
+      "procedencia": "Donación de farmacia del barrio",
+      "foto": "/public/inventario/fotos/076.jpg"
+    },
+    "77": {
+      "numero_inventario": "77",
+      "objeto_de_museo": "Reloj de pared escolar (Ejemplar 2)",
+      "procedencia": "Donación de profesora de geografía Elena Morales",
+      "foto": "/public/inventario/fotos/077.jpg"
+    },
+    "78": {
+      "numero_inventario": "78",
+      "objeto_de_museo": "Timbre manual de latón (Ejemplar 2)",
+      "procedencia": "Donación de comerciante japonés Sr. Tanaka",
+      "foto": "/public/inventario/fotos/078.jpg"
+    },
+    "79": {
+      "numero_inventario": "79",
+      "objeto_de_museo": "Libros de texto años 70 (Ejemplar 2)",
+      "procedencia": "Donación de contador público Ricardo Vega",
+      "foto": "/public/inventario/fotos/079.jpg"
+    },
+    "80": {
+      "numero_inventario": "80",
+      "objeto_de_museo": "Cuadernos de asistencia antiguos (Ejemplar 2)",
+      "procedencia": "Donación de fotógrafo profesional Mario Díaz",
+      "foto": "/public/inventario/fotos/080.jpg"
+    },
+    "81": {
+      "numero_inventario": "81",
+      "objeto_de_museo": "Reloj. Industria Argentina. (Ejemplar 3)",
+      "procedencia": "Donación de biblioteca municipal",
+      "foto": "/public/inventario/fotos/081.jpg"
+    },
+    "82": {
+      "numero_inventario": "82",
+      "objeto_de_museo": "Máquina de escribir Olivetti Lettera 32 (Ejemplar 3)",
+      "procedencia": "Donación de modista del barrio Carmen López",
+      "foto": "/public/inventario/fotos/082.jpg"
+    },
+    "83": {
+      "numero_inventario": "83",
+      "objeto_de_museo": "Radio Philips de válvulas años 40 (Ejemplar 3)",
+      "procedencia": "Donación de empresa telefónica local",
+      "foto": "/public/inventario/fotos/083.jpg"
+    },
+    "84": {
+      "numero_inventario": "84",
+      "objeto_de_museo": "Plancha a carbón marca Aurora (Ejemplar 3)",
+      "procedencia": "Donación de fotógrafo aficionado José Pérez",
+      "foto": "/public/inventario/fotos/084.jpg"
+    },
+    "85": {
+      "numero_inventario": "85",
+      "objeto_de_museo": "Libro de actas escolares 1985-1990 (Ejemplar 3)",
+      "procedencia": "Donación de profesor de música Alberto Sánchez",
+      "foto": "/public/inventario/fotos/085.jpg"
+    },
+    "86": {
+      "numero_inventario": "86",
+      "objeto_de_museo": "Mapa de las Islas Malvinas 1982 (Ejemplar 3)",
+      "procedencia": "Donación de ex alumna Patricia Rodríguez",
+      "foto": "/public/inventario/fotos/086.jpg"
+    },
+    "87": {
+      "numero_inventario": "87",
+      "objeto_de_museo": "Bandera argentina de ceremonia (Ejemplar 3)",
+      "procedencia": "Donación de maestra jubilada Susana Moreno",
+      "foto": "/public/inventario/fotos/087.jpg"
+    },
+    "88": {
+      "numero_inventario": "88",
+      "objeto_de_museo": "Fotografía histórica fundación escuela 1975 (Ejemplar 3)",
+      "procedencia": "Donación de Instituto Geográfico Nacional",
+      "foto": "/public/inventario/fotos/088.jpg"
+    },
+    "89": {
+      "numero_inventario": "89",
+      "objeto_de_museo": "Medalla conmemorativa Guerra de Malvinas (Ejemplar 3)",
+      "procedencia": "Donación de profesor de física Daniel Castro",
+      "foto": "/public/inventario/fotos/089.jpg"
+    },
+    "90": {
+      "numero_inventario": "90",
+      "objeto_de_museo": "Manual de geografía argentina 1980 (Ejemplar 3)",
+      "procedencia": "Donación de profesora de francés Marie Dubois",
+      "foto": "/public/inventario/fotos/090.jpg"
+    },
+    "91": {
+      "numero_inventario": "91",
+      "objeto_de_museo": "Regla de cálculo marca Faber Castell (Ejemplar 3)",
+      "procedencia": "Donación de la Bibliotecaria Mirta Martínez",
+      "foto": "/public/inventario/fotos/091.jpg"
+    },
+    "92": {
+      "numero_inventario": "92",
+      "objeto_de_museo": "Tintero de vidrio con pluma (Ejemplar 3)",
+      "procedencia": "Donación de ex alumna María Fernández",
+      "foto": "/public/inventario/fotos/092.jpg"
+    },
+    "93": {
+      "numero_inventario": "93",
+      "objeto_de_museo": "Compás de dibujo técnico (Ejemplar 3)",
+      "procedencia": "Donación de la familia González",
+      "foto": "/public/inventario/fotos/093.jpg"
+    },
+    "94": {
+      "numero_inventario": "94",
+      "objeto_de_museo": "Escuadra de madera grande (Ejemplar 3)",
+      "procedencia": "Donación de vecina del barrio Rosa López",
+      "foto": "/public/inventario/fotos/094.jpg"
+    },
+    "95": {
+      "numero_inventario": "95",
+      "objeto_de_museo": "Microscopio óptico Zeiss (Ejemplar 3)",
+      "procedencia": "Archivo histórico de la institución",
+      "foto": "/public/inventario/fotos/095.jpg"
+    },
+    "96": {
+      "numero_inventario": "96",
+      "objeto_de_museo": "Balanza de precisión antigua (Ejemplar 3)",
+      "procedencia": "Donación de veterano de guerra Juan Carlos López",
+      "foto": "/public/inventario/fotos/096.jpg"
+    },
+    "97": {
+      "numero_inventario": "97",
+      "objeto_de_museo": "Globo terráqueo político 1970 (Ejemplar 3)",
+      "procedencia": "Donación de la cooperadora escolar",
+      "foto": "/public/inventario/fotos/097.jpg"
+    },
+    "98": {
+      "numero_inventario": "98",
+      "objeto_de_museo": "Ábaco de madera japonés (Ejemplar 3)",
+      "procedencia": "Archivo fotográfico institucional",
+      "foto": "/public/inventario/fotos/098.jpg"
+    },
+    "99": {
+      "numero_inventario": "99",
+      "objeto_de_museo": "Máquina calculadora mecánica Olivetti (Ejemplar 3)",
+      "procedencia": "Donación de familia de ex combatiente Roberto Silva",
+      "foto": "/public/inventario/fotos/099.jpg"
+    },
+    "100": {
+      "numero_inventario": "100",
+      "objeto_de_museo": "Proyector de diapositivas Kodak (Ejemplar 3)",
+      "procedencia": "Donación de profesor jubilado Pedro Martínez",
+      "foto": "/public/inventario/fotos/100.jpg"
+    },
+    "101": {
+      "numero_inventario": "101",
+      "objeto_de_museo": "Enciclopedia Británica completa (Ejemplar 3)",
+      "procedencia": "Donación de ingeniero Carlos Ruiz",
+      "foto": "/public/inventario/fotos/101.jpg"
+    },
+    "102": {
+      "numero_inventario": "102",
+      "objeto_de_museo": "Máquina de coser Singer antigua (Ejemplar 3)",
+      "procedencia": "Donación de secretaria jubilada Ana García",
+      "foto": "/public/inventario/fotos/102.jpg"
+    },
+    "103": {
+      "numero_inventario": "103",
+      "objeto_de_museo": "Teléfono de disco negro (Ejemplar 3)",
+      "procedencia": "Donación de profesor de matemáticas Luis Torres",
+      "foto": "/public/inventario/fotos/103.jpg"
+    },
+    "104": {
+      "numero_inventario": "104",
+      "objeto_de_museo": "Cámara fotográfica Kodak Instamatic (Ejemplar 3)",
+      "procedencia": "Donación de carpintero del barrio Miguel Ángel",
+      "foto": "/public/inventario/fotos/104.jpg"
+    },
+    "105": {
+      "numero_inventario": "105",
+      "objeto_de_museo": "Disco de vinilo himno nacional (Ejemplar 3)",
+      "procedencia": "Donación de laboratorio médico Dr. Fernández",
+      "foto": "/public/inventario/fotos/105.jpg"
+    },
+    "106": {
+      "numero_inventario": "106",
+      "objeto_de_museo": "Uniforme escolar años 80 (Ejemplar 3)",
+      "procedencia": "Donación de farmacia del barrio",
+      "foto": "/public/inventario/fotos/106.jpg"
+    },
+    "107": {
+      "numero_inventario": "107",
+      "objeto_de_museo": "Cuaderno de caligrafía Palmer (Ejemplar 3)",
+      "procedencia": "Donación de profesora de geografía Elena Morales",
+      "foto": "/public/inventario/fotos/107.jpg"
+    },
+    "108": {
+      "numero_inventario": "108",
+      "objeto_de_museo": "Mapa político de Argentina 1975 (Ejemplar 3)",
+      "procedencia": "Donación de comerciante japonés Sr. Tanaka",
+      "foto": "/public/inventario/fotos/108.jpg"
+    },
+    "109": {
+      "numero_inventario": "109",
+      "objeto_de_museo": "Calculadora científica Casio fx-82 (Ejemplar 3)",
+      "procedencia": "Donación de contador público Ricardo Vega",
+      "foto": "/public/inventario/fotos/109.jpg"
+    },
+    "110": {
+      "numero_inventario": "110",
+      "objeto_de_museo": "Diccionario Larousse español-francés (Ejemplar 3)",
+      "procedencia": "Donación de fotógrafo profesional Mario Díaz",
+      "foto": "/public/inventario/fotos/110.jpg"
+    },
+    "111": {
+      "numero_inventario": "111",
+      "objeto_de_museo": "Pizarrón de tiza verde (Ejemplar 3)",
+      "procedencia": "Donación de biblioteca municipal",
+      "foto": "/public/inventario/fotos/111.jpg"
+    },
+    "112": {
+      "numero_inventario": "112",
+      "objeto_de_museo": "Campana escolar de bronce (Ejemplar 3)",
+      "procedencia": "Donación de modista del barrio Carmen López",
+      "foto": "/public/inventario/fotos/112.jpg"
+    },
+    "113": {
+      "numero_inventario": "113",
+      "objeto_de_museo": "Escritorio de madera de director (Ejemplar 3)",
+      "procedencia": "Donación de empresa telefónica local",
+      "foto": "/public/inventario/fotos/113.jpg"
+    },
+    "114": {
+      "numero_inventario": "114",
+      "objeto_de_museo": "Silla de madera antigua (Ejemplar 3)",
+      "procedencia": "Donación de fotógrafo aficionado José Pérez",
+      "foto": "/public/inventario/fotos/114.jpg"
+    },
+    "115": {
+      "numero_inventario": "115",
+      "objeto_de_museo": "Lámpara de querosén (Ejemplar 3)",
+      "procedencia": "Donación de profesor de música Alberto Sánchez",
+      "foto": "/public/inventario/fotos/115.jpg"
+    },
+    "116": {
+      "numero_inventario": "116",
+      "objeto_de_museo": "Botiquín de primeros auxilios vintage (Ejemplar 3)",
+      "procedencia": "Donación de ex alumna Patricia Rodríguez",
+      "foto": "/public/inventario/fotos/116.jpg"
+    },
+    "117": {
+      "numero_inventario": "117",
+      "objeto_de_museo": "Reloj de pared escolar (Ejemplar 3)",
+      "procedencia": "Donación de maestra jubilada Susana Moreno",
+      "foto": "/public/inventario/fotos/117.jpg"
+    },
+    "118": {
+      "numero_inventario": "118",
+      "objeto_de_museo": "Timbre manual de latón (Ejemplar 3)",
+      "procedencia": "Donación de Instituto Geográfico Nacional",
+      "foto": "/public/inventario/fotos/118.jpg"
+    },
+    "119": {
+      "numero_inventario": "119",
+      "objeto_de_museo": "Libros de texto años 70 (Ejemplar 3)",
+      "procedencia": "Donación de profesor de física Daniel Castro",
+      "foto": "/public/inventario/fotos/119.jpg"
+    },
+    "120": {
+      "numero_inventario": "120",
+      "objeto_de_museo": "Cuadernos de asistencia antiguos (Ejemplar 3)",
+      "procedencia": "Donación de profesora de francés Marie Dubois",
+      "foto": "/public/inventario/fotos/120.jpg"
+    },
+    "121": {
+      "numero_inventario": "121",
+      "objeto_de_museo": "Reloj. Industria Argentina. (Ejemplar 4)",
+      "procedencia": "Donación de la Bibliotecaria Mirta Martínez",
+      "foto": "/public/inventario/fotos/121.jpg"
+    },
+    "122": {
+      "numero_inventario": "122",
+      "objeto_de_museo": "Máquina de escribir Olivetti Lettera 32 (Ejemplar 4)",
+      "procedencia": "Donación de ex alumna María Fernández",
+      "foto": "/public/inventario/fotos/122.jpg"
+    },
+    "123": {
+      "numero_inventario": "123",
+      "objeto_de_museo": "Radio Philips de válvulas años 40 (Ejemplar 4)",
+      "procedencia": "Donación de la familia González",
+      "foto": "/public/inventario/fotos/123.jpg"
+    },
+    "124": {
+      "numero_inventario": "124",
+      "objeto_de_museo": "Plancha a carbón marca Aurora (Ejemplar 4)",
+      "procedencia": "Donación de vecina del barrio Rosa López",
+      "foto": "/public/inventario/fotos/124.jpg"
+    },
+    "125": {
+      "numero_inventario": "125",
+      "objeto_de_museo": "Libro de actas escolares 1985-1990 (Ejemplar 4)",
+      "procedencia": "Archivo histórico de la institución",
+      "foto": "/public/inventario/fotos/125.jpg"
+    },
+    "126": {
+      "numero_inventario": "126",
+      "objeto_de_museo": "Mapa de las Islas Malvinas 1982 (Ejemplar 4)",
+      "procedencia": "Donación de veterano de guerra Juan Carlos López",
+      "foto": "/public/inventario/fotos/126.jpg"
+    },
+    "127": {
+      "numero_inventario": "127",
+      "objeto_de_museo": "Bandera argentina de ceremonia (Ejemplar 4)",
+      "procedencia": "Donación de la cooperadora escolar",
+      "foto": "/public/inventario/fotos/127.jpg"
+    },
+    "128": {
+      "numero_inventario": "128",
+      "objeto_de_museo": "Fotografía histórica fundación escuela 1975 (Ejemplar 4)",
+      "procedencia": "Archivo fotográfico institucional",
+      "foto": "/public/inventario/fotos/128.jpg"
+    },
+    "129": {
+      "numero_inventario": "129",
+      "objeto_de_museo": "Medalla conmemorativa Guerra de Malvinas (Ejemplar 4)",
+      "procedencia": "Donación de familia de ex combatiente Roberto Silva",
+      "foto": "/public/inventario/fotos/129.jpg"
+    },
+    "130": {
+      "numero_inventario": "130",
+      "objeto_de_museo": "Manual de geografía argentina 1980 (Ejemplar 4)",
+      "procedencia": "Donación de profesor jubilado Pedro Martínez",
+      "foto": "/public/inventario/fotos/130.jpg"
+    },
+    "131": {
+      "numero_inventario": "131",
+      "objeto_de_museo": "Regla de cálculo marca Faber Castell (Ejemplar 4)",
+      "procedencia": "Donación de ingeniero Carlos Ruiz",
+      "foto": "/public/inventario/fotos/131.jpg"
+    },
+    "132": {
+      "numero_inventario": "132",
+      "objeto_de_museo": "Tintero de vidrio con pluma (Ejemplar 4)",
+      "procedencia": "Donación de secretaria jubilada Ana García",
+      "foto": "/public/inventario/fotos/132.jpg"
+    },
+    "133": {
+      "numero_inventario": "133",
+      "objeto_de_museo": "Compás de dibujo técnico (Ejemplar 4)",
+      "procedencia": "Donación de profesor de matemáticas Luis Torres",
+      "foto": "/public/inventario/fotos/133.jpg"
+    },
+    "134": {
+      "numero_inventario": "134",
+      "objeto_de_museo": "Escuadra de madera grande (Ejemplar 4)",
+      "procedencia": "Donación de carpintero del barrio Miguel Ángel",
+      "foto": "/public/inventario/fotos/134.jpg"
+    },
+    "135": {
+      "numero_inventario": "135",
+      "objeto_de_museo": "Microscopio óptico Zeiss (Ejemplar 4)",
+      "procedencia": "Donación de laboratorio médico Dr. Fernández",
+      "foto": "/public/inventario/fotos/135.jpg"
+    },
+    "136": {
+      "numero_inventario": "136",
+      "objeto_de_museo": "Balanza de precisión antigua (Ejemplar 4)",
+      "procedencia": "Donación de farmacia del barrio",
+      "foto": "/public/inventario/fotos/136.jpg"
+    },
+    "137": {
+      "numero_inventario": "137",
+      "objeto_de_museo": "Globo terráqueo político 1970 (Ejemplar 4)",
+      "procedencia": "Donación de profesora de geografía Elena Morales",
+      "foto": "/public/inventario/fotos/137.jpg"
+    },
+    "138": {
+      "numero_inventario": "138",
+      "objeto_de_museo": "Ábaco de madera japonés (Ejemplar 4)",
+      "procedencia": "Donación de comerciante japonés Sr. Tanaka",
+      "foto": "/public/inventario/fotos/138.jpg"
+    },
+    "139": {
+      "numero_inventario": "139",
+      "objeto_de_museo": "Máquina calculadora mecánica Olivetti (Ejemplar 4)",
+      "procedencia": "Donación de contador público Ricardo Vega",
+      "foto": "/public/inventario/fotos/139.jpg"
+    },
+    "140": {
+      "numero_inventario": "140",
+      "objeto_de_museo": "Proyector de diapositivas Kodak (Ejemplar 4)",
+      "procedencia": "Donación de fotógrafo profesional Mario Díaz",
+      "foto": "/public/inventario/fotos/140.jpg"
+    },
+    "141": {
+      "numero_inventario": "141",
+      "objeto_de_museo": "Enciclopedia Británica completa (Ejemplar 4)",
+      "procedencia": "Donación de biblioteca municipal",
+      "foto": "/public/inventario/fotos/141.jpg"
+    },
+    "142": {
+      "numero_inventario": "142",
+      "objeto_de_museo": "Máquina de coser Singer antigua (Ejemplar 4)",
+      "procedencia": "Donación de modista del barrio Carmen López",
+      "foto": "/public/inventario/fotos/142.jpg"
+    },
+    "143": {
+      "numero_inventario": "143",
+      "objeto_de_museo": "Teléfono de disco negro (Ejemplar 4)",
+      "procedencia": "Donación de empresa telefónica local",
+      "foto": "/public/inventario/fotos/143.jpg"
+    },
+    "144": {
+      "numero_inventario": "144",
+      "objeto_de_museo": "Cámara fotográfica Kodak Instamatic (Ejemplar 4)",
+      "procedencia": "Donación de fotógrafo aficionado José Pérez",
+      "foto": "/public/inventario/fotos/144.jpg"
+    },
+    "145": {
+      "numero_inventario": "145",
+      "objeto_de_museo": "Disco de vinilo himno nacional (Ejemplar 4)",
+      "procedencia": "Donación de profesor de música Alberto Sánchez",
+      "foto": "/public/inventario/fotos/145.jpg"
+    },
+    "146": {
+      "numero_inventario": "146",
+      "objeto_de_museo": "Uniforme escolar años 80 (Ejemplar 4)",
+      "procedencia": "Donación de ex alumna Patricia Rodríguez",
+      "foto": "/public/inventario/fotos/146.jpg"
+    },
+    "147": {
+      "numero_inventario": "147",
+      "objeto_de_museo": "Cuaderno de caligrafía Palmer (Ejemplar 4)",
+      "procedencia": "Donación de maestra jubilada Susana Moreno",
+      "foto": "/public/inventario/fotos/147.jpg"
+    },
+    "148": {
+      "numero_inventario": "148",
+      "objeto_de_museo": "Mapa político de Argentina 1975 (Ejemplar 4)",
+      "procedencia": "Donación de Instituto Geográfico Nacional",
+      "foto": "/public/inventario/fotos/148.jpg"
+    },
+    "149": {
+      "numero_inventario": "149",
+      "objeto_de_museo": "Calculadora científica Casio fx-82 (Ejemplar 4)",
+      "procedencia": "Donación de profesor de física Daniel Castro",
+      "foto": "/public/inventario/fotos/149.jpg"
+    },
+    "150": {
+      "numero_inventario": "150",
+      "objeto_de_museo": "Diccionario Larousse español-francés (Ejemplar 4)",
+      "procedencia": "Donación de profesora de francés Marie Dubois",
+      "foto": "/public/inventario/fotos/150.jpg"
+    },
+    "151": {
+      "numero_inventario": "151",
+      "objeto_de_museo": "Pizarrón de tiza verde (Ejemplar 4)",
+      "procedencia": "Donación de la Bibliotecaria Mirta Martínez",
+      "foto": "/public/inventario/fotos/151.jpg"
+    },
+    "152": {
+      "numero_inventario": "152",
+      "objeto_de_museo": "Campana escolar de bronce (Ejemplar 4)",
+      "procedencia": "Donación de ex alumna María Fernández",
+      "foto": "/public/inventario/fotos/152.jpg"
+    },
+    "153": {
+      "numero_inventario": "153",
+      "objeto_de_museo": "Escritorio de madera de director (Ejemplar 4)",
+      "procedencia": "Donación de la familia González",
+      "foto": "/public/inventario/fotos/153.jpg"
+    },
+    "154": {
+      "numero_inventario": "154",
+      "objeto_de_museo": "Silla de madera antigua (Ejemplar 4)",
+      "procedencia": "Donación de vecina del barrio Rosa López",
+      "foto": "/public/inventario/fotos/154.jpg"
+    },
+    "155": {
+      "numero_inventario": "155",
+      "objeto_de_museo": "Lámpara de querosén (Ejemplar 4)",
+      "procedencia": "Archivo histórico de la institución",
+      "foto": "/public/inventario/fotos/155.jpg"
+    },
+    "156": {
+      "numero_inventario": "156",
+      "objeto_de_museo": "Botiquín de primeros auxilios vintage (Ejemplar 4)",
+      "procedencia": "Donación de veterano de guerra Juan Carlos López",
+      "foto": "/public/inventario/fotos/156.jpg"
+    },
+    "157": {
+      "numero_inventario": "157",
+      "objeto_de_museo": "Reloj de pared escolar (Ejemplar 4)",
+      "procedencia": "Donación de la cooperadora escolar",
+      "foto": "/public/inventario/fotos/157.jpg"
+    },
+    "158": {
+      "numero_inventario": "158",
+      "objeto_de_museo": "Timbre manual de latón (Ejemplar 4)",
+      "procedencia": "Archivo fotográfico institucional",
+      "foto": "/public/inventario/fotos/158.jpg"
+    },
+    "159": {
+      "numero_inventario": "159",
+      "objeto_de_museo": "Libros de texto años 70 (Ejemplar 4)",
+      "procedencia": "Donación de familia de ex combatiente Roberto Silva",
+      "foto": "/public/inventario/fotos/159.jpg"
+    },
+    "160": {
+      "numero_inventario": "160",
+      "objeto_de_museo": "Cuadernos de asistencia antiguos (Ejemplar 4)",
+      "procedencia": "Donación de profesor jubilado Pedro Martínez",
+      "foto": "/public/inventario/fotos/160.jpg"
+    },
+    "161": {
+      "numero_inventario": "161",
+      "objeto_de_museo": "Reloj. Industria Argentina. (Ejemplar 5)",
+      "procedencia": "Donación de ingeniero Carlos Ruiz",
+      "foto": "/public/inventario/fotos/161.jpg"
+    },
+    "162": {
+      "numero_inventario": "162",
+      "objeto_de_museo": "Máquina de escribir Olivetti Lettera 32 (Ejemplar 5)",
+      "procedencia": "Donación de secretaria jubilada Ana García",
+      "foto": "/public/inventario/fotos/162.jpg"
+    },
+    "163": {
+      "numero_inventario": "163",
+      "objeto_de_museo": "Radio Philips de válvulas años 40 (Ejemplar 5)",
+      "procedencia": "Donación de profesor de matemáticas Luis Torres",
+      "foto": "/public/inventario/fotos/163.jpg"
+    },
+    "164": {
+      "numero_inventario": "164",
+      "objeto_de_museo": "Plancha a carbón marca Aurora (Ejemplar 5)",
+      "procedencia": "Donación de carpintero del barrio Miguel Ángel",
+      "foto": "/public/inventario/fotos/164.jpg"
+    },
+    "165": {
+      "numero_inventario": "165",
+      "objeto_de_museo": "Libro de actas escolares 1985-1990 (Ejemplar 5)",
+      "procedencia": "Donación de laboratorio médico Dr. Fernández",
+      "foto": "/public/inventario/fotos/165.jpg"
+    },
+    "166": {
+      "numero_inventario": "166",
+      "objeto_de_museo": "Mapa de las Islas Malvinas 1982 (Ejemplar 5)",
+      "procedencia": "Donación de farmacia del barrio",
+      "foto": "/public/inventario/fotos/166.jpg"
+    },
+    "167": {
+      "numero_inventario": "167",
+      "objeto_de_museo": "Bandera argentina de ceremonia (Ejemplar 5)",
+      "procedencia": "Donación de profesora de geografía Elena Morales",
+      "foto": "/public/inventario/fotos/167.jpg"
+    },
+    "168": {
+      "numero_inventario": "168",
+      "objeto_de_museo": "Fotografía histórica fundación escuela 1975 (Ejemplar 5)",
+      "procedencia": "Donación de comerciante japonés Sr. Tanaka",
+      "foto": "/public/inventario/fotos/168.jpg"
+    },
+    "169": {
+      "numero_inventario": "169",
+      "objeto_de_museo": "Medalla conmemorativa Guerra de Malvinas (Ejemplar 5)",
+      "procedencia": "Donación de contador público Ricardo Vega",
+      "foto": "/public/inventario/fotos/169.jpg"
+    },
+    "170": {
+      "numero_inventario": "170",
+      "objeto_de_museo": "Manual de geografía argentina 1980 (Ejemplar 5)",
+      "procedencia": "Donación de fotógrafo profesional Mario Díaz",
+      "foto": "/public/inventario/fotos/170.jpg"
+    },
+    "171": {
+      "numero_inventario": "171",
+      "objeto_de_museo": "Regla de cálculo marca Faber Castell (Ejemplar 5)",
+      "procedencia": "Donación de biblioteca municipal",
+      "foto": "/public/inventario/fotos/171.jpg"
+    },
+    "172": {
+      "numero_inventario": "172",
+      "objeto_de_museo": "Tintero de vidrio con pluma (Ejemplar 5)",
+      "procedencia": "Donación de modista del barrio Carmen López",
+      "foto": "/public/inventario/fotos/172.jpg"
+    },
+    "173": {
+      "numero_inventario": "173",
+      "objeto_de_museo": "Compás de dibujo técnico (Ejemplar 5)",
+      "procedencia": "Donación de empresa telefónica local",
+      "foto": "/public/inventario/fotos/173.jpg"
+    },
+    "174": {
+      "numero_inventario": "174",
+      "objeto_de_museo": "Escuadra de madera grande (Ejemplar 5)",
+      "procedencia": "Donación de fotógrafo aficionado José Pérez",
+      "foto": "/public/inventario/fotos/174.jpg"
+    },
+    "175": {
+      "numero_inventario": "175",
+      "objeto_de_museo": "Microscopio óptico Zeiss (Ejemplar 5)",
+      "procedencia": "Donación de profesor de música Alberto Sánchez",
+      "foto": "/public/inventario/fotos/175.jpg"
+    },
+    "176": {
+      "numero_inventario": "176",
+      "objeto_de_museo": "Balanza de precisión antigua (Ejemplar 5)",
+      "procedencia": "Donación de ex alumna Patricia Rodríguez",
+      "foto": "/public/inventario/fotos/176.jpg"
+    },
+    "177": {
+      "numero_inventario": "177",
+      "objeto_de_museo": "Globo terráqueo político 1970 (Ejemplar 5)",
+      "procedencia": "Donación de maestra jubilada Susana Moreno",
+      "foto": "/public/inventario/fotos/177.jpg"
+    },
+    "178": {
+      "numero_inventario": "178",
+      "objeto_de_museo": "Ábaco de madera japonés (Ejemplar 5)",
+      "procedencia": "Donación de Instituto Geográfico Nacional",
+      "foto": "/public/inventario/fotos/178.jpg"
+    },
+    "179": {
+      "numero_inventario": "179",
+      "objeto_de_museo": "Máquina calculadora mecánica Olivetti (Ejemplar 5)",
+      "procedencia": "Donación de profesor de física Daniel Castro",
+      "foto": "/public/inventario/fotos/179.jpg"
+    },
+    "180": {
+      "numero_inventario": "180",
+      "objeto_de_museo": "Proyector de diapositivas Kodak (Ejemplar 5)",
+      "procedencia": "Donación de profesora de francés Marie Dubois",
+      "foto": "/public/inventario/fotos/180.jpg"
+    },
+    "181": {
+      "numero_inventario": "181",
+      "objeto_de_museo": "Enciclopedia Británica completa (Ejemplar 5)",
+      "procedencia": "Donación de la Bibliotecaria Mirta Martínez",
+      "foto": "/public/inventario/fotos/181.jpg"
+    },
+    "182": {
+      "numero_inventario": "182",
+      "objeto_de_museo": "Máquina de coser Singer antigua (Ejemplar 5)",
+      "procedencia": "Donación de ex alumna María Fernández",
+      "foto": "/public/inventario/fotos/182.jpg"
+    },
+    "183": {
+      "numero_inventario": "183",
+      "objeto_de_museo": "Teléfono de disco negro (Ejemplar 5)",
+      "procedencia": "Donación de la familia González",
+      "foto": "/public/inventario/fotos/183.jpg"
+    },
+    "184": {
+      "numero_inventario": "184",
+      "objeto_de_museo": "Cámara fotográfica Kodak Instamatic (Ejemplar 5)",
+      "procedencia": "Donación de vecina del barrio Rosa López",
+      "foto": "/public/inventario/fotos/184.jpg"
+    },
+    "185": {
+      "numero_inventario": "185",
+      "objeto_de_museo": "Disco de vinilo himno nacional (Ejemplar 5)",
+      "procedencia": "Archivo histórico de la institución",
+      "foto": "/public/inventario/fotos/185.jpg"
+    },
+    "186": {
+      "numero_inventario": "186",
+      "objeto_de_museo": "Uniforme escolar años 80 (Ejemplar 5)",
+      "procedencia": "Donación de veterano de guerra Juan Carlos López",
+      "foto": "/public/inventario/fotos/186.jpg"
+    },
+    "187": {
+      "numero_inventario": "187",
+      "objeto_de_museo": "Cuaderno de caligrafía Palmer (Ejemplar 5)",
+      "procedencia": "Donación de la cooperadora escolar",
+      "foto": "/public/inventario/fotos/187.jpg"
+    },
+    "188": {
+      "numero_inventario": "188",
+      "objeto_de_museo": "Mapa político de Argentina 1975 (Ejemplar 5)",
+      "procedencia": "Archivo fotográfico institucional",
+      "foto": "/public/inventario/fotos/188.jpg"
+    },
+    "189": {
+      "numero_inventario": "189",
+      "objeto_de_museo": "Calculadora científica Casio fx-82 (Ejemplar 5)",
+      "procedencia": "Donación de familia de ex combatiente Roberto Silva",
+      "foto": "/public/inventario/fotos/189.jpg"
+    },
+    "190": {
+      "numero_inventario": "190",
+      "objeto_de_museo": "Diccionario Larousse español-francés (Ejemplar 5)",
+      "procedencia": "Donación de profesor jubilado Pedro Martínez",
+      "foto": "/public/inventario/fotos/190.jpg"
+    },
+    "191": {
+      "numero_inventario": "191",
+      "objeto_de_museo": "Pizarrón de tiza verde (Ejemplar 5)",
+      "procedencia": "Donación de ingeniero Carlos Ruiz",
+      "foto": "/public/inventario/fotos/191.jpg"
+    },
+    "192": {
+      "numero_inventario": "192",
+      "objeto_de_museo": "Campana escolar de bronce (Ejemplar 5)",
+      "procedencia": "Donación de secretaria jubilada Ana García",
+      "foto": "/public/inventario/fotos/192.jpg"
+    },
+    "193": {
+      "numero_inventario": "193",
+      "objeto_de_museo": "Escritorio de madera de director (Ejemplar 5)",
+      "procedencia": "Donación de profesor de matemáticas Luis Torres",
+      "foto": "/public/inventario/fotos/193.jpg"
+    },
+    "194": {
+      "numero_inventario": "194",
+      "objeto_de_museo": "Silla de madera antigua (Ejemplar 5)",
+      "procedencia": "Donación de carpintero del barrio Miguel Ángel",
+      "foto": "/public/inventario/fotos/194.jpg"
+    },
+    "195": {
+      "numero_inventario": "195",
+      "objeto_de_museo": "Lámpara de querosén (Ejemplar 5)",
+      "procedencia": "Donación de laboratorio médico Dr. Fernández",
+      "foto": "/public/inventario/fotos/195.jpg"
+    },
+    "196": {
+      "numero_inventario": "196",
+      "objeto_de_museo": "Botiquín de primeros auxilios vintage (Ejemplar 5)",
+      "procedencia": "Donación de farmacia del barrio",
+      "foto": "/public/inventario/fotos/196.jpg"
+    },
+    "197": {
+      "numero_inventario": "197",
+      "objeto_de_museo": "Reloj de pared escolar (Ejemplar 5)",
+      "procedencia": "Donación de profesora de geografía Elena Morales",
+      "foto": "/public/inventario/fotos/197.jpg"
+    },
+    "198": {
+      "numero_inventario": "198",
+      "objeto_de_museo": "Timbre manual de latón (Ejemplar 5)",
+      "procedencia": "Donación de comerciante japonés Sr. Tanaka",
+      "foto": "/public/inventario/fotos/198.jpg"
+    },
+    "199": {
+      "numero_inventario": "199",
+      "objeto_de_museo": "Libros de texto años 70 (Ejemplar 5)",
+      "procedencia": "Donación de contador público Ricardo Vega",
+      "foto": "/public/inventario/fotos/199.jpg"
+    },
+    "200": {
+      "numero_inventario": "200",
+      "objeto_de_museo": "Cuadernos de asistencia antiguos (Ejemplar 5)",
+      "procedencia": "Donación de fotógrafo profesional Mario Díaz",
+      "foto": "/public/inventario/fotos/200.jpg"
+    },
+    "201": {
+      "numero_inventario": "201",
+      "objeto_de_museo": "Reloj. Industria Argentina. (Ejemplar 6)",
+      "procedencia": "Donación de biblioteca municipal",
+      "foto": "/public/inventario/fotos/201.jpg"
+    },
+    "202": {
+      "numero_inventario": "202",
+      "objeto_de_museo": "Máquina de escribir Olivetti Lettera 32 (Ejemplar 6)",
+      "procedencia": "Donación de modista del barrio Carmen López",
+      "foto": "/public/inventario/fotos/202.jpg"
+    },
+    "203": {
+      "numero_inventario": "203",
+      "objeto_de_museo": "Radio Philips de válvulas años 40 (Ejemplar 6)",
+      "procedencia": "Donación de empresa telefónica local",
+      "foto": "/public/inventario/fotos/203.jpg"
+    },
+    "204": {
+      "numero_inventario": "204",
+      "objeto_de_museo": "Plancha a carbón marca Aurora (Ejemplar 6)",
+      "procedencia": "Donación de fotógrafo aficionado José Pérez",
+      "foto": "/public/inventario/fotos/204.jpg"
+    },
+    "205": {
+      "numero_inventario": "205",
+      "objeto_de_museo": "Libro de actas escolares 1985-1990 (Ejemplar 6)",
+      "procedencia": "Donación de profesor de música Alberto Sánchez",
+      "foto": "/public/inventario/fotos/205.jpg"
+    },
+    "206": {
+      "numero_inventario": "206",
+      "objeto_de_museo": "Mapa de las Islas Malvinas 1982 (Ejemplar 6)",
+      "procedencia": "Donación de ex alumna Patricia Rodríguez",
+      "foto": "/public/inventario/fotos/206.jpg"
+    },
+    "207": {
+      "numero_inventario": "207",
+      "objeto_de_museo": "Bandera argentina de ceremonia (Ejemplar 6)",
+      "procedencia": "Donación de maestra jubilada Susana Moreno",
+      "foto": "/public/inventario/fotos/207.jpg"
+    },
+    "208": {
+      "numero_inventario": "208",
+      "objeto_de_museo": "Fotografía histórica fundación escuela 1975 (Ejemplar 6)",
+      "procedencia": "Donación de Instituto Geográfico Nacional",
+      "foto": "/public/inventario/fotos/208.jpg"
+    },
+    "209": {
+      "numero_inventario": "209",
+      "objeto_de_museo": "Medalla conmemorativa Guerra de Malvinas (Ejemplar 6)",
+      "procedencia": "Donación de profesor de física Daniel Castro",
+      "foto": "/public/inventario/fotos/209.jpg"
+    },
+    "210": {
+      "numero_inventario": "210",
+      "objeto_de_museo": "Manual de geografía argentina 1980 (Ejemplar 6)",
+      "procedencia": "Donación de profesora de francés Marie Dubois",
+      "foto": "/public/inventario/fotos/210.jpg"
+    },
+    "211": {
+      "numero_inventario": "211",
+      "objeto_de_museo": "Regla de cálculo marca Faber Castell (Ejemplar 6)",
+      "procedencia": "Donación de la Bibliotecaria Mirta Martínez",
+      "foto": "/public/inventario/fotos/211.jpg"
+    },
+    "212": {
+      "numero_inventario": "212",
+      "objeto_de_museo": "Tintero de vidrio con pluma (Ejemplar 6)",
+      "procedencia": "Donación de ex alumna María Fernández",
+      "foto": "/public/inventario/fotos/212.jpg"
+    },
+    "213": {
+      "numero_inventario": "213",
+      "objeto_de_museo": "Compás de dibujo técnico (Ejemplar 6)",
+      "procedencia": "Donación de la familia González",
+      "foto": "/public/inventario/fotos/213.jpg"
+    },
+    "214": {
+      "numero_inventario": "214",
+      "objeto_de_museo": "Escuadra de madera grande (Ejemplar 6)",
+      "procedencia": "Donación de vecina del barrio Rosa López",
+      "foto": "/public/inventario/fotos/214.jpg"
+    },
+    "215": {
+      "numero_inventario": "215",
+      "objeto_de_museo": "Microscopio óptico Zeiss (Ejemplar 6)",
+      "procedencia": "Archivo histórico de la institución",
+      "foto": "/public/inventario/fotos/215.jpg"
+    },
+    "216": {
+      "numero_inventario": "216",
+      "objeto_de_museo": "Balanza de precisión antigua (Ejemplar 6)",
+      "procedencia": "Donación de veterano de guerra Juan Carlos López",
+      "foto": "/public/inventario/fotos/216.jpg"
+    },
+    "217": {
+      "numero_inventario": "217",
+      "objeto_de_museo": "Globo terráqueo político 1970 (Ejemplar 6)",
+      "procedencia": "Donación de la cooperadora escolar",
+      "foto": "/public/inventario/fotos/217.jpg"
+    },
+    "218": {
+      "numero_inventario": "218",
+      "objeto_de_museo": "Ábaco de madera japonés (Ejemplar 6)",
+      "procedencia": "Archivo fotográfico institucional",
+      "foto": "/public/inventario/fotos/218.jpg"
+    },
+    "219": {
+      "numero_inventario": "219",
+      "objeto_de_museo": "Máquina calculadora mecánica Olivetti (Ejemplar 6)",
+      "procedencia": "Donación de familia de ex combatiente Roberto Silva",
+      "foto": "/public/inventario/fotos/219.jpg"
+    },
+    "220": {
+      "numero_inventario": "220",
+      "objeto_de_museo": "Proyector de diapositivas Kodak (Ejemplar 6)",
+      "procedencia": "Donación de profesor jubilado Pedro Martínez",
+      "foto": "/public/inventario/fotos/220.jpg"
+    },
+    "221": {
+      "numero_inventario": "221",
+      "objeto_de_museo": "Enciclopedia Británica completa (Ejemplar 6)",
+      "procedencia": "Donación de ingeniero Carlos Ruiz",
+      "foto": "/public/inventario/fotos/221.jpg"
+    },
+    "222": {
+      "numero_inventario": "222",
+      "objeto_de_museo": "Máquina de coser Singer antigua (Ejemplar 6)",
+      "procedencia": "Donación de secretaria jubilada Ana García",
+      "foto": "/public/inventario/fotos/222.jpg"
+    },
+    "223": {
+      "numero_inventario": "223",
+      "objeto_de_museo": "Teléfono de disco negro (Ejemplar 6)",
+      "procedencia": "Donación de profesor de matemáticas Luis Torres",
+      "foto": "/public/inventario/fotos/223.jpg"
+    },
+    "224": {
+      "numero_inventario": "224",
+      "objeto_de_museo": "Cámara fotográfica Kodak Instamatic (Ejemplar 6)",
+      "procedencia": "Donación de carpintero del barrio Miguel Ángel",
+      "foto": "/public/inventario/fotos/224.jpg"
+    },
+    "225": {
+      "numero_inventario": "225",
+      "objeto_de_museo": "Disco de vinilo himno nacional (Ejemplar 6)",
+      "procedencia": "Donación de laboratorio médico Dr. Fernández",
+      "foto": "/public/inventario/fotos/225.jpg"
+    },
+    "226": {
+      "numero_inventario": "226",
+      "objeto_de_museo": "Uniforme escolar años 80 (Ejemplar 6)",
+      "procedencia": "Donación de farmacia del barrio",
+      "foto": "/public/inventario/fotos/226.jpg"
+    },
+    "227": {
+      "numero_inventario": "227",
+      "objeto_de_museo": "Cuaderno de caligrafía Palmer (Ejemplar 6)",
+      "procedencia": "Donación de profesora de geografía Elena Morales",
+      "foto": "/public/inventario/fotos/227.jpg"
+    },
+    "228": {
+      "numero_inventario": "228",
+      "objeto_de_museo": "Mapa político de Argentina 1975 (Ejemplar 6)",
+      "procedencia": "Donación de comerciante japonés Sr. Tanaka",
+      "foto": "/public/inventario/fotos/228.jpg"
+    },
+    "229": {
+      "numero_inventario": "229",
+      "objeto_de_museo": "Calculadora científica Casio fx-82 (Ejemplar 6)",
+      "procedencia": "Donación de contador público Ricardo Vega",
+      "foto": "/public/inventario/fotos/229.jpg"
+    },
+    "230": {
+      "numero_inventario": "230",
+      "objeto_de_museo": "Diccionario Larousse español-francés (Ejemplar 6)",
+      "procedencia": "Donación de fotógrafo profesional Mario Díaz",
+      "foto": "/public/inventario/fotos/230.jpg"
+    },
+    "231": {
+      "numero_inventario": "231",
+      "objeto_de_museo": "Pizarrón de tiza verde (Ejemplar 6)",
+      "procedencia": "Donación de biblioteca municipal",
+      "foto": "/public/inventario/fotos/231.jpg"
+    },
+    "232": {
+      "numero_inventario": "232",
+      "objeto_de_museo": "Campana escolar de bronce (Ejemplar 6)",
+      "procedencia": "Donación de modista del barrio Carmen López",
+      "foto": "/public/inventario/fotos/232.jpg"
+    },
+    "233": {
+      "numero_inventario": "233",
+      "objeto_de_museo": "Escritorio de madera de director (Ejemplar 6)",
+      "procedencia": "Donación de empresa telefónica local",
+      "foto": "/public/inventario/fotos/233.jpg"
+    },
+    "234": {
+      "numero_inventario": "234",
+      "objeto_de_museo": "Silla de madera antigua (Ejemplar 6)",
+      "procedencia": "Donación de fotógrafo aficionado José Pérez",
+      "foto": "/public/inventario/fotos/234.jpg"
+    },
+    "235": {
+      "numero_inventario": "235",
+      "objeto_de_museo": "Lámpara de querosén (Ejemplar 6)",
+      "procedencia": "Donación de profesor de música Alberto Sánchez",
+      "foto": "/public/inventario/fotos/235.jpg"
+    },
+    "236": {
+      "numero_inventario": "236",
+      "objeto_de_museo": "Botiquín de primeros auxilios vintage (Ejemplar 6)",
+      "procedencia": "Donación de ex alumna Patricia Rodríguez",
+      "foto": "/public/inventario/fotos/236.jpg"
+    },
+    "237": {
+      "numero_inventario": "237",
+      "objeto_de_museo": "Reloj de pared escolar (Ejemplar 6)",
+      "procedencia": "Donación de maestra jubilada Susana Moreno",
+      "foto": "/public/inventario/fotos/237.jpg"
+    },
+    "238": {
+      "numero_inventario": "238",
+      "objeto_de_museo": "Timbre manual de latón (Ejemplar 6)",
+      "procedencia": "Donación de Instituto Geográfico Nacional",
+      "foto": "/public/inventario/fotos/238.jpg"
+    },
+    "239": {
+      "numero_inventario": "239",
+      "objeto_de_museo": "Libros de texto años 70 (Ejemplar 6)",
+      "procedencia": "Donación de profesor de física Daniel Castro",
+      "foto": "/public/inventario/fotos/239.jpg"
+    },
+    "240": {
+      "numero_inventario": "240",
+      "objeto_de_museo": "Cuadernos de asistencia antiguos (Ejemplar 6)",
+      "procedencia": "Donación de profesora de francés Marie Dubois",
+      "foto": "/public/inventario/fotos/240.jpg"
+    },
+    "241": {
+      "numero_inventario": "241",
+      "objeto_de_museo": "Reloj. Industria Argentina. (Ejemplar 7)",
+      "procedencia": "Donación de la Bibliotecaria Mirta Martínez",
+      "foto": "/public/inventario/fotos/241.jpg"
+    },
+    "242": {
+      "numero_inventario": "242",
+      "objeto_de_museo": "Máquina de escribir Olivetti Lettera 32 (Ejemplar 7)",
+      "procedencia": "Donación de ex alumna María Fernández",
+      "foto": "/public/inventario/fotos/242.jpg"
+    },
+    "243": {
+      "numero_inventario": "243",
+      "objeto_de_museo": "Radio Philips de válvulas años 40 (Ejemplar 7)",
+      "procedencia": "Donación de la familia González",
+      "foto": "/public/inventario/fotos/243.jpg"
+    },
+    "244": {
+      "numero_inventario": "244",
+      "objeto_de_museo": "Plancha a carbón marca Aurora (Ejemplar 7)",
+      "procedencia": "Donación de vecina del barrio Rosa López",
+      "foto": "/public/inventario/fotos/244.jpg"
+    },
+    "245": {
+      "numero_inventario": "245",
+      "objeto_de_museo": "Libro de actas escolares 1985-1990 (Ejemplar 7)",
+      "procedencia": "Archivo histórico de la institución",
+      "foto": "/public/inventario/fotos/245.jpg"
+    },
+    "246": {
+      "numero_inventario": "246",
+      "objeto_de_museo": "Mapa de las Islas Malvinas 1982 (Ejemplar 7)",
+      "procedencia": "Donación de veterano de guerra Juan Carlos López",
+      "foto": "/public/inventario/fotos/246.jpg"
+    },
+    "247": {
+      "numero_inventario": "247",
+      "objeto_de_museo": "Bandera argentina de ceremonia (Ejemplar 7)",
+      "procedencia": "Donación de la cooperadora escolar",
+      "foto": "/public/inventario/fotos/247.jpg"
+    },
+    "248": {
+      "numero_inventario": "248",
+      "objeto_de_museo": "Fotografía histórica fundación escuela 1975 (Ejemplar 7)",
+      "procedencia": "Archivo fotográfico institucional",
+      "foto": "/public/inventario/fotos/248.jpg"
+    },
+    "249": {
+      "numero_inventario": "249",
+      "objeto_de_museo": "Medalla conmemorativa Guerra de Malvinas (Ejemplar 7)",
+      "procedencia": "Donación de familia de ex combatiente Roberto Silva",
+      "foto": "/public/inventario/fotos/249.jpg"
+    },
+    "250": {
+      "numero_inventario": "250",
+      "objeto_de_museo": "Manual de geografía argentina 1980 (Ejemplar 7)",
+      "procedencia": "Donación de profesor jubilado Pedro Martínez",
+      "foto": "/public/inventario/fotos/250.jpg"
+    },
+    "251": {
+      "numero_inventario": "251",
+      "objeto_de_museo": "Regla de cálculo marca Faber Castell (Ejemplar 7)",
+      "procedencia": "Donación de ingeniero Carlos Ruiz",
+      "foto": "/public/inventario/fotos/251.jpg"
+    },
+    "252": {
+      "numero_inventario": "252",
+      "objeto_de_museo": "Tintero de vidrio con pluma (Ejemplar 7)",
+      "procedencia": "Donación de secretaria jubilada Ana García",
+      "foto": "/public/inventario/fotos/252.jpg"
+    },
+    "253": {
+      "numero_inventario": "253",
+      "objeto_de_museo": "Compás de dibujo técnico (Ejemplar 7)",
+      "procedencia": "Donación de profesor de matemáticas Luis Torres",
+      "foto": "/public/inventario/fotos/253.jpg"
+    },
+    "254": {
+      "numero_inventario": "254",
+      "objeto_de_museo": "Escuadra de madera grande (Ejemplar 7)",
+      "procedencia": "Donación de carpintero del barrio Miguel Ángel",
+      "foto": "/public/inventario/fotos/254.jpg"
+    },
+    "255": {
+      "numero_inventario": "255",
+      "objeto_de_museo": "Microscopio óptico Zeiss (Ejemplar 7)",
+      "procedencia": "Donación de laboratorio médico Dr. Fernández",
+      "foto": "/public/inventario/fotos/255.jpg"
+    },
+    "256": {
+      "numero_inventario": "256",
+      "objeto_de_museo": "Balanza de precisión antigua (Ejemplar 7)",
+      "procedencia": "Donación de farmacia del barrio",
+      "foto": "/public/inventario/fotos/256.jpg"
+    },
+    "257": {
+      "numero_inventario": "257",
+      "objeto_de_museo": "Globo terráqueo político 1970 (Ejemplar 7)",
+      "procedencia": "Donación de profesora de geografía Elena Morales",
+      "foto": "/public/inventario/fotos/257.jpg"
+    },
+    "258": {
+      "numero_inventario": "258",
+      "objeto_de_museo": "Ábaco de madera japonés (Ejemplar 7)",
+      "procedencia": "Donación de comerciante japonés Sr. Tanaka",
+      "foto": "/public/inventario/fotos/258.jpg"
+    },
+    "259": {
+      "numero_inventario": "259",
+      "objeto_de_museo": "Máquina calculadora mecánica Olivetti (Ejemplar 7)",
+      "procedencia": "Donación de contador público Ricardo Vega",
+      "foto": "/public/inventario/fotos/259.jpg"
+    },
+    "260": {
+      "numero_inventario": "260",
+      "objeto_de_museo": "Proyector de diapositivas Kodak (Ejemplar 7)",
+      "procedencia": "Donación de fotógrafo profesional Mario Díaz",
+      "foto": "/public/inventario/fotos/260.jpg"
+    },
+    "261": {
+      "numero_inventario": "261",
+      "objeto_de_museo": "Enciclopedia Británica completa (Ejemplar 7)",
+      "procedencia": "Donación de biblioteca municipal",
+      "foto": "/public/inventario/fotos/261.jpg"
+    },
+    "262": {
+      "numero_inventario": "262",
+      "objeto_de_museo": "Máquina de coser Singer antigua (Ejemplar 7)",
+      "procedencia": "Donación de modista del barrio Carmen López",
+      "foto": "/public/inventario/fotos/262.jpg"
+    },
+    "263": {
+      "numero_inventario": "263",
+      "objeto_de_museo": "Teléfono de disco negro (Ejemplar 7)",
+      "procedencia": "Donación de empresa telefónica local",
+      "foto": "/public/inventario/fotos/263.jpg"
+    },
+    "264": {
+      "numero_inventario": "264",
+      "objeto_de_museo": "Cámara fotográfica Kodak Instamatic (Ejemplar 7)",
+      "procedencia": "Donación de fotógrafo aficionado José Pérez",
+      "foto": "/public/inventario/fotos/264.jpg"
+    },
+    "265": {
+      "numero_inventario": "265",
+      "objeto_de_museo": "Disco de vinilo himno nacional (Ejemplar 7)",
+      "procedencia": "Donación de profesor de música Alberto Sánchez",
+      "foto": "/public/inventario/fotos/265.jpg"
+    },
+    "266": {
+      "numero_inventario": "266",
+      "objeto_de_museo": "Uniforme escolar años 80 (Ejemplar 7)",
+      "procedencia": "Donación de ex alumna Patricia Rodríguez",
+      "foto": "/public/inventario/fotos/266.jpg"
+    },
+    "267": {
+      "numero_inventario": "267",
+      "objeto_de_museo": "Cuaderno de caligrafía Palmer (Ejemplar 7)",
+      "procedencia": "Donación de maestra jubilada Susana Moreno",
+      "foto": "/public/inventario/fotos/267.jpg"
+    },
+    "268": {
+      "numero_inventario": "268",
+      "objeto_de_museo": "Mapa político de Argentina 1975 (Ejemplar 7)",
+      "procedencia": "Donación de Instituto Geográfico Nacional",
+      "foto": "/public/inventario/fotos/268.jpg"
+    },
+    "269": {
+      "numero_inventario": "269",
+      "objeto_de_museo": "Calculadora científica Casio fx-82 (Ejemplar 7)",
+      "procedencia": "Donación de profesor de física Daniel Castro",
+      "foto": "/public/inventario/fotos/269.jpg"
+    },
+    "270": {
+      "numero_inventario": "270",
+      "objeto_de_museo": "Diccionario Larousse español-francés (Ejemplar 7)",
+      "procedencia": "Donación de profesora de francés Marie Dubois",
+      "foto": "/public/inventario/fotos/270.jpg"
+    },
+    "271": {
+      "numero_inventario": "271",
+      "objeto_de_museo": "Pizarrón de tiza verde (Ejemplar 7)",
+      "procedencia": "Donación de la Bibliotecaria Mirta Martínez",
+      "foto": "/public/inventario/fotos/271.jpg"
+    },
+    "272": {
+      "numero_inventario": "272",
+      "objeto_de_museo": "Campana escolar de bronce (Ejemplar 7)",
+      "procedencia": "Donación de ex alumna María Fernández",
+      "foto": "/public/inventario/fotos/272.jpg"
+    },
+    "273": {
+      "numero_inventario": "273",
+      "objeto_de_museo": "Escritorio de madera de director (Ejemplar 7)",
+      "procedencia": "Donación de la familia González",
+      "foto": "/public/inventario/fotos/273.jpg"
+    },
+    "274": {
+      "numero_inventario": "274",
+      "objeto_de_museo": "Silla de madera antigua (Ejemplar 7)",
+      "procedencia": "Donación de vecina del barrio Rosa López",
+      "foto": "/public/inventario/fotos/274.jpg"
+    },
+    "275": {
+      "numero_inventario": "275",
+      "objeto_de_museo": "Lámpara de querosén (Ejemplar 7)",
+      "procedencia": "Archivo histórico de la institución",
+      "foto": "/public/inventario/fotos/275.jpg"
+    },
+    "276": {
+      "numero_inventario": "276",
+      "objeto_de_museo": "Botiquín de primeros auxilios vintage (Ejemplar 7)",
+      "procedencia": "Donación de veterano de guerra Juan Carlos López",
+      "foto": "/public/inventario/fotos/276.jpg"
+    },
+    "277": {
+      "numero_inventario": "277",
+      "objeto_de_museo": "Reloj de pared escolar (Ejemplar 7)",
+      "procedencia": "Donación de la cooperadora escolar",
+      "foto": "/public/inventario/fotos/277.jpg"
+    },
+    "278": {
+      "numero_inventario": "278",
+      "objeto_de_museo": "Timbre manual de latón (Ejemplar 7)",
+      "procedencia": "Archivo fotográfico institucional",
+      "foto": "/public/inventario/fotos/278.jpg"
+    },
+    "279": {
+      "numero_inventario": "279",
+      "objeto_de_museo": "Libros de texto años 70 (Ejemplar 7)",
+      "procedencia": "Donación de familia de ex combatiente Roberto Silva",
+      "foto": "/public/inventario/fotos/279.jpg"
+    },
+    "280": {
+      "numero_inventario": "280",
+      "objeto_de_museo": "Cuadernos de asistencia antiguos (Ejemplar 7)",
+      "procedencia": "Donación de profesor jubilado Pedro Martínez",
+      "foto": "/public/inventario/fotos/280.jpg"
+    },
+    "281": {
+      "numero_inventario": "281",
+      "objeto_de_museo": "Reloj. Industria Argentina. (Ejemplar 8)",
+      "procedencia": "Donación de ingeniero Carlos Ruiz",
+      "foto": "/public/inventario/fotos/281.jpg"
+    },
+    "282": {
+      "numero_inventario": "282",
+      "objeto_de_museo": "Máquina de escribir Olivetti Lettera 32 (Ejemplar 8)",
+      "procedencia": "Donación de secretaria jubilada Ana García",
+      "foto": "/public/inventario/fotos/282.jpg"
+    },
+    "283": {
+      "numero_inventario": "283",
+      "objeto_de_museo": "Radio Philips de válvulas años 40 (Ejemplar 8)",
+      "procedencia": "Donación de profesor de matemáticas Luis Torres",
+      "foto": "/public/inventario/fotos/283.jpg"
+    },
+    "284": {
+      "numero_inventario": "284",
+      "objeto_de_museo": "Plancha a carbón marca Aurora (Ejemplar 8)",
+      "procedencia": "Donación de carpintero del barrio Miguel Ángel",
+      "foto": "/public/inventario/fotos/284.jpg"
+    },
+    "285": {
+      "numero_inventario": "285",
+      "objeto_de_museo": "Libro de actas escolares 1985-1990 (Ejemplar 8)",
+      "procedencia": "Donación de laboratorio médico Dr. Fernández",
+      "foto": "/public/inventario/fotos/285.jpg"
+    },
+    "286": {
+      "numero_inventario": "286",
+      "objeto_de_museo": "Mapa de las Islas Malvinas 1982 (Ejemplar 8)",
+      "procedencia": "Donación de farmacia del barrio",
+      "foto": "/public/inventario/fotos/286.jpg"
+    },
+    "287": {
+      "numero_inventario": "287",
+      "objeto_de_museo": "Bandera argentina de ceremonia (Ejemplar 8)",
+      "procedencia": "Donación de profesora de geografía Elena Morales",
+      "foto": "/public/inventario/fotos/287.jpg"
+    },
+    "288": {
+      "numero_inventario": "288",
+      "objeto_de_museo": "Fotografía histórica fundación escuela 1975 (Ejemplar 8)",
+      "procedencia": "Donación de comerciante japonés Sr. Tanaka",
+      "foto": "/public/inventario/fotos/288.jpg"
+    },
+    "289": {
+      "numero_inventario": "289",
+      "objeto_de_museo": "Medalla conmemorativa Guerra de Malvinas (Ejemplar 8)",
+      "procedencia": "Donación de contador público Ricardo Vega",
+      "foto": "/public/inventario/fotos/289.jpg"
+    },
+    "290": {
+      "numero_inventario": "290",
+      "objeto_de_museo": "Manual de geografía argentina 1980 (Ejemplar 8)",
+      "procedencia": "Donación de fotógrafo profesional Mario Díaz",
+      "foto": "/public/inventario/fotos/290.jpg"
+    },
+    "291": {
+      "numero_inventario": "291",
+      "objeto_de_museo": "Regla de cálculo marca Faber Castell (Ejemplar 8)",
+      "procedencia": "Donación de biblioteca municipal",
+      "foto": "/public/inventario/fotos/291.jpg"
+    },
+    "292": {
+      "numero_inventario": "292",
+      "objeto_de_museo": "Tintero de vidrio con pluma (Ejemplar 8)",
+      "procedencia": "Donación de modista del barrio Carmen López",
+      "foto": "/public/inventario/fotos/292.jpg"
+    },
+    "293": {
+      "numero_inventario": "293",
+      "objeto_de_museo": "Compás de dibujo técnico (Ejemplar 8)",
+      "procedencia": "Donación de empresa telefónica local",
+      "foto": "/public/inventario/fotos/293.jpg"
+    },
+    "294": {
+      "numero_inventario": "294",
+      "objeto_de_museo": "Escuadra de madera grande (Ejemplar 8)",
+      "procedencia": "Donación de fotógrafo aficionado José Pérez",
+      "foto": "/public/inventario/fotos/294.jpg"
+    },
+    "295": {
+      "numero_inventario": "295",
+      "objeto_de_museo": "Microscopio óptico Zeiss (Ejemplar 8)",
+      "procedencia": "Donación de profesor de música Alberto Sánchez",
+      "foto": "/public/inventario/fotos/295.jpg"
+    },
+    "296": {
+      "numero_inventario": "296",
+      "objeto_de_museo": "Balanza de precisión antigua (Ejemplar 8)",
+      "procedencia": "Donación de ex alumna Patricia Rodríguez",
+      "foto": "/public/inventario/fotos/296.jpg"
+    },
+    "297": {
+      "numero_inventario": "297",
+      "objeto_de_museo": "Globo terráqueo político 1970 (Ejemplar 8)",
+      "procedencia": "Donación de maestra jubilada Susana Moreno",
+      "foto": "/public/inventario/fotos/297.jpg"
+    },
+    "298": {
+      "numero_inventario": "298",
+      "objeto_de_museo": "Ábaco de madera japonés (Ejemplar 8)",
+      "procedencia": "Donación de Instituto Geográfico Nacional",
+      "foto": "/public/inventario/fotos/298.jpg"
+    },
+    "299": {
+      "numero_inventario": "299",
+      "objeto_de_museo": "Máquina calculadora mecánica Olivetti (Ejemplar 8)",
+      "procedencia": "Donación de profesor de física Daniel Castro",
+      "foto": "/public/inventario/fotos/299.jpg"
+    },
+    "300": {
+      "numero_inventario": "300",
+      "objeto_de_museo": "Proyector de diapositivas Kodak (Ejemplar 8)",
+      "procedencia": "Donación de profesora de francés Marie Dubois",
+      "foto": "/public/inventario/fotos/300.jpg"
+    },
+    "301": {
+      "numero_inventario": "301",
+      "objeto_de_museo": "Enciclopedia Británica completa (Ejemplar 8)",
+      "procedencia": "Donación de la Bibliotecaria Mirta Martínez",
+      "foto": "/public/inventario/fotos/301.jpg"
+    },
+    "302": {
+      "numero_inventario": "302",
+      "objeto_de_museo": "Máquina de coser Singer antigua (Ejemplar 8)",
+      "procedencia": "Donación de ex alumna María Fernández",
+      "foto": "/public/inventario/fotos/302.jpg"
+    },
+    "303": {
+      "numero_inventario": "303",
+      "objeto_de_museo": "Teléfono de disco negro (Ejemplar 8)",
+      "procedencia": "Donación de la familia González",
+      "foto": "/public/inventario/fotos/303.jpg"
+    },
+    "304": {
+      "numero_inventario": "304",
+      "objeto_de_museo": "Cámara fotográfica Kodak Instamatic (Ejemplar 8)",
+      "procedencia": "Donación de vecina del barrio Rosa López",
+      "foto": "/public/inventario/fotos/304.jpg"
+    },
+    "305": {
+      "numero_inventario": "305",
+      "objeto_de_museo": "Disco de vinilo himno nacional (Ejemplar 8)",
+      "procedencia": "Archivo histórico de la institución",
+      "foto": "/public/inventario/fotos/305.jpg"
+    },
+    "306": {
+      "numero_inventario": "306",
+      "objeto_de_museo": "Uniforme escolar años 80 (Ejemplar 8)",
+      "procedencia": "Donación de veterano de guerra Juan Carlos López",
+      "foto": "/public/inventario/fotos/306.jpg"
+    },
+    "307": {
+      "numero_inventario": "307",
+      "objeto_de_museo": "Cuaderno de caligrafía Palmer (Ejemplar 8)",
+      "procedencia": "Donación de la cooperadora escolar",
+      "foto": "/public/inventario/fotos/307.jpg"
+    },
+    "308": {
+      "numero_inventario": "308",
+      "objeto_de_museo": "Mapa político de Argentina 1975 (Ejemplar 8)",
+      "procedencia": "Archivo fotográfico institucional",
+      "foto": "/public/inventario/fotos/308.jpg"
+    },
+    "309": {
+      "numero_inventario": "309",
+      "objeto_de_museo": "Calculadora científica Casio fx-82 (Ejemplar 8)",
+      "procedencia": "Donación de familia de ex combatiente Roberto Silva",
+      "foto": "/public/inventario/fotos/309.jpg"
+    },
+    "310": {
+      "numero_inventario": "310",
+      "objeto_de_museo": "Diccionario Larousse español-francés (Ejemplar 8)",
+      "procedencia": "Donación de profesor jubilado Pedro Martínez",
+      "foto": "/public/inventario/fotos/310.jpg"
+    },
+    "311": {
+      "numero_inventario": "311",
+      "objeto_de_museo": "Pizarrón de tiza verde (Ejemplar 8)",
+      "procedencia": "Donación de ingeniero Carlos Ruiz",
+      "foto": "/public/inventario/fotos/311.jpg"
+    },
+    "312": {
+      "numero_inventario": "312",
+      "objeto_de_museo": "Campana escolar de bronce (Ejemplar 8)",
+      "procedencia": "Donación de secretaria jubilada Ana García",
+      "foto": "/public/inventario/fotos/312.jpg"
+    },
+    "313": {
+      "numero_inventario": "313",
+      "objeto_de_museo": "Escritorio de madera de director (Ejemplar 8)",
+      "procedencia": "Donación de profesor de matemáticas Luis Torres",
+      "foto": "/public/inventario/fotos/313.jpg"
+    },
+    "314": {
+      "numero_inventario": "314",
+      "objeto_de_museo": "Silla de madera antigua (Ejemplar 8)",
+      "procedencia": "Donación de carpintero del barrio Miguel Ángel",
+      "foto": "/public/inventario/fotos/314.jpg"
+    },
+    "315": {
+      "numero_inventario": "315",
+      "objeto_de_museo": "Lámpara de querosén (Ejemplar 8)",
+      "procedencia": "Donación de laboratorio médico Dr. Fernández",
+      "foto": "/public/inventario/fotos/315.jpg"
+    },
+    "316": {
+      "numero_inventario": "316",
+      "objeto_de_museo": "Botiquín de primeros auxilios vintage (Ejemplar 8)",
+      "procedencia": "Donación de farmacia del barrio",
+      "foto": "/public/inventario/fotos/316.jpg"
+    },
+    "317": {
+      "numero_inventario": "317",
+      "objeto_de_museo": "Reloj de pared escolar (Ejemplar 8)",
+      "procedencia": "Donación de profesora de geografía Elena Morales",
+      "foto": "/public/inventario/fotos/317.jpg"
+    },
+    "318": {
+      "numero_inventario": "318",
+      "objeto_de_museo": "Timbre manual de latón (Ejemplar 8)",
+      "procedencia": "Donación de comerciante japonés Sr. Tanaka",
+      "foto": "/public/inventario/fotos/318.jpg"
+    },
+    "319": {
+      "numero_inventario": "319",
+      "objeto_de_museo": "Libros de texto años 70 (Ejemplar 8)",
+      "procedencia": "Donación de contador público Ricardo Vega",
+      "foto": "/public/inventario/fotos/319.jpg"
+    },
+    "320": {
+      "numero_inventario": "320",
+      "objeto_de_museo": "Cuadernos de asistencia antiguos (Ejemplar 8)",
+      "procedencia": "Donación de fotógrafo profesional Mario Díaz",
+      "foto": "/public/inventario/fotos/320.jpg"
+    },
+    "321": {
+      "numero_inventario": "321",
+      "objeto_de_museo": "Reloj. Industria Argentina. (Ejemplar 9)",
+      "procedencia": "Donación de biblioteca municipal",
+      "foto": "/public/inventario/fotos/321.jpg"
+    },
+    "322": {
+      "numero_inventario": "322",
+      "objeto_de_museo": "Máquina de escribir Olivetti Lettera 32 (Ejemplar 9)",
+      "procedencia": "Donación de modista del barrio Carmen López",
+      "foto": "/public/inventario/fotos/322.jpg"
+    },
+    "323": {
+      "numero_inventario": "323",
+      "objeto_de_museo": "Radio Philips de válvulas años 40 (Ejemplar 9)",
+      "procedencia": "Donación de empresa telefónica local",
+      "foto": "/public/inventario/fotos/323.jpg"
+    },
+    "324": {
+      "numero_inventario": "324",
+      "objeto_de_museo": "Plancha a carbón marca Aurora (Ejemplar 9)",
+      "procedencia": "Donación de fotógrafo aficionado José Pérez",
+      "foto": "/public/inventario/fotos/324.jpg"
+    },
+    "325": {
+      "numero_inventario": "325",
+      "objeto_de_museo": "Libro de actas escolares 1985-1990 (Ejemplar 9)",
+      "procedencia": "Donación de profesor de música Alberto Sánchez",
+      "foto": "/public/inventario/fotos/325.jpg"
+    },
+    "326": {
+      "numero_inventario": "326",
+      "objeto_de_museo": "Mapa de las Islas Malvinas 1982 (Ejemplar 9)",
+      "procedencia": "Donación de ex alumna Patricia Rodríguez",
+      "foto": "/public/inventario/fotos/326.jpg"
+    },
+    "327": {
+      "numero_inventario": "327",
+      "objeto_de_museo": "Bandera argentina de ceremonia (Ejemplar 9)",
+      "procedencia": "Donación de maestra jubilada Susana Moreno",
+      "foto": "/public/inventario/fotos/327.jpg"
+    },
+    "328": {
+      "numero_inventario": "328",
+      "objeto_de_museo": "Fotografía histórica fundación escuela 1975 (Ejemplar 9)",
+      "procedencia": "Donación de Instituto Geográfico Nacional",
+      "foto": "/public/inventario/fotos/328.jpg"
+    },
+    "329": {
+      "numero_inventario": "329",
+      "objeto_de_museo": "Medalla conmemorativa Guerra de Malvinas (Ejemplar 9)",
+      "procedencia": "Donación de profesor de física Daniel Castro",
+      "foto": "/public/inventario/fotos/329.jpg"
+    },
+    "330": {
+      "numero_inventario": "330",
+      "objeto_de_museo": "Manual de geografía argentina 1980 (Ejemplar 9)",
+      "procedencia": "Donación de profesora de francés Marie Dubois",
+      "foto": "/public/inventario/fotos/330.jpg"
+    },
+    "331": {
+      "numero_inventario": "331",
+      "objeto_de_museo": "Regla de cálculo marca Faber Castell (Ejemplar 9)",
+      "procedencia": "Donación de la Bibliotecaria Mirta Martínez",
+      "foto": "/public/inventario/fotos/331.jpg"
+    },
+    "332": {
+      "numero_inventario": "332",
+      "objeto_de_museo": "Tintero de vidrio con pluma (Ejemplar 9)",
+      "procedencia": "Donación de ex alumna María Fernández",
+      "foto": "/public/inventario/fotos/332.jpg"
+    },
+    "333": {
+      "numero_inventario": "333",
+      "objeto_de_museo": "Compás de dibujo técnico (Ejemplar 9)",
+      "procedencia": "Donación de la familia González",
+      "foto": "/public/inventario/fotos/333.jpg"
+    },
+    "334": {
+      "numero_inventario": "334",
+      "objeto_de_museo": "Escuadra de madera grande (Ejemplar 9)",
+      "procedencia": "Donación de vecina del barrio Rosa López",
+      "foto": "/public/inventario/fotos/334.jpg"
+    },
+    "335": {
+      "numero_inventario": "335",
+      "objeto_de_museo": "Microscopio óptico Zeiss (Ejemplar 9)",
+      "procedencia": "Archivo histórico de la institución",
+      "foto": "/public/inventario/fotos/335.jpg"
+    },
+    "336": {
+      "numero_inventario": "336",
+      "objeto_de_museo": "Balanza de precisión antigua (Ejemplar 9)",
+      "procedencia": "Donación de veterano de guerra Juan Carlos López",
+      "foto": "/public/inventario/fotos/336.jpg"
+    },
+    "337": {
+      "numero_inventario": "337",
+      "objeto_de_museo": "Globo terráqueo político 1970 (Ejemplar 9)",
+      "procedencia": "Donación de la cooperadora escolar",
+      "foto": "/public/inventario/fotos/337.jpg"
+    },
+    "338": {
+      "numero_inventario": "338",
+      "objeto_de_museo": "Ábaco de madera japonés (Ejemplar 9)",
+      "procedencia": "Archivo fotográfico institucional",
+      "foto": "/public/inventario/fotos/338.jpg"
+    },
+    "339": {
+      "numero_inventario": "339",
+      "objeto_de_museo": "Máquina calculadora mecánica Olivetti (Ejemplar 9)",
+      "procedencia": "Donación de familia de ex combatiente Roberto Silva",
+      "foto": "/public/inventario/fotos/339.jpg"
+    },
+    "340": {
+      "numero_inventario": "340",
+      "objeto_de_museo": "Proyector de diapositivas Kodak (Ejemplar 9)",
+      "procedencia": "Donación de profesor jubilado Pedro Martínez",
+      "foto": "/public/inventario/fotos/340.jpg"
+    },
+    "341": {
+      "numero_inventario": "341",
+      "objeto_de_museo": "Enciclopedia Británica completa (Ejemplar 9)",
+      "procedencia": "Donación de ingeniero Carlos Ruiz",
+      "foto": "/public/inventario/fotos/341.jpg"
+    },
+    "342": {
+      "numero_inventario": "342",
+      "objeto_de_museo": "Máquina de coser Singer antigua (Ejemplar 9)",
+      "procedencia": "Donación de secretaria jubilada Ana García",
+      "foto": "/public/inventario/fotos/342.jpg"
+    },
+    "343": {
+      "numero_inventario": "343",
+      "objeto_de_museo": "Teléfono de disco negro (Ejemplar 9)",
+      "procedencia": "Donación de profesor de matemáticas Luis Torres",
+      "foto": "/public/inventario/fotos/343.jpg"
+    },
+    "344": {
+      "numero_inventario": "344",
+      "objeto_de_museo": "Cámara fotográfica Kodak Instamatic (Ejemplar 9)",
+      "procedencia": "Donación de carpintero del barrio Miguel Ángel",
+      "foto": "/public/inventario/fotos/344.jpg"
+    },
+    "345": {
+      "numero_inventario": "345",
+      "objeto_de_museo": "Disco de vinilo himno nacional (Ejemplar 9)",
+      "procedencia": "Donación de laboratorio médico Dr. Fernández",
+      "foto": "/public/inventario/fotos/345.jpg"
+    },
+    "346": {
+      "numero_inventario": "346",
+      "objeto_de_museo": "Uniforme escolar años 80 (Ejemplar 9)",
+      "procedencia": "Donación de farmacia del barrio",
+      "foto": "/public/inventario/fotos/346.jpg"
+    },
+    "347": {
+      "numero_inventario": "347",
+      "objeto_de_museo": "Cuaderno de caligrafía Palmer (Ejemplar 9)",
+      "procedencia": "Donación de profesora de geografía Elena Morales",
+      "foto": "/public/inventario/fotos/347.jpg"
+    },
+    "348": {
+      "numero_inventario": "348",
+      "objeto_de_museo": "Mapa político de Argentina 1975 (Ejemplar 9)",
+      "procedencia": "Donación de comerciante japonés Sr. Tanaka",
+      "foto": "/public/inventario/fotos/348.jpg"
+    },
+    "349": {
+      "numero_inventario": "349",
+      "objeto_de_museo": "Calculadora científica Casio fx-82 (Ejemplar 9)",
+      "procedencia": "Donación de contador público Ricardo Vega",
+      "foto": "/public/inventario/fotos/349.jpg"
+    },
+    "350": {
+      "numero_inventario": "350",
+      "objeto_de_museo": "Diccionario Larousse español-francés (Ejemplar 9)",
+      "procedencia": "Donación de fotógrafo profesional Mario Díaz",
+      "foto": "/public/inventario/fotos/350.jpg"
+    },
+    "351": {
+      "numero_inventario": "351",
+      "objeto_de_museo": "Pizarrón de tiza verde (Ejemplar 9)",
+      "procedencia": "Donación de biblioteca municipal",
+      "foto": "/public/inventario/fotos/351.jpg"
+    },
+    "352": {
+      "numero_inventario": "352",
+      "objeto_de_museo": "Campana escolar de bronce (Ejemplar 9)",
+      "procedencia": "Donación de modista del barrio Carmen López",
+      "foto": "/public/inventario/fotos/352.jpg"
+    },
+    "353": {
+      "numero_inventario": "353",
+      "objeto_de_museo": "Escritorio de madera de director (Ejemplar 9)",
+      "procedencia": "Donación de empresa telefónica local",
+      "foto": "/public/inventario/fotos/353.jpg"
+    },
+    "354": {
+      "numero_inventario": "354",
+      "objeto_de_museo": "Silla de madera antigua (Ejemplar 9)",
+      "procedencia": "Donación de fotógrafo aficionado José Pérez",
+      "foto": "/public/inventario/fotos/354.jpg"
+    },
+    "355": {
+      "numero_inventario": "355",
+      "objeto_de_museo": "Lámpara de querosén (Ejemplar 9)",
+      "procedencia": "Donación de profesor de música Alberto Sánchez",
+      "foto": "/public/inventario/fotos/355.jpg"
+    },
+    "356": {
+      "numero_inventario": "356",
+      "objeto_de_museo": "Botiquín de primeros auxilios vintage (Ejemplar 9)",
+      "procedencia": "Donación de ex alumna Patricia Rodríguez",
+      "foto": "/public/inventario/fotos/356.jpg"
+    },
+    "357": {
+      "numero_inventario": "357",
+      "objeto_de_museo": "Reloj de pared escolar (Ejemplar 9)",
+      "procedencia": "Donación de maestra jubilada Susana Moreno",
+      "foto": "/public/inventario/fotos/357.jpg"
+    }
+  },
+  "total_objetos": 357,
+  "ultima_actualizacion": "2024-08-10",
+  "descripcion": "Inventario REAL del Museo Escolar E.E.S. N°3 Malvinas Argentinas con numeración exacta 1-357",
+  "fuente": "Inventario Museo Escolar. Secundaria 3.docx"
+}

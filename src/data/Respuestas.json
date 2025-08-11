@@ -1,0 +1,112 @@
+{
+  "A": {
+    "nombre": "Delfín Austral",
+    "temas": [
+      {
+        "nombre": "Presentación",
+        "preguntas": [
+          {
+            "pregunta": "¡Hola!",
+            "respuesta": "¡Hola! Soy Malvín fuí creado para acompañarte en el Museo Escolar de la Escuela de Educación Secundaria N°3 Malvinas Argentinas. Estoy aquí para enseñarte sobre las Islas Malvinas, nuestra historia, y ayudarte a descubrir los objetos del inventario del museo. ¡Comencemos a explorar juntos!"
+          },
+          {
+            "pregunta": "¿Qué eres?",
+            "respuesta": "Soy un chatbot 3D interactivo diseñado como parte del Museo Escolar de la E.E.S. N°3 Malvinas Argentinas. Mi apariencia está basada en un delfín Austral, una especie que habita en las aguas frías del Atlántico Sur, cerca de las Islas Malvinas."
+          },
+          {
+            "pregunta": "¿Para qué fuiste creado?",
+            "respuesta": "Fui creado para ser un recurso educativo innovador dentro del museo escolar. Mi objetivo es facilitar el aprendizaje interactivo sobre las Islas Malvinas, su historia y la guerra de 1982."
+          }
+        ]
+      }
+    ]
+  },
+  "B": {
+    "nombre": "Escuela Secundaria",
+    "temas": [
+      {
+        "nombre": "Historia",
+        "preguntas": [
+          {
+            "pregunta": "¿Cuándo se fundó la escuela?",
+            "respuesta": "La Escuela de Educación Secundaria N° 3 Malvinas Argentinas fue fundada en 1990 en el distrito de Ezeiza, específicamente en la localidad de Tristán Suárez, provincia de Buenos Aires, Argentina."
+          },
+          {
+            "pregunta": "¿Por qué se llama \"Malvinas Argentinas\" y qué proyectos importantes ha desarrollado?",
+            "respuesta": "La escuela lleva el nombre \"Malvinas Argentinas\" en honor a la causa nacional argentina por la soberanía de las Islas Malvinas. Entre sus proyectos destacados se encuentran: Malvinas nos une, Malvinas nos cuida, proyecto medioambiental, la huerta escolar y el aula Verde, espacio creado luego del COVID-19, a fin de compartir un espacio de estudio al aire libre, proyecto ropero solidario, te llevas lo que necesites, dejas lo que ya no uses, proyecto centro de estudiantes elecciones democráticas que se llevan a cabo todos los años, a fin de garantizar y incentivar la participación de los estudiantes en sus trayectorias educativas, proyecto museo escolar, recopilación de objetos antiguos, entre otros. Feria de micro emprendimientos, donde los estudiantes exponen diferentes desarrollos económicos de su creación, poniendo en práctica los conocimientos adquiridos en el aula, entre otros."
+          },
+          {
+            "pregunta": "¿La escuela cuenta con espacios dedicados a exhibir su historia y trabajos estudiantiles?",
+            "respuesta": "Sí, la escuela incluye espacios como: Feria del Libro y Muestras de Trabajos Estudiantiles: Exhiben proyectos realizados por los alumnos en diversas materias, disponibles en las galerías de la institución. Actos Cívicos y Artísticos: Eventos como la suelta de globos en memoria de exalumnos y docentes, y presentaciones culturales, forman parte de su patrimonio inmaterial."
+          }
+        ]
+      }
+    ]
+  },
+  "Malvinas": {
+    "nombre": "Malvinas",
+    "temas": [
+      {
+        "nombre": "Contexto Geográfico e Histórico de las Islas Malvinas",
+        "preguntas": [
+          {
+            "pregunta": "¿Quién descubrió las Islas Malvinas?",
+            "respuesta": "Las Islas Malvinas fueron avistadas por primera vez por navegantes europeos en el siglo XVI. Existe debate sobre si fueron los españoles Esteban Gómez (1520) o los holandeses Sebald de Weert (1600) los primeros en avistarlas."
+          },
+          {
+            "pregunta": "¿Cuál es la historia territorial de las Malvinas?",
+            "respuesta": "Las Islas Malvinas han tenido una historia territorial compleja, con presencia española, francesa, británica y argentina a lo largo de los siglos. Argentina reclama soberanía sobre las islas desde 1833."
+          }
+        ]
+      },
+      {
+        "nombre": "Desarrollo y Consecuencias del Conflicto Armado (1982)",
+        "preguntas": [
+          {
+            "pregunta": "¿Cuándo comenzó la Guerra de Malvinas?",
+            "respuesta": "La Guerra de Malvinas comenzó el 2 de abril de 1982 cuando las fuerzas armadas argentinas desembarcaron en las islas en la Operación Rosario, recuperando el control de las islas que estaban bajo administración británica."
+          },
+          {
+            "pregunta": "¿Cuándo terminó el conflicto?",
+            "respuesta": "El conflicto terminó el 14 de junio de 1982 con la rendición de las fuerzas argentinas en Puerto Argentino (Stanley). La guerra duró 74 días."
+          },
+          {
+            "pregunta": "¿Cuáles son los principales sectores geográficos de las islas Malvinas?",
+            "respuesta": "Las islas Malvinas están compuestas por dos islas principales: Soledad y Gran Malvina, y más de 700 islas menores. Los sectores clave durante la guerra fueron Puerto Argentino, capital y centro estratégico. Goose Green-Darwin fue zona de combates terrestres cruciales durante el conflicto. Monte Longdon representó una altura dominante de importancia estratégica militar."
+          }
+        ]
+      }
+    ]
+  },
+  "C": {
+    "nombre": "Museo Escolar",
+    "temas": [
+      {
+        "nombre": "Información General",
+        "preguntas": [
+          {
+            "pregunta": "¿Qué es el museo escolar?",
+            "respuesta": "El museo escolar es un espacio educativo dentro de la E.E.S. N°3 Malvinas Argentinas que preserva y exhibe objetos históricos donados por la comunidad educativa."
+          },
+          {
+            "pregunta": "¿Cuáles son los objetivos del museo escolar?",
+            "respuesta": "Los objetivos del museo escolar incluyen preservar la memoria histórica, promover el aprendizaje interactivo y fortalecer la identidad institucional."
+          },
+          {
+            "pregunta": "¿Qué actividades se realizan en el museo escolar?",
+            "respuesta": "En el museo escolar se realizan visitas guiadas, talleres educativos, exposiciones temáticas y actividades de investigación histórica."
+          },
+          {
+            "pregunta": "¿Qué recursos están disponibles en el museo escolar?",
+            "respuesta": "El museo cuenta con una colección de 357 objetos catalogados, material audiovisual, documentos históricos y este sistema interactivo de consulta."
+          },
+          {
+            "pregunta": "Buscador de artículos del Inventario con número de orden",
+            "respuesta": "Accede al buscador especializado del inventario del museo. Puedes consultar cualquiera de los 357 objetos catalogados ingresando su número de inventario para obtener información detallada sobre el objeto, su procedencia y fotografía.",
+            "isInventorySearch": true
+          }
+        ]
+      }
+    ]
+  }
+}

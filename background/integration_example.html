@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Aplicación con Fondo Océano</title>
+    
+    <!-- CSS de tu aplicación -->
+    <link rel="stylesheet" href="tu-estilo.css">
+    <!-- CSS del fondo del océano -->
+    <link rel="stylesheet" href="ocean-background.css">
+    
+    <style>
+        /* Asegurar que tu contenido esté por encima del fondo */
+        .main-content {
+            position: relative;
+            z-index: 10;
+            /* Aquí van tus estilos existentes */
+        }
+    </style>
+</head>
+<body>
+    <!-- Fondo animado del océano -->
+    <div id="ocean-background" class="ocean-background">
+        <div class="ocean-container">
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="cursor-glow"></div>
+        </div>
+    </div>
+
+    <!-- Tu contenido principal -->
+    <div class="main-content">
+        <!-- Aquí va tu aplicación existente -->
+        <div class="dolphin-interface">
+            <!-- Tu interfaz del delfín y menús -->
+        </div>
+    </div>
+
+    <!-- JavaScript del fondo del océano -->
+    <script src="ocean-background.js"></script>
+    <!-- Tu JavaScript existente -->
+    <script src="tu-script.js"></script>
+</body>
+</html>

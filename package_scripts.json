@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev-with-inventory": "python3 auto_start_inventory.py & sleep 5 && yarn dev",
+    "start-inventory": "python3 auto_start_inventory.py",
+    "dev-full": "concurrently \"python3 auto_start_inventory.py\" \"yarn dev\"",
+    "stop-inventory": "pkill -f inventory_server.py"
+  }
+}

@@ -1,37 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react";
 
-// Define audio and transcript file names
-const filePrefixes = {
-  "1.setUp": {
-    audio: "1.setUp.wav",
-    transcript: "1.setUp.json",
-  },
-  "2.missions": {
-    audio: "2.missions.wav",
-    transcript: "2.missions.json",
-  },
-  "3.offers": {
-    audio: "3.offers.wav",
-    transcript: "3.offers.json",
-  },
-  "4.milestone": {
-    audio: "4.milestone.wav",
-    transcript: "4.milestone.json",
-  },
-  "5.trends": {
-    audio: "5.trends.wav",
-    transcript: "5.trends.json",
-  },
-  "6.future": {
-    audio: "6.future.wav",
-    transcript: "6.future.json",
-  },
-  "7.sorry": {
-    audio: "7.sorry.wav",
-    transcript: "7.sorry.json",
-  },
-};
-
 const ChatContext = createContext();
 
 export const ChatProvider = ({ children }) => {
@@ -40,61 +8,55 @@ export const ChatProvider = ({ children }) => {
   const [cameraZoomed, setCameraZoomed] = useState(true);
   const [message, setMessage] = useState(null);
 
-  // Fetch base64 encoded audio file
-  const getBase64 = async (url) => {
-    const response = await fetch(url);
-    const blob = await response.blob();
-    return new Promise((resolve, reject) => {
-      const reader = new FileReader();
-      reader.onloadend = () => resolve(reader.result.split(",")[1]);
-      reader.onerror = reject;
-      reader.readAsDataURL(blob);
-    });
-  };
-
-  // Fetch JSON transcript
-  const fetchJson = async (url) => {
-    const response = await fetch(url);
-    return response.json();
-  };
-
-  // Process user chat message
+  // Procesar mensaje del usuario con DeepSeek-R1 usando fetch
   const chat = async (userMessage) => {
     setLoading(true);
-
-    let filePrefix = "7.sorry"; // Default to "7.sorry" if no matching prefix found
-
-    if (userMessage && userMessage.trim() !== "") {
-      const messageLowerCase = userMessage.toLowerCase();
-      if (messageLowerCase.includes("setup") || messageLowerCase.includes("set up")) {
-        filePrefix = "1.setUp";
-      } else if (messageLowerCase.includes("mission") || messageLowerCase.includes("vision")) {
-        filePrefix = "2.missions";
-      } else if (messageLowerCase.includes("types of courses") || messageLowerCase.includes("offer")) {
-        filePrefix = "3.offers";
-      } else if (messageLowerCase.includes("milestone") || messageLowerCase.includes("milestones")) {
-        filePrefix = "4.milestone";
-      } else if (messageLowerCase.includes("current") || messageLowerCase.includes("trends") || messageLowerCase.includes("adult learning")) {
-        filePrefix = "5.trends";
-      } else if (messageLowerCase.includes("looking forward") || messageLowerCase.includes("future")) {
-        filePrefix = "6.future";
+    try {
+      const response = await fetch('http://localhost:11434/api/chat', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          model: 'deepseek-r1',
+          messages: [
+            {
+              role: 'system',
+              content: 'Eres un asistente virtual amigable y servicial. SIEMPRE responde únicamente en español, sin importar el idioma de la pregunta. Si el usuario pregunta en otro idioma, responde en español. Sé claro, conciso y natural. Responde de manera completa y detallada.'
+            },
+            {
+              role: 'user',
+              content: userMessage
+            }
+          ]
+        }),
+      });
+      const data = await response.json();
+      let botResponse = data.message?.content || data.message || data.content || data;
+      if (!botResponse || (typeof botResponse === 'string' && botResponse.trim() === '')) {
+        botResponse = 'Lo siento, no pude generar una respuesta. Por favor, intenta de nuevo o haz otra pregunta.';
       }
+      const message = {
+        text: botResponse,
+        audio: null,
+        lipsync: [],
+        facialExpression: "smile",
+        animation: "Swim",
+      };
+      setMessages((prevMessages) => [...prevMessages, message]);
+    } catch (error) {
+      console.error('Error al obtener respuesta del modelo:', error);
+      const errorMessage = {
+        text: "Lo siento, hubo un error al procesar tu mensaje. Por favor, intenta de nuevo.",
+        audio: null,
+        lipsync: [],
+        facialExpression: "sad",
+        animation: "Swim",
+      };
+      setMessages((prevMessages) => [...prevMessages, errorMessage]);
+    } finally {
+      setLoading(false);
     }
-
-    const fileName = filePrefixes[filePrefix];
-    const audioUrl = `./audios/${fileName.audio}`;
-    const transcriptUrl = `./audios/${fileName.transcript}`;
-
-    const message = {
-      text: filePrefix === "7.sorry" ? "Sorry, I couldn't understand that." : `Playing audio for ${filePrefix.replace(/\d\./, '').replace(/\./g, ' ')}`,
-      audio: await getBase64(audioUrl),
-      lipsync: await fetchJson(transcriptUrl),
-      facialExpression: "smile",
-      animation: "Idle",
-    };
-
-    setMessages((prevMessages) => [...prevMessages, message]);
-    setLoading(false);
   };
 
   useEffect(() => {
@@ -118,6 +80,7 @@ export const ChatProvider = ({ children }) => {
         loading,
         cameraZoomed,
         setCameraZoomed,
+        messages,
       }}
     >
       {children}

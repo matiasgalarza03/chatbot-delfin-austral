@@ -1,0 +1,23 @@
+📤 CÓMO TRANSFERIR A WINDOWS
+===========================
+
+OPCIÓN 1: Comprimir y transferir
+- Comprimir toda la carpeta en ZIP
+- Transferir por USB, email, o nube
+- Extraer en Windows
+
+OPCIÓN 2: Git (Recomendado)
+- Hacer commit de todos los cambios
+- Push al repositorio
+- Clone en Windows
+
+OPCIÓN 3: Sincronización en nube
+- Subir a Google Drive/OneDrive/Dropbox
+- Descargar en Windows
+
+⚠️ IMPORTANTE:
+- NO comprimir node_modules (ya se eliminó)
+- Mantener estructura de carpetas
+- Verificar que se transfieran archivos .bat
+
+📁 Tamaño aproximado: 8,4G

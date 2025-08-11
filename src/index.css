@@ -4,21 +4,280 @@
 @tailwind utilities;
 
 :root {
-  --leva-sizes-rootWidth: 340px;
+    --leva-sizes-rootWidth: 340px;
 }
 
 #root {
-  width: 100vw;
-  height: 100vh;
+    width: 100vw;
+    height: 100vh;
+    background: transparent !important;
 }
 
 body {
-  margin: 0;
-  background-color: #ffffff;
-  background-image: none;
+    margin: 0;
+    background: transparent !important;
+    background-image: none !important;
 }
 
 body.greenScreen {
-  background-color: #00ff00;
-  background-image: none;
+    background-color: #00ff00;
+    background-image: none;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.05);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Animaciones para subtítulos */
+@keyframes subtitleFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(15px) scale(0.98);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes subtitleSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes textGlow {
+    0%,
+    100% {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    }
+    50% {
+        text-shadow:
+            2px 2px 8px rgba(0, 0, 0, 0.9),
+            0 0 10px rgba(255, 255, 255, 0.2);
+    }
+}
+
+/* Estilos para subtítulos optimizados - Sin fondo */
+.subtitle-container {
+    animation: subtitleFadeIn 0.5s ease-out;
+    font-feature-settings:
+        "liga" 1,
+        "kern" 1,
+        "calt" 1;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-optical-sizing: auto;
+    font-variant-numeric: proportional-nums;
+}
+
+.subtitle-text {
+    line-height: 1.4;
+    word-spacing: 0.15em;
+    letter-spacing: 0.05em;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    /* Texto limpio sin sombras negras */
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1);
+}
+
+/* Mejoras para controles de edición */
+.control-slider {
+    appearance: none;
+    height: 6px;
+    border-radius: 3px;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.3) 0%,
+        rgba(255, 107, 53, 0.8) 100%
+    );
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.control-slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #ff6b35;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(255, 107, 53, 0.4);
+    transition: all 0.2s ease;
+}
+
+.control-slider::-webkit-slider-thumb:hover {
+    transform: scale(1.1);
+    box-shadow: 0 3px 8px rgba(255, 107, 53, 0.6);
+}
+
+.control-slider::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #ff6b35;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 6px rgba(255, 107, 53, 0.4);
+    transition: all 0.2s ease;
+}
+
+/* Animación para el indicador de modo edición */
+@keyframes editModeGlow {
+    0%,
+    100% {
+        box-shadow: 0 4px 12px rgba(255, 165, 0, 0.3);
+    }
+    50% {
+        box-shadow: 0 6px 20px rgba(255, 165, 0, 0.6);
+    }
+}
+
+.edit-mode-indicator {
+    animation:
+        pulse 2s infinite,
+        editModeGlow 3s infinite;
+}
+
+/* Optimizaciones de rendimiento para animaciones */
+.subtitle-container,
+.control-slider,
+.edit-mode-indicator {
+    will-change: transform, opacity;
+}
+
+/* Media queries para responsive */
+@media (max-width: 768px) {
+    .subtitle-container,
+    .professional-text {
+        font-size: clamp(1rem, 4vw, 1.4rem) !important;
+        max-width: 95vw !important;
+        padding: 0.8rem 1rem !important;
+    }
+
+    .control-slider {
+        width: 80px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .subtitle-container,
+    .professional-text {
+        font-size: clamp(0.9rem, 3.5vw, 1.2rem) !important;
+        line-height: 1.3 !important;
+        padding: 0.6rem 0.8rem !important;
+    }
+}
+
+/* Clase para texto limpio y profesional */
+.clean-subtitle-text {
+    color: white;
+    font-family:
+        "Inter",
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-shadow: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+/* Estilos adicionales para texto profesional sin fondo */
+.professional-text {
+    font-family:
+        "Inter",
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    /* Texto limpio y profesional sin sombras oscuras */
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.1);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+/* Animación mejorada para entrada de texto */
+@keyframes textAppear {
+    0% {
+        opacity: 0;
+        transform: translateY(12px) scale(0.97);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes subtitleSlideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes progressPulse {
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.7;
+        transform: scale(1.1);
+    }
+}
+
+/* Animación para indicadores de progreso */
+.subtitle-progress-indicator {
+    animation: progressPulse 2s ease-in-out infinite;
+}
+
+/* Efecto de transición suave para cambios de texto */
+@keyframes textTransition {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.3;
+        transform: scale(0.98);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
