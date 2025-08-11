@@ -1,0 +1,132 @@
+/* Contenedor principal */
+.grupos-tematicos-container {
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+}
+
+/* Estilo del delfín central */
+.delfin-central {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 220px;
+  height: 220px;
+  background: url('/delfin.png') no-repeat center center/contain;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  pointer-events: none;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.15));
+}
+
+/* Estilo base de los botones circulares */
+.icono-circular-grupo {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 3px solid;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 3;
+  text-align: center;
+  padding: 0 10px;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  line-height: 1.15;
+  font-size: 1.02rem;
+  white-space: pre-line;
+  overflow: hidden;
+  will-change: transform, box-shadow, background-color;
+  transition: all 0.3s cubic-bezier(0.4, 2, 0.6, 1);
+  transform-origin: center;
+  backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Estilo del texto dentro de los botones */
+.icono-circular-grupo span {
+  width: 100%;
+  display: block;
+  font-size: inherit;
+  line-height: 1.15;
+  word-break: break-word;
+  white-space: pre-line;
+  will-change: transform;
+  transform-origin: center;
+}
+
+/* Efecto de pulsación al hacer clic */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(0.95); }
+  100% { transform: scale(1); }
+}
+
+/* Clase para cuando un botón está activo */
+.icono-circular-grupo:active {
+  animation: pulse 0.3s ease-out;
+}
+
+/* Mejoras de accesibilidad para el foco */
+.icono-circular-grupo:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.5) !important;
+  transform: scale(1.1);
+}
+
+/* Efecto de brillo al pasar el ratón */
+.icono-circular-grupo::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 70%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.icono-circular-grupo:hover::after {
+  opacity: 0.6;
+}
+
+/* Media queries para responsividad */
+@media (max-width: 768px) {
+  .icono-circular-grupo {
+    width: 100px;
+    height: 100px;
+    font-size: 0.9rem;
+  }
+  
+  .delfin-central {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .icono-circular-grupo {
+    width: 85px;
+    height: 85px;
+    font-size: 0.8rem;
+  }
+  
+  .delfin-central {
+    width: 150px;
+    height: 150px;
+  }
+} 

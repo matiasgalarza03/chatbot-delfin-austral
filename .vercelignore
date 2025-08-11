@@ -1,0 +1,14 @@
+node_modules/
+.git
+.gitignore
+*.log
+.idea
+.vscode
+.DS_Store
+public/audios/
+public/models/
+prisma/
+*.py
+*.bat
+*.sh
+*.md

@@ -4,64 +4,69 @@ import {
   Environment,
   Text,
 } from "@react-three/drei";
-import { Suspense, useEffect, useRef, useState } from "react";
-import { useChat } from "../hooks/useChat";
+import { Suspense, useEffect, useRef } from "react";
 import { Avatar } from "./Avatar";
-
-const Dots = (props) => {
-  const { loading } = useChat();
-  const [loadingText, setLoadingText] = useState("");
-  useEffect(() => {
-    if (loading) {
-      const interval = setInterval(() => {
-        setLoadingText((loadingText) => {
-          if (loadingText.length > 2) {
-            return ".";
-          }
-          return loadingText + ".";
-        });
-      }, 800);
-      return () => clearInterval(interval);
-    } else {
-      setLoadingText("");
-    }
-  }, [loading]);
-  if (!loading) return null;
-  return (
-    <group {...props}>
-      <Text fontSize={0.14} anchorX={"left"} anchorY={"bottom"}>
-        {loadingText}
-        <meshBasicMaterial attach="material" color="black" />
-      </Text>
-    </group>
-  );
-};
 
 export const Experience = () => {
   const cameraControls = useRef();
-  const { cameraZoomed } = useChat();
+  const initialPosition = { position: [0, 0.5, 2.1], target: [0, 0.1, 0] };
 
   useEffect(() => {
-    cameraControls.current.setLookAt(0, 2, 5, 0, 1.5, 0);
+    if (cameraControls.current) {
+      cameraControls.current.setLookAt(...initialPosition.position, ...initialPosition.target, true);
+    }
   }, []);
 
   useEffect(() => {
-    if (cameraZoomed) {
-      cameraControls.current.setLookAt(0, 1.5, 2.0, 0.04, 1.5, 0, true);
-    } else {
-      cameraControls.current.setLookAt(0, 2.2, 5, 0, 1.0, 0, true);
-    }
-  }, [cameraZoomed]);
+    const controls = cameraControls.current;
+    if (!controls) return;
+    const handleMouseUp = () => {
+      controls.setLookAt(...initialPosition.position, ...initialPosition.target, true);
+    };
+    window.addEventListener("mouseup", handleMouseUp);
+    return () => window.removeEventListener("mouseup", handleMouseUp);
+  }, []);
+
   return (
     <>
-      <CameraControls ref={cameraControls} />
+      <color attach="background" args={["#EFE9E9"]} />
+      
+      <CameraControls 
+        ref={cameraControls}
+        maxPolarAngle={Math.PI}
+        minPolarAngle={0}
+        maxAzimuthAngle={Math.PI}
+        minAzimuthAngle={-Math.PI}
+        minDistance={2.1}
+        maxDistance={2.1}
+        enablePan={false}
+        enableZoom={false}
+        smoothTime={0.5}
+      />
+      
       <Environment preset="sunset" />
-      {/* Wrapping Dots into Suspense to prevent Blink when Troika/Font is loaded */}
-      <Suspense>
-        <Dots position-y={1.75} position-x={-0.02} />
+      
+      <ambientLight intensity={0.6} />
+      <directionalLight 
+        position={[10, 10, 5]} 
+        intensity={0.8} 
+        castShadow
+        shadow-mapSize={[1024, 1024]}
+      />
+      <directionalLight 
+        position={[-10, 10, 5]} 
+        intensity={0.4}
+      />
+      
+      <Suspense fallback={
+        <Text color="black" position={[0, 0, 0]} fontSize={0.5} anchorX="center" anchorY="middle">
+          Cargando modelo...
+        </Text>
+      }>
+        <Avatar position={[0, -0.7, 0]} scale={1.25} />
       </Suspense>
-      <Avatar />
-      <ContactShadows opacity={0.7} />
+      
+      {/* <ContactShadows ... /> */}
     </>
   );
 };
