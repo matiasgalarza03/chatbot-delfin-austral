@@ -13,7 +13,7 @@ const AppRoot = () => {
 
   // Cargar los datos necesarios
   React.useEffect(() => {
-    fetch("/data/Respuestas.json")
+    fetch("/data/respuestas.json")
       .then((response) => response.json())
       .then((jsonData) => {
         setData(jsonData);

@@ -1,0 +1,19 @@
+{
+  "preguntas": [
+    {
+      "id": 1,
+      "pregunta": "¿Cuál es el tema principal de esta exposición?",
+      "categoria": "general"
+    },
+    {
+      "id": 2,
+      "pregunta": "¿Qué información puedo obtener sobre Malvinas?",
+      "categoria": "malvinas"
+    },
+    {
+      "id": 3,
+      "pregunta": "¿Qué actividades interactivas hay disponibles?",
+      "categoria": "interactivo"
+    }
+  ]
+}

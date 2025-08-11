@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node copy-essential-assets.js",
-    "build:web": "vite build && node copy-essential-assets.js",
+    "prebuild": "node copy-essential-assets.js",
+    "build": "vite build",
+    "postbuild": "node copy-essential-assets.js",
+    "build:web": "npm run build",
     "start": "node server.js",
     "preview": "vite preview",
     "dev-with-inventory": "python3 auto_start_inventory.py & sleep 5 && yarn dev",
