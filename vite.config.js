@@ -62,7 +62,7 @@ export default defineConfig({
     // Copy public directory to dist
     copyPublicDir: true,
     // Minify output
-    minify: 'terser',
+    minify: 'esbuild',
     // Enable brotli compression
     brotliSize: true,
   },
