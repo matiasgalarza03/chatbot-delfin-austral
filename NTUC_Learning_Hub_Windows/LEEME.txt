@@ -1,0 +1,19 @@
+INSTRUCCIONES DE INSTALACIÓN PARA WINDOWS
+======================================
+
+1. INSTALAR NODE.JS (si no está instalado)
+   - Descargar desde: https://nodejs.org/
+   - Ejecutar el instalador y seguir las instrucciones
+
+2. INSTALAR SERVE GLOBALMENTE (abrir CMD como administrador):
+   npm install -g serve
+
+3. INICIAR LA APLICACIÓN:
+   - Hacer doble clic en "Iniciar.bat"
+   - O abrir CMD, navegar a esta carpeta y ejecutar:
+     serve -s dist -l 5000
+
+4. ABRIR EL NAVEGADOR:
+   - Abrir http://localhost:5000 en tu navegador
+
+Para cerrar la aplicación, simplemente cierra la ventana del CMD.

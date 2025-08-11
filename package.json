@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build && node copy-essential-assets.js",
     "build:web": "vite build && node copy-essential-assets.js",
+    "start": "node server.js",
     "preview": "vite preview",
     "dev-with-inventory": "python3 auto_start_inventory.py & sleep 5 && yarn dev",
     "start-inventory": "python3 auto_start_inventory.py",
@@ -15,6 +16,8 @@
     "vercel-start": "vite preview --port 3000"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
     "@capacitor-community/speech-recognition": "^6.0.1",
     "@capacitor-community/text-to-speech": "^4.0.2",
     "@capacitor/android": "^6.1.0",

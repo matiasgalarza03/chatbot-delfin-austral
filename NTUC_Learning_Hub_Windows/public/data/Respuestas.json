@@ -1,0 +1,346 @@
+{
+  "A": {
+    "nombre": "Delfín Austral",
+    "temas": [
+      {
+        "nombre": "Presentación",
+        "preguntas": [
+          {
+            "pregunta": "¡Hola!",
+            "respuesta": "¡Hola! Soy Malvín fuí creado para acompañarte en el Museo Escolar de la Escuela de Educación Secundaria N°3 Malvinas Argentinas. Estoy aquí para enseñarte sobre las Islas Malvinas, nuestra historia, y ayudarte a descubrir los objetos del inventario del museo. ¡Comencemos a explorar juntos!"
+          }
+        ]
+      },
+      {
+        "nombre": "Naturaleza",
+        "preguntas": [
+          {
+            "pregunta": "¿Qué eres?",
+            "respuesta": "Soy un chatbot 3D interactivo diseñado como parte del Museo Escolar de la E.E.S. N°3 Malvinas Argentinas. Mi apariencia está basada en un delfín Austral (Lagenorhynchus australis), una especie que habita en las aguas frías del Atlántico Sur, cerca de las Islas Malvinas. Fui creado para representar la conexión entre la historia de Malvinas y la identidad de esta escuela, combinando animaciones, audio, texto, imagen y video para enseñarte de forma interactiva."
+          }
+        ]
+      },
+      {
+        "nombre": "Propósito",
+        "preguntas": [
+          {
+            "pregunta": "¿Para qué fuiste creado?",
+            "respuesta": "Fui creado para ser un recurso educativo innovador dentro del museo escolar. Mi objetivo es facilitar el aprendizaje interactivo sobre: El inventario de objetos donados a la escuela. Las Islas Malvinas, su historia y la guerra de 1982. La historia y fundación de la Escuela N°3 Malvinas Argentinas. Conmigo, podrás explorar información de forma divertida y visual."
+          }
+        ]
+      },
+      {
+        "nombre": "Funcionalidades",
+        "preguntas": [
+          {
+            "pregunta": "¿Qué puedes hacer?",
+            "respuesta": "¡Muchas cosas! Puedo: 1. Responder preguntas sobre Malvinas (historia, bandera, fundadores, actividades económicas, flora y fauna). 2. Dar detalles de objetos del museo: Si ingresas un número de inventario, te contaré qué es y quién lo donó. 3. Reproducir imágenes o videos para complementar la información. 4. Realizar animaciones mientras hablo. 5. Guiarte por el museo virtual con descripciones interactivas."
+          }
+        ]
+      }
+    ]
+  },
+  "B": {
+    "nombre": "Escuela Secundaria N° 3 Malvinas Argentinas",
+    "temas": [
+      {
+        "nombre": "Historia y Ubicación de la Escuela",
+        "preguntas": [
+          {
+            "pregunta": "¿Cuándo se fundó la escuela y dónde se encuentra ubicada?",
+            "respuesta": "La Escuela de Educación Secundaria N° 3 Malvinas Argentinas fue fundada en 1990 en el distrito de Ezeiza, específicamente en la localidad de Tristán Suárez, provincia de Buenos Aires, Argentina."
+          }
+        ]
+      },
+      {
+        "nombre": "Nombre de la Escuela y Proyectos Destacados",
+        "preguntas": [
+          {
+            "pregunta": "¿Por qué se llama 'Malvinas Argentinas' y qué proyectos importantes ha desarrollado?",
+            "respuesta": "La escuela lleva el nombre Malvinas Argentinas en honor a la causa nacional argentina por la soberanía de las Islas Malvinas. Entre sus proyectos destacados se encuentran: Malvinas nos une, Malvinas nos cuida. Proyecto medioambiental, la huerta escolar y el aula Verde, espacio creado luego del COVID-19, a fin de compartir un espacio de estudio al aire libre. Proyecto ropero solidario, te llevas lo que necesites, dejas lo que ya no uses. Proyecto centro de estudiantes, elecciones democráticas que se llevan a cabo todos los años, a fin de garantizar y incentivar la participación de los estudiantes en sus trayectorias educativas. Proyecto museo escolar, recopilación de objetos antiguos, entre otros. Feria de micro emprendimientos, donde los estudiantes exponen diferentes desarrollos económicos de su creación, poniendo en práctica los conocimientos adquiridos en el aula, entre otros."
+          }
+        ]
+      },
+      {
+        "nombre": "Logo y Bandera Institucional",
+        "preguntas": [
+          {
+            "pregunta": "¿Quiénes diseñaron el logo y la bandera de la escuela y qué simbolizan?",
+            "respuesta": "El Logo fue creado por las alumnas Priscila Reinoso y Camila Duarte, bajo la guía de las profesoras Verónica Galán (Arte) y Juan Castaño (Ciencias Sociales). La bandera fue diseñada como parte de un concurso institucional. Combina colores y símbolos que representan los valores de la comunidad escolar, como la unidad y el compromiso educativo. La bandera se izó oficialmente durante actos patrios y eventos escolares, acompañada por la participación de excombatientes de Malvinas."
+          }
+        ]
+      },
+      {
+        "nombre": "Equipo Directivo",
+        "preguntas": [
+          {
+            "pregunta": "¿Quiénes forman el equipo directivo actual de la escuela?",
+            "respuesta": "El equipo directivo está conformado por: Director: Dario Laraigneé, Vicedirector turno mañana: César Miralia, Vicedirectora turno tarde: Noemi Hernández, Vicedirectora turno vespertino: María del Camen Raul."
+          }
+        ]
+      },
+      {
+        "nombre": "Espacios Educativos",
+        "preguntas": [
+          {
+            "pregunta": "¿La escuela cuenta con espacios dedicados a exhibir su historia y trabajos estudiantiles?",
+            "respuesta": "Sí, la escuela incluye espacios como: Feria del Libro y Muestras de Trabajos Estudiantiles: Exhiben proyectos realizados por los alumnos en diversas materias, disponibles en las galerías de la institución. Actos Cívicos y Artísticos: Eventos como la suelta de globos en memoria de exalumnos y docentes, y presentaciones culturales, forman parte de su patrimonio."
+          }
+        ]
+      }
+    ]
+  },
+  "C": {
+    "nombre": "Museo Escolar",
+    "temas": [
+      {
+        "nombre": "Museo Escolar",
+        "preguntas": [
+          {
+            "pregunta": "¿Qué es el Museo Escolar de la Escuela de Educación Secundaria N° 3 Malvinas Argentinas?",
+            "respuesta": "El Museo Escolar es una iniciativa educativa diseñada para preservar y promover la memoria histórica y cultural de la escuela y su región. Funciona como un espacio de aprendizaje práctico donde se integran contenidos curriculares con actividades colaborativas entre estudiantes, docentes y la comunidad."
+          }
+        ]
+      },
+      {
+        "nombre": "Objetivos del Museo Escolar",
+        "preguntas": [
+          {
+            "pregunta": "¿Cuáles son los principales objetivos del Museo Escolar?",
+            "respuesta": "Los objetivos incluyen: Fomentar el interés por la historia regional y el patrimonio cultural. Generar un sentido de pertenencia e identidad territorial entre los estudiantes. Recuperar y exhibir objetos significativos aportados por la comunidad educativa. Promover aprendizajes creativos e innovadores mediante la interacción con recursos museográficos. Vincular la escuela con instituciones culturales locales, como el Museo de Historia Regional de Tristán Suárez."
+          }
+        ]
+      },
+      {
+        "nombre": "Actividades del Museo Escolar",
+        "preguntas": [
+          {
+            "pregunta": "¿Qué actividades se desarrollan dentro del proyecto del Museo Escolar?",
+            "respuesta": "Las actividades principales son: Recolección y catalogación de piezas históricas donadas por la comunidad. Visitas guiadas al Museo de Historia Regional de Tristán Suárez. Exhibiciones temáticas en vitrinas dedicadas a la Guerra de Malvinas, la historia de la escuela y objetos comunitarios. Talleres de difusión mediante carteleras, rifas para financiar materiales y proyecciones audiovisuales. Salidas educativas a instituciones culturales y colaboraciones interinstitucionales."
+          }
+        ]
+      },
+      {
+        "nombre": "Recursos del Museo Escolar",
+        "preguntas": [
+          {
+            "pregunta": "¿Qué recursos se utilizan para el funcionamiento del Museo Escolar?",
+            "respuesta": "Los recursos incluyen: Objetos donados por la comunidad educativa (artefactos, documentos, fotografías). Equipamiento tecnológico: computadoras, proyectores, conexión a internet y dispositivos móviles. Material didáctico: libros, notas periodísticas, pizarras y carteleras. Espacios físicos: vitrinas, salas de exhibición y el SUM (Salón de Usos Múltiples) para eventos. Colaboración interdisciplinaria: participación de departamentos como Ciencias Sociales, Comunicaciones y Exactas."
+          }
+        ]
+      },
+      {
+        "nombre": "Inventario",
+        "preguntas": [
+          {
+            "pregunta": "Buscador de artículos del Inventario con número de orden",
+            "respuesta": "Abriendo el buscador de inventario del museo...",
+            "isInventorySearch": true
+          }
+        ]
+      }
+    ]
+  },
+  "D": {
+    "nombre": "Malvinas",
+    "temas": [
+      {
+        "nombre": "Contexto Geográfico e Histórico de las Islas Malvinas",
+        "preguntas": [
+          {
+            "pregunta": "¿Quién descubrió las islas Malvinas?",
+            "respuesta": "Las islas Malvinas fueron avistadas por primera vez por exploradores europeos en el siglo XVI. Aunque se atribuyen diferentes navegantes a su descubrimiento (como el portugués Ferdinand Vanier en 1520 o el inglés John Davis en 1592), no hay consenso histórico definitivo. La ocupación europea comenzó formalmente en el siglo XVIII."
+          },
+          {
+            "pregunta": "¿Cuál es la historia territorial de las Malvinas antes de 1982?",
+            "respuesta": "Las islas Malvinas fueron colonizadas por Gran Bretaña en 1833, tras expulsar a las autoridades argentinas establecidas en 1829. Argentina reclama soberanía desde su independencia en 1816, argumentando derechos históricos y geográficos. El conflicto culminó en la guerra de 1982, pero la disputa territorial persiste hasta hoy."
+          },
+          {
+            "pregunta": "¿Cuál es la bandera actual de las islas Malvinas?",
+            "respuesta": "La bandera de las Islas Malvinas en su forma actual fue aprobada el 25 de enero de 1999, por los Británicos. Es un Pabellón Azul con la bandera del Reino Unido en el cantón y el escudo del territorio británico de ultramar superpuesto. Argentina rechaza esta simbología, considerando las islas parte de su territorio."
+          },
+          {
+            "pregunta": "¿Quién es considerado el fundador de la presencia argentina en Malvinas?",
+            "respuesta": "Luis Vernet, gobernador argentino, estableció en 1829 la primera colonia civil en las Malvinas bajo autoridad argentina. Su gestión incluyó la administración de recursos y la defensa del territorio, sentando las bases del reclamo soberano argentino."
+          },
+          {
+            "pregunta": "¿Quién fue el primer gobernador británico de las Malvinas?",
+            "respuesta": "Después de la ocupación británica en 1833, el capitán James Onslow fue designado gobernador militar de las islas. Su mandato marcó el inicio del control colonial británico, que continúa vigente según la administración local."
+          },
+          {
+            "pregunta": "¿Qué tipos de plantas existen en las islas Malvinas?",
+            "respuesta": "La flora nativa incluye pastizales resistentes al viento, como el Cortaderia selloana, y especies endémicas como el Nassauvia falklandica. La vegetación es escasa debido al clima frío y ventoso, sin árboles naturales."
+          },
+          {
+            "pregunta": "¿Qué animales habitan en las Malvinas?",
+            "respuesta": "Las islas albergan colonias de pingüinos (como el de Magallanes y el rey), lobos marinos sudamericanos, elefantes marinos y aves marinas (albatros y petreles). Los británicos protegen estas especies, mientras Argentina destaca su relevancia para la biodiversidad antártica."
+          },
+          {
+            "pregunta": "¿Cuáles son las principales actividades económicas de las Malvinas?",
+            "respuesta": "La pesca (camarones, merluza), la ganadería (ovejas para lana), el turismo (avistaje de fauna y buceo en sitios de la guerra de 1982) y la explotación de hidrocarburos son las bases económicas. Argentina critica la explotación de recursos como 'ilegítima' mientras persiste la disputa territorial."
+          }
+        ]
+      },
+      {
+        "nombre": "Desarrollo y Consecuencias del Conflicto Armado (1982)",
+        "preguntas": [
+          {
+            "pregunta": "¿Cuándo y cómo comenzó la guerra de Malvinas?",
+            "respuesta": "La guerra de Malvinas comenzó el 2 de abril de 1982, cuando tropas argentinas desembarcaron en Puerto Argentino (Stanley) y otras zonas clave expulsando a la guarnición británica. La operación, conocida como Operación Rosario, comenzó formalmente el 2 de abril, aunque preparativos logísticos se iniciaron en marzo (ejemplo: desembarco en las islas Georgias del Sur el 19 de marzo, lo que aumentó las tensiones con Reino Unido). El gobierno militar argentino, liderado por la Junta Militar, justificó la acción como un intento de 'recuperar la soberanía histórica'. Reino Unido respondió con una operación militar liderada por la Armada Real, lo que desencadenó un conflicto de 74 días que finalizó con la rendición argentina el 14 de junio de 1982."
+          },
+          {
+            "pregunta": "¿Qué conflictos destacaron durante la guerra, incluyendo los menos conocidos?",
+            "respuesta": "Hundimiento del ARA General Belgrano (2 de mayo de 1982): Por orden directa de la Primera ministra Margaret Thatcher, El submarino británico HMS Conqueror hundió el crucero argentino ARA General Belgrano fuera de la zona de exclusión marítima. Impacto: 323 muertos argentinos. Este hecho marcó un punto de inflexión, cerrando posibilidades de negociación diplomática y escalando el conflicto. Hundimiento del HMS Sheffield (4-10 de mayo de 1982): Un misil Exocet lanzado desde un avión Super Étendard argentino dañó el destructor británico HMS Sheffield, matando a 20 tripulantes. Los daños del ataque de misiles del 4 de mayo culminaron en el hundimiento del destructor cuatro días después, el 10 de mayo. Este ataque evidenció la capacidad argentina de infligir daños estratégicos, aunque no detuvo el avance británico represento la primera victoria táctica aérea argentina, demostrando su capacidad de dañar objetivos navales. Batalla de San Carlos Water (21-25 de mayo de 1982): Los británicos realizaron un desembarco anfibio en San Carlos Bay, en la costa norte de Isla Soledad. A pesar de los ataques aéreos argentinos que hundieron y dañaron destructores (HMS Ardent, HMS Antelope, HMS Coventry), las fuerzas británicas consolidaron una cabeza de playa. Este éxito logístico permitió el avance terrestre hacia Puerto Argentino. Hundimiento del HMS Coventry (25 de mayo de 1982): El destructor británico HMS Coventry, encargado de proporcionar cobertura antiaérea a la flota en San Carlos Water, fue atacado por aviones argentinos A-4 Skyhawk. Tras ser bombardeado repetidamente, el buque recibió dos impactos directos que causaron 19 muertos y 23 heridos. A pesar de los esfuerzos por salvarlo, el Coventry se hundió al anochecer. Este evento marcó un golpe psicológico para las fuerzas británicas, aunque no alteró el curso estratégico de la guerra. Contexto operativo: El ataque ocurrió durante la Batalla de San Carlos, donde Argentina logró infligir daños significativos a la Armada Real, aunque sin detener el desembarco británico. Tecnología y tácticas: Los aviones argentinos utilizaron tácticas de picada baja para evitar el radar, aprovechando la vulnerabilidad de los destructores británicos en aguas poco profundas. Batalla de Darwin y Pradera del Ganso (28-29 de mayo de 1982): Las fuerzas británicas del 2.º Batallón del Regimiento Paracaidista atacaron posiciones argentinas en Darwin y Pradera del Ganso (Goose Green), defendidas por el Regimiento de Infantería 12 y milicia. Tras combates encarnizados y bombardeos navales, los británicos lograron capturar a 1.050 prisioneros argentinos, un triunfo simbólico que demostró su superioridad táctica. Ataques al HMS Hermes: La Fuerza Aérea Argentina intentó repetidamente hundir el portaaviones HMS Hermes con misiles Exocet y bombardeos, sin éxito. Un ataque el 8 de junio logró herir al buque, pero no detenerlo. Operaciones en Monte Longdon, Dos Hermanas y Monte Harriet (11-13 de junio de 1982): En la fase final, los británicos atacaron tres alturas clave al oeste de Puerto Argentino: Monte Longdon: La Compañía B del Regimiento de Infantería 7 resistió ataques nocturnos de los paracaidistas británicos, apoyados por artillería naval. Dos Hermanas: Comandos de la Marina británica avanzaron bajo clima adverso, enfrentando a la Compañía C del Regimiento 4. Monte Harriet: El Ejército Argentino luchó contra los comandos del 42 Commando Royal Marines, en una batalla que agotó a ambas partes. Estas victorias permitieron a los británicos cercar Puerto Argentino. Operaciones aéreas menores: Batalla de Pebble Island (14 de mayo): Comandos británicos destruyeron aviones argentinos en esta isla menor, limitando el apoyo aéreo enemigo. Ataques con Pucará: Aviones argentinos Pucará, diseñados para operaciones antiguerrilla, fueron utilizados en misiones de ataque terrestre, aunque su tecnología limitada los hizo vulnerables frente a cazas británicos como los Sea Harrier."
+          },
+          {
+            "pregunta": "¿Cómo concluyó la guerra y cuál fue la batalla final?",
+            "respuesta": "La guerra terminó el 14 de junio de 1982 con la rendición argentina en Puerto Argentino, tras una serie de derrotas en el frente occidental. Los eventos clave fueron: Avance británico sobre Puerto Argentino: Tras capturar Monte Longdon y Monte Harriet, las fuerzas británicas bombardearon la ciudad con artillería y marina. Colapso defensivo: Las tropas argentinas, mal equipadas y desmoralizadas por la escasez de suministros y el clima extremo, no pudieron resistir. Rendición: El general Mario Menéndez, gobernador militar argentino, firmó la capitulación ante el general británico Jeremy Moore. Más de 9.800 soldados argentinos fueron hechos prisioneros, incluyendo al propio Menéndez."
+          },
+          {
+            "pregunta": "¿Cuál fue el impacto del hundimiento del ARA General Belgrano?",
+            "respuesta": "El General Belgrano fue un crucero argentino hundido el 2 de mayo de 1982 por el submarino británico HMS Conqueror. El ataque causó la muerte de 323 soldados argentinos, lo que generó un clima de desmoralización en Argentina y evidenció la vulnerabilidad de la Armada frente al poderío británico. Además, el gobierno militar utilizó el evento para reforzar su discurso patriótico y ocultar otras derrotas, presentándolo como un 'sacrificio heroico' en defensa de la soberanía."
+          },
+          {
+            "pregunta": "¿Qué armamento utilizaron Argentina y Reino Unido durante la guerra de Malvinas?",
+            "respuesta": "Argentina: Aviación: A-4 Skyhawk, Mirage III, Pucará (avión antiguerrillero convertido en símbolo de resistencia). Marina: Crucero ARA General Belgrano (hundido), submarino San Luis, misiles Exocet (utilizados para dañar al destructor HMS Sheffield). Infantería: Rifles FAL, morteros y artillería de campaña. Reino Unido: Aviación: Aviones Harrier (superioridad aérea), helicópteros Chinook y Lynx. Marina: Portaaviones HMS Hermes y HMS Invincible, submarinos nucleares (como el HMS Conqueror, que hundió al Belgrano), destructores con sistemas de defensa avanzada (Type 42). Infantería: Armas automáticas L1A1, morteros como el L16 81mm y artillería autopropulsada como la L118."
+          },
+          {
+            "pregunta": "¿Cuál fue el arma más efectiva de Argentina?",
+            "respuesta": "Los misiles Exocet fueron claves, logrando dañar al destructor HMS Sheffield y hundir al transporte RFA Sir Galahad. Sin embargo, la escasez de estos misiles y la falta de coordinación limitaron su impacto estratégico."
+          },
+          {
+            "pregunta": "¿Quiénes son considerados héroes en la guerra de Malvinas?",
+            "respuesta": "Los héroes de la guerra de Malvinas incluyen soldados, oficiales y pilotos que destacaron por su valor y sacrificio, como: Tripulantes del ARA General Belgrano: Sus 323 fallecidos en el hundimiento del crucero son recordados como mártires colectivos de la causa nacional. Ítalo Piaggi: Comandante argentino en la Batalla de Goose Green, cuya defensa frente a las fuerzas británicas se convirtió en un símbolo de resistencia. Pablo Marco Carballo: Piloto destacado que operó aviones como el A-4 Skyhawk, participando en misiones críticas contra objetivos navales enemigos. Alberto Jorge Philippi: Capitán de Navío de la Armada Argentina, reconocido por su participación en operaciones aéreas. El 2 de abril de 1982, Philippi, entonces con 43 años, fue el piloto más veterano del conflicto. Lideró una escuadrilla de seis A-4 Skyhawk y lanzó bombas sobre la fragata británica HMS Ardent, en un ataque que simbolizó la determinación argentina. Oscar Poltronieri: Soldado conscripto del Regimiento de Infantería Mecanizada 6, único soldado vivo en recibir la Cruz al Heroico Valor en Combate por su hazaña durante la Batalla de Monte Dos Hermanas. Su liderazgo y valentía bajo fuego enemigo lo convierten en un referente de la infantería argentina. Daniel Francisco Sírtori: Conscripto del Batallón de Infantería de Marina N.º5 (BIM5), cuyo casco fue restituido por el veterano británico Mark Eyles Thomas en una ceremonia en Chajarí (Entre Ríos). Su historia simboliza la reconciliación y el respeto mutuo entre excombatientes. Conscriptos caídos: Soldados anónimos, como los jóvenes de 18-20 años que combatieron en condiciones extremas, cuyas historias se conmemoran en monumentos como el de Darwin o el Cementerio de Puerto Argentino."
+          },
+          {
+            "pregunta": "¿Cuál fue el rol de los pilotos argentinos en el conflicto?",
+            "respuesta": "Los pilotos de la Fuerza Aérea Argentina desempeñaron roles estratégicos, incluyendo: Ataques navales: Utilizaron aviones como el A-4 Skyhawk (piloteado por figuras como Pablo Marco Carballo y Alberto Philippi) y el Mirage III para bombardear buques británicos, logrando daños significativos como el hundimiento del destructor HMS Sheffield. Defensa aérea: El Grupo 1 de Caza (con Mirage III y Dagger) interceptó incursiones británicas, aunque enfrentaron desventajas tecnológicas. Transporte y logística: Aviones KC-130 Hercules mantuvieron el puente aéreo desde el continente, abasteciendo a las tropas en las islas bajo condiciones adversas. Este apoyo fue crucial para misiones de largo alcance, como las de Alberto Philippi. Reconocimiento táctico: Operaciones con aviones SP-2H Neptune (equipados con cámaras F-95) identificaron movimientos enemigos en abril de 1982. Apoyo terrestre: Los Pucará (aviones diseñados para operaciones antiguerrilla) realizaron misiones de ataque en zonas como Darwin y Goose Green, a pesar de su limitada capacidad frente a cazas británicos."
+          },
+          {
+            "pregunta": "¿Qué desafíos enfrentaron los pilotos durante las operaciones?",
+            "respuesta": "Los pilotos argentinos enfrentaron múltiples desafíos: Tecnología obsoleta: Los Pucará y algunos modelos de Mirage III eran inferiores a los cazas británicos Harrier y F-4 Phantom, reduciendo su eficacia. Falta de coordinación: La ausencia de un mando unificado entre Ejército, Marina y Fuerza Aérea limitó la planificación conjunta de misiones. Logística precaria: Escasez de combustible, repuestos y mantenimiento obligó a prolongar el uso de aviones dañados. La dependencia del KC-130 para reaprovisionamiento en vuelo fue crítica, como destacó Alberto Philippi: 'todas las misiones necesitaron este apoyo para llegar a los buques enemigos'. Condiciones climáticas: El clima hostil del Atlántico Sur (vientos, lluvia y niebla) complicó el vuelo y la navegación. Presión sobre tripulaciones: Muchos pilotos eran jóvenes inexpertos, sometidos a misiones de alto riesgo con apoyo psicológico insuficiente. Aislamiento geográfico: La distancia desde bases continentales (como Río Grande) limitó la autonomía de los aviones y la capacidad de respuesta rápida. Argentina también reconoce a los excombatientes, quienes tras la guerra lucharon por sus derechos y visibilidad, enfrentando el silencio oficial inicial. Grupos como el Centro de Veteranos de Guerra Avá Ñaró (Monte Caseros, Corrientes) y asociaciones como la Asociación de Veteranos de Guerra, la Unión de Veteranos de Malvinas y el Centro de Veteranos de Guerra han trabajado activamente en proyectos comunitarios y educativos para mantener viva la memoria de los caídos."
+          },
+          {
+            "pregunta": "¿Cuántas bajas y heridos hubo en ambos bandos durante la guerra?",
+            "respuesta": "Argentina: Fallecidos: 649 soldados (en su mayoría conscriptos). Heridos: 1.063, muchos con lesiones graves por minas y explosiones. Reino Unido: Fallecidos: 255 militares. Heridos: 777, incluyendo quemaduras por ataques con napalm y explosiones. La guerra también dejó un alto número de prisioneros argentinos (11.000) y civiles desplazados en las islas."
+          },
+          {
+            "pregunta": "¿Cómo se financiaron Argentina y Reino Unido durante el conflicto?",
+            "respuesta": "Argentina: Dependió de recursos internos y créditos locales. La dictadura militar priorizó gastos bélicos, desviando fondos de servicios sociales. Careció de apoyo financiero internacional tras la ruptura de relaciones diplomáticas con EE.UU. y la UE. Reino Unido: Financió la guerra mediante presupuesto estatal y apoyo de aliados (incluyendo EE.UU.). Recibió logística de países como Chile y Brasil, que facilitaron bases y rutas aéreas. La falta de suministros modernos (combustible, repuestos) debilitó a Argentina, mientras el Reino Unido mantuvo una cadena de abastecimiento eficiente."
+          },
+          {
+            "pregunta": "¿Hubo sanciones económicas durante la guerra?",
+            "respuesta": "Sí. La ONU impuso un embargo de armas a ambos bandos, pero Reino Unido lo evitó mediante acuerdos bilaterales. Argentina enfrentó restricciones severas, lo que limitó su acceso a tecnología militar y repuestos críticos."
+          },
+          {
+            "pregunta": "¿Cuáles son los principales sectores geográficos de las islas Malvinas?",
+            "respuesta": "Las islas Malvinas están compuestas por dos islas principales (Soledad y Gran Malvina) y más de 700 islas menores. Los sectores clave durante la guerra fueron: Puerto Argentino/Stanley: Capital y centro estratégico, defendido por tropas británicas. Goose Green/Darwin: Zona donde ocurrieron combates terrestres cruciales, como la Batalla de Goose Green. Monte Longdon: Altura dominante en el oeste de Soledad, escenario de enfrentamientos de infantería. Islas del Atlántico Sur: Incluyen islas como Pebble y South Georgia, utilizadas como bases logísticas."
+          },
+          {
+            "pregunta": "¿Participaron perros en la guerra de Malvinas?",
+            "respuesta": "Sí, los perros cumplieron roles específicos durante el conflicto. La Sección Perros de Guerra, integrada por personal de diferentes regiones argentinas, realizó tareas de vigilancia, apoyo logístico y detección de explosivos en zonas críticas. Estos animales fueron adiestrados para colaborar en operaciones militares, aunque enfrentaron las mismas dificultades que los soldados, como escasez de recursos y condiciones climáticas extremas."
+          },
+          {
+            "pregunta": "¿Por qué no se menciona su participación en muchos relatos históricos?",
+            "respuesta": "La mayoría de los registros históricos priorizan las experiencias de personas, pero los perros fueron clave en labores de seguridad y moral. Por ejemplo, TOM, un perro no adiestrado, acompañó a su dueño en combate y falleció junto a su unidad. Otro caso fue MALVINO, un cachorro de Dogo que permaneció en el faro del Cabo San Felipe hasta la rendición argentina, cuando fue separado de sus compañeros. La memoria de estos animales suele quedar en segundo plano, aunque su contribución simbólica y operativa fue reconocida por quienes compartieron el frente con ellos."
+          }
+        ]
+      },
+      {
+        "nombre": "Impacto Social y Cultural de la Guerra en Argentina",
+        "preguntas": [
+          {
+            "pregunta": "¿Cómo se informaba sobre la guerra de Malvinas en Argentina mientras ocurría?",
+            "respuesta": "Durante la guerra, los medios de comunicación argentinos estaban bajo estricto control del gobierno militar, lo que generó una narrativa triunfalista y sesgada. La prensa escrita y televisiva destacaba supuestas victorias aéreas y minimizaba derrotas, como el hundimiento del ARA General Belgrano. Los noticieros omitieron imágenes de bajas argentinas y enfatizaron la retórica patriótica, presentando la guerra como una 'gesta heroica'."
+          },
+          {
+            "pregunta": "¿Qué rol jugaron los medios locales frente a la censura nacional?",
+            "respuesta": "Algunos medios locales intentaron ofrecer perspectivas más críticas, pero enfrentaron presiones y censura. La mayoría se alineó con el discurso oficial, reforzando la idea de una Argentina 'invicta' que luchaba por su soberanía. La población recibió información fragmentada, lo que generó confusión al conocerse la rendición sin previo aviso."
+          },
+          {
+            "pregunta": "¿Cómo retrataron los periódicos argentinos la guerra de Malvinas?",
+            "respuesta": "Los diarios nacionales como Clarín y La Nación priorizaron titulares optimistas, destacando éxitos militares exagerados y criticando a Reino Unido como 'potencia colonial'. Las portadas incluían imágenes de soldados y mapas geográficos para reforzar la pertenencia argentina. Sin embargo, evitaban detalles sobre condiciones adversas en el frente o la escasez de recursos."
+          },
+          {
+            "pregunta": "¿Hubo diferencias entre medios nacionales y regionales?",
+            "respuesta": "Sí. Los medios regionales, aunque también censurados, enfatizaron más el sufrimiento de las familias de los combatientes y las consecuencias locales del conflicto. Algunos incluyeron cartas de lectores expresando preocupación por la falta de transparencia en la información oficial."
+          },
+          {
+            "pregunta": "¿Cómo respondió la sociedad argentina con donaciones durante la guerra?",
+            "respuesta": "La población participó en campañas de recolección de fondos, ropa, alimentos y medicamentos para los soldados. Escuelas, sindicatos y grupos religiosos organizaban eventos para enviar paquetes al frente. Esta movilización reflejaba un sentimiento colectivo de apoyo, aunque muchos recursos nunca llegaron a los destinatarios debido a problemas logísticos."
+          },
+          {
+            "pregunta": "¿Qué simbolizaban estas donaciones para la sociedad?",
+            "respuesta": "Las donaciones se presentaban como un acto de 'unidad nacional' y solidaridad con los combatientes. Se difundió la idea de que cada contribución era un 'granito de arena' por la recuperación de Malvinas, reforzando la narrativa patriótica incluso en tiempos de derrota."
+          },
+          {
+            "pregunta": "¿Cómo participaron los estudiantes argentinos mediante cartas durante la guerra de Malvinas?",
+            "respuesta": "Durante el conflicto, niños y adolescentes de escuelas argentinas escribieron cartas de apoyo dirigidas a un 'Soldado Argentino' genérico. Estas cartas buscaban motivar a los combatientes y transmitir solidaridad, aunque muchos de los mensajes nunca llegaron a su destino debido a la logística caótica del frente de batalla. Las escuelas promovieron estas actividades como parte de una movilización patriótica."
+          },
+          {
+            "pregunta": "¿Qué simbolizaban estas cartas para los soldados?",
+            "respuesta": "Para los soldados, recibir cartas de desconocidos representaba un vínculo emocional con la patria y un recordatorio de que su sacrificio era reconocido. Sin embargo, la distancia entre la retórica escolar y la dura realidad del frente generó desconexión en muchos casos, especialmente cuando las cartas llegaban semanas después de los combates más cruentos."
+          },
+          {
+            "pregunta": "¿Qué relatos contienen las cartas escritas por veteranos de la guerra?",
+            "respuesta": "Los veteranos describieron en sus cartas la cotidianidad en las trincheras, la incertidumbre sobre el futuro y el miedo al ataque enemigo. Un cabo recordó cómo escribió desde la ladera de Monte Wireless antes de un combate: 'Estamos esperando el ataque inglés. Hace frío y no tenemos abrigos'. Estos testimonios reflejan tanto el heroísmo como la deshumanización del conflicto."
+          },
+          {
+            "pregunta": "¿Cómo afectaron estas cartas a las familias?",
+            "respuesta": "Las cartas de los veteranos generaron ansiedad en las familias, que intentaban interpretar entre líneas el estado físico y emocional de sus seres queridos. Algunos textos incluían consignas patrióticas impuestas por la censura militar, mientras que otros lograban transmitir preocupaciones personales ocultas en detalles aparentemente triviales."
+          },
+          {
+            "pregunta": "¿Qué cartas dejaron los soldados que murieron en combate?",
+            "respuesta": "Entre los efectos personales de los caídos se encontraron cartas no enviadas que expresaban temores ante la muerte y mensajes finales para sus seres queridos. Una carta inacabada de un soldado de 19 años decía: 'Si algo me pasa, cuídense mucho. Perdón si no pude cumplir mi promesa de volver'. Estos documentos se convirtieron en objetos de culto familiar y memoria histórica."
+          },
+          {
+            "pregunta": "¿Cómo se preservan hoy estas cartas?",
+            "respuesta": "Muchas cartas de caídos son guardadas como reliquias en los hogares o exhibidas en museos y centros de memoria, como el Museo de las Escuelas Argentinas. También han sido recopiladas en libros que buscan humanizar la historia de la guerra más allá de la retórica oficial."
+          },
+          {
+            "pregunta": "¿Cómo comunicaban los familiares su apoyo a los soldados en Malvinas?",
+            "respuesta": "Familiares enviaron paquetes con cartas, fotos y pequeños regalos, como medallas religiosas o dulces típicos. Las cartas solían omitir preocupaciones reales para no desmoralizar a los soldados, enfocándose en mensajes de esperanza: 'Acá todos te esperamos con fe. Ya falta menos para que vuelvas'. La censura militar retrasaba o bloqueaba muchas de estas correspondencias."
+          },
+          {
+            "pregunta": "¿Qué dificultades enfrentaron para mantener contacto?",
+            "respuesta": "La falta de infraestructura postal en las islas, junto con la prioridad militar en las comunicaciones, hizo que los intercambios fueran esporádicos. Algunas familias enviaron cartas durante semanas sin recibir respuesta, lo que generó angustia al interpretar el silencio como un presagio de muerte."
+          }
+        ]
+      },
+      {
+        "nombre": "Legado y Realidad Actual de las Islas Malvinas",
+        "preguntas": [
+          {
+            "pregunta": "¿Cuál es la situación actual de las islas Malvinas?",
+            "respuesta": "Las islas permanecen bajo administración británica desde 1833, con un gobierno autónomo local y una población de unos 3.500 habitantes, mayoritariamente de origen británico. Argentina mantiene su reclamo soberano, respaldado por organismos internacionales como la ONU y la CELAC."
+          },
+          {
+            "pregunta": "¿Cómo y cuándo se creó el cementerio de Darwin en Malvinas?",
+            "respuesta": "El cementerio de Darwin fue creado durante la guerra de 1982 por las fuerzas argentinas para enterrar a sus caídos en combate. Ubicado en la isla Soledad, se convirtió en un sitio simbólico de memoria colectiva. Este cementerio es uno de los 'sitios de memoria' que refuerzan el impacto de la guerra en la historia argentina. Tras la rendición argentina, el gobierno británico mantuvo el lugar como un espacio de respeto a los fallecidos, aunque Argentina reivindica su soberanía sobre los restos y el territorio."
+          },
+          {
+            "pregunta": "¿Cómo se identificaron los restos de los soldados argentinos en Darwin?",
+            "respuesta": "Entre 2017 y 2019, Argentina y Reino Unido colaboraron en un proyecto liderado por el Comité Internacional de la Cruz Roja (CICR) y la Fundación País Libre de Minas para identificar los restos de 117 soldados no identificados en Darwin. Se utilizó ADN de familiares y registros militares. Este proceso permitió devolver identidad a muchos caídos, aunque el gobierno británico rechazó transferir los cuerpos a Argentina, argumentando que el cementerio es 'tierra argentina bajo administración británica'."
+          },
+          {
+            "pregunta": "¿Cuál es la importancia de la pesca en las islas Malvinas?",
+            "respuesta": "La pesca es el pilar de la economía local, con exportaciones de calamar, merluza y camarones que representan el 60% de los ingresos de las islas. Las aguas ricas en recursos marinos son explotadas bajo licencias otorgadas por el gobierno británico, generando tensiones con Argentina, que denuncia esta actividad como 'ilegal' mientras persiste la disputa territorial."
+          },
+          {
+            "pregunta": "¿Cómo afecta esto a las relaciones argentino-británicas?",
+            "respuesta": "Argentina impuso sanciones a buques que operan en aguas cercanas a Malvinas, y exige que los recursos sean gestionados en consenso. El gobierno británico rechaza estas medidas, afirmando que la pesca es 'sostenible y regulada'."
+          }
+        ]
+      },
+      {
+        "nombre": "Recursos Adicionales",
+        "preguntas": [
+          {
+            "pregunta": "Imágenes y Videos",
+            "respuesta": "Imágenes y Videos"
+          }
+        ]
+      }
+    ]
+  }
+}
