@@ -1,15 +1,21 @@
 /**
  * Gestor automático del servidor de inventario
- * Se asegura de que el servidor esté siempre ejecutándose
+ * Solo se activa en modo desarrollo
  */
 
 class InventoryServerManager {
   constructor() {
+    this.isProduction = process.env.NODE_ENV === 'production';
     this.serverUrl = 'http://localhost:5003/api';
     this.checkInterval = null;
     this.isStarting = false;
     this.retryCount = 0;
     this.maxRetries = 3;
+    
+    if (this.isProduction) {
+      console.log('🔧 Modo producción: El servidor de inventario no está disponible');
+      return;
+    }
   }
 
   async checkServerHealth() {

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
 import { ChatProvider } from "./hooks/useChat";
 import { AnimationProvider } from "./contexts/AnimationContext";
+import { getDataPath } from "./utils/pathUtils";
 import "./index.css";
 import LoadingScreen from "./components/LoadingScreen";
 
@@ -13,17 +14,32 @@ const AppRoot = () => {
 
   // Cargar los datos necesarios
   React.useEffect(() => {
-    fetch("/data/respuestas.json")
-      .then((response) => response.json())
-      .then((jsonData) => {
+    const loadData = async () => {
+      try {
+        const response = await fetch(getDataPath("respuestas.json"));
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const jsonData = await response.json();
         setData(jsonData);
-        setIsDataLoaded(true);
-      })
-      .catch((error) => {
+      } catch (error) {
         console.error("Error cargando datos:", error);
-        // Continuar incluso si hay un error al cargar los datos
+        // Intentar cargar desde ruta alternativa en caso de error
+        try {
+          const fallbackResponse = await fetch("/data/respuestas.json");
+          if (fallbackResponse.ok) {
+            const jsonData = await fallbackResponse.json();
+            setData(jsonData);
+          }
+        } catch (fallbackError) {
+          console.error("Error en carga alternativa de datos:", fallbackError);
+        }
+      } finally {
         setIsDataLoaded(true);
-      });
+      }
+    };
+
+    loadData();
   }, []);
 
   // Cargar la aplicación real de forma diferida

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { getDataPath } from '../utils/pathUtils';
 import './InventoryModal.css';
 
 const InventoryModalPython = ({ isOpen, onClose }) => {
@@ -85,9 +86,14 @@ const InventoryModalPython = ({ isOpen, onClose }) => {
     try {
       console.log('🔍 Buscando objeto #', num);
       
-      // Usar proxy de Vite y URLs directas como respaldo
+      // Usar la ruta correcta según el entorno
       const urls = [
-        '/api/buscar-inventario',  // Proxy de Vite
+        // En producción, no intentar conectar a localhost
+        ...(process.env.NODE_ENV === 'development' ? [
+          'http://localhost:5003/buscar',  // URL directa al servidor local solo en desarrollo
+          'http://127.0.0.1:5003/buscar'   // URL alternativa solo en desarrollo
+        ] : []),
+        getDataPath('InventarioCompleto.json'),  // Ruta corregida con getDataPath
         'http://localhost:5003/api/buscar-inventario',
         'http://127.0.0.1:5003/api/buscar-inventario'
       ];

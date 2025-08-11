@@ -5,6 +5,7 @@ import Experience from "./components/Experience";
 import InventoryModalPython from "./components/InventoryModalPython";
 import { useGLTF } from "@react-three/drei";
 import { useChat } from "./hooks/useChat";
+import { getModelPath } from "./utils/pathUtils";
 
 // Configuración de animaciones
 const ANIMATIONS = {
@@ -48,7 +49,7 @@ const Loader = () => (
 
 export default function App() {
   // Precargar el modelo 3D dentro del componente
-  useGLTF.preload("/models/1.Playful-Dolphin-COMPLETO-SHAPE KEYS.glb");
+  useGLTF.preload(getModelPath());
 
   const [visualizadorAbierto, setVisualizadorAbierto] = useState(false);
   const [currentAnimation, setCurrentAnimation] = useState("Swim");

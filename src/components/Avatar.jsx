@@ -4,6 +4,7 @@ import * as THREE from "three";
 import React, { useEffect, useRef, useState } from "react";
 import { useAnimation } from "../contexts/AnimationContext";
 import { useChat } from "../hooks/useChat";
+import { getModelPath } from "../utils/pathUtils";
 
 // Nombres de animaciones esperados
 const ANIMATION_NAMES = {
@@ -18,16 +19,17 @@ const ANIMATION_NAMES = {
 // Animación predeterminada
 const DEFAULT_ANIMATION = ANIMATION_NAMES.HAPPY_IDLE; // Usando Happy_Idle temporalmente
 
+
+
 export function Avatar(props) {
   const group = useRef();
   // Cargar el modelo con animaciones
-  const { scene, animations: modelAnimations } = useGLTF(
-    "/models/1.Playful-Dolphin-COMPLETO-SHAPE KEYS.glb",
-  );
+  const { scene, animations: modelAnimations } = useGLTF(getModelPath());
 
   // Depuración: Mostrar animaciones disponibles
   useEffect(() => {
     console.log("=== ANIMACIONES DISPONIBLES ===");
+    console.log("Ruta del modelo:", getModelPath());
     console.log(
       "Nombres exactos de animaciones en el modelo:",
       modelAnimations.map((anim) => `"${anim.name}"`).join(", "),
@@ -203,4 +205,4 @@ export function Avatar(props) {
 }
 
 // Precargar el modelo con animaciones
-useGLTF.preload("/models/1.Playful-Dolphin-COMPLETO-SHAPE KEYS.glb");
+useGLTF.preload(getModelPath());
