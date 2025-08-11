@@ -8,7 +8,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 
 // Middleware
 app.use(cors());
@@ -120,7 +120,28 @@ app.get('/api/preguntas', (req, res) => {
 
 // Catch-all handler: enviar de vuelta React app para cualquier ruta no API
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'dist/index.html'));
+  const indexPath = path.join(__dirname, 'dist', 'index.html');
+  
+  // Verificar si el archivo existe antes de intentar enviarlo
+  if (fs.existsSync(indexPath)) {
+    res.sendFile(indexPath);
+  } else {
+    // Si estamos en desarrollo, dar un mensaje más detallado
+    if (process.env.NODE_ENV !== 'production') {
+      res.status(500).send(`
+        <h1>Error: Archivo index.html no encontrado</h1>
+        <p>El archivo ${indexPath} no existe.</p>
+        <p>Por favor, asegúrate de ejecutar 'npm run build' antes de iniciar el servidor.</p>
+        <p>Si estás en desarrollo, inicia la aplicación con 'npm run dev' en lugar de usar este servidor directamente.</p>
+      `);
+    } else {
+      // En producción, mostrar un mensaje más genérico
+      res.status(500).send('Error del servidor: La aplicación no se ha construido correctamente.');
+    }
+    
+    console.error(`⚠️  Error: No se pudo encontrar ${indexPath}`);
+    console.error('   Asegúrate de que el comando de build se haya ejecutado correctamente.');
+  }
 });
 
 // Iniciar servidor
